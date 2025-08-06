@@ -1,0 +1,1796 @@
+{
+  "presenters": [
+    {
+      "presenter_id": "v2_public_Adam@36wCtvjdAi",
+      "gender": "male",
+      "name": "Adam",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Adam/36wCtvjdAi/C6evUUgPyQ/preview.mp4",
+      "modified_at": "2025-08-03T09:57:06.184Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Adam/36wCtvjdAi/C6evUUgPyQ/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Adam/36wCtvjdAi/C6evUUgPyQ/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Adam/36wCtvjdAi/C6evUUgPyQ/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Adam/36wCtvjdAi/C6evUUgPyQ/idle.mp4?cache_busting=2025-08-03T09:57:06.184Z",
+      "created_at": "2025-08-03T09:57:06.184Z",
+      "voice": {
+        "type": "elevenlabs",
+        "voice_id": "U6LxHR0vu0MhG5Nqp5ID"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Adam@Vi4KIk7aOG",
+      "gender": "male",
+      "name": "Adam",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Adam/Vi4KIk7aOG/U0l_MMbW0f/preview.mp4",
+      "modified_at": "2025-08-03T10:06:34.220Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Adam/Vi4KIk7aOG/U0l_MMbW0f/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Adam/Vi4KIk7aOG/U0l_MMbW0f/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Adam/Vi4KIk7aOG/U0l_MMbW0f/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Adam/Vi4KIk7aOG/U0l_MMbW0f/idle.mp4?cache_busting=2025-08-03T10:06:34.220Z",
+      "created_at": "2025-08-03T10:06:34.220Z",
+      "voice": {
+        "type": "elevenlabs",
+        "voice_id": "U6LxHR0vu0MhG5Nqp5ID"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Adam_BlackShirt_GreenScreen@rjgeBz7P0u",
+      "gender": "male",
+      "name": "Adam",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_GreenScreen/rjgeBz7P0u/5nyih6jPGY/preview.mp4",
+      "modified_at": "2025-07-30T14:41:03.021Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_GreenScreen/rjgeBz7P0u/5nyih6jPGY/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_GreenScreen/rjgeBz7P0u/5nyih6jPGY/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_GreenScreen/rjgeBz7P0u/5nyih6jPGY/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_GreenScreen/rjgeBz7P0u/5nyih6jPGY/idle.mp4?cache_busting=2025-07-30T14:41:03.021Z",
+      "created_at": "2025-07-30T14:41:03.021Z",
+      "voice": {
+        "type": "elevenlabs",
+        "voice_id": "U6LxHR0vu0MhG5Nqp5ID"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Adam_BlackShirt_Library@6uEefixtDc",
+      "gender": "male",
+      "name": "Adam",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_Library/6uEefixtDc/t6GYdxT4rx/preview.mp4",
+      "modified_at": "2025-07-16T19:16:56.857Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_Library/6uEefixtDc/t6GYdxT4rx/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_Library/6uEefixtDc/t6GYdxT4rx/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_Library/6uEefixtDc/t6GYdxT4rx/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_Library/6uEefixtDc/t6GYdxT4rx/idle.mp4?cache_busting=2025-07-16T19:16:56.857Z",
+      "created_at": "2025-07-16T19:16:56.857Z",
+      "voice": {
+        "type": "elevenlabs",
+        "voice_id": "U6LxHR0vu0MhG5Nqp5ID"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Adam_GreenShirt_Outdoor@lCt14o5o4r",
+      "gender": "male",
+      "name": "Adam",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Adam_GreenShirt_Outdoor/lCt14o5o4r/edTFEy9IG_/preview.mp4",
+      "modified_at": "2025-07-30T14:55:16.520Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Adam_GreenShirt_Outdoor/lCt14o5o4r/edTFEy9IG_/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Adam_GreenShirt_Outdoor/lCt14o5o4r/edTFEy9IG_/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Adam_GreenShirt_Outdoor/lCt14o5o4r/edTFEy9IG_/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Adam_GreenShirt_Outdoor/lCt14o5o4r/edTFEy9IG_/idle.mp4?cache_busting=2025-07-30T14:55:16.520Z",
+      "created_at": "2025-07-30T14:55:16.520Z",
+      "voice": {
+        "type": "elevenlabs",
+        "voice_id": "U6LxHR0vu0MhG5Nqp5ID"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Adam_WhiteBlueShirt_LivingRoom@kwLwo22I6I",
+      "gender": "male",
+      "name": "Adam",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Adam_WhiteBlueShirt_LivingRoom/kwLwo22I6I/dhWu6PCOn5/preview.mp4",
+      "modified_at": "2025-07-16T19:19:06.226Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Adam_WhiteBlueShirt_LivingRoom/kwLwo22I6I/dhWu6PCOn5/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Adam_WhiteBlueShirt_LivingRoom/kwLwo22I6I/dhWu6PCOn5/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Adam_WhiteBlueShirt_LivingRoom/kwLwo22I6I/dhWu6PCOn5/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Adam_WhiteBlueShirt_LivingRoom/kwLwo22I6I/dhWu6PCOn5/idle.mp4?cache_busting=2025-07-16T19:19:06.226Z",
+      "created_at": "2025-07-16T19:19:06.226Z",
+      "voice": {
+        "type": "elevenlabs",
+        "voice_id": "U6LxHR0vu0MhG5Nqp5ID"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Alyssa_NoHands_BlackShirt_Home@Mvn6Nalx90",
+      "gender": "female",
+      "name": "Alyssa",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_BlackShirt_Home/Mvn6Nalx90/y0J6MTfOaZ/preview.mp4",
+      "modified_at": "2025-06-23T10:21:10.146Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_BlackShirt_Home/Mvn6Nalx90/y0J6MTfOaZ/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_BlackShirt_Home/Mvn6Nalx90/y0J6MTfOaZ/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_BlackShirt_Home/Mvn6Nalx90/y0J6MTfOaZ/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_BlackShirt_Home/Mvn6Nalx90/y0J6MTfOaZ/idle.mp4?cache_busting=2025-06-23T10:21:10.146Z",
+      "created_at": "2025-06-23T10:21:10.146Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-AvaMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Alyssa_NoHands_RedSuite_Lobby@qtzjxMSwEa",
+      "gender": "female",
+      "name": "Alyssa",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_RedSuite_Lobby/qtzjxMSwEa/ypTds_0CK3/preview.mp4",
+      "modified_at": "2025-06-23T10:20:51.981Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_RedSuite_Lobby/qtzjxMSwEa/ypTds_0CK3/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_RedSuite_Lobby/qtzjxMSwEa/ypTds_0CK3/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_RedSuite_Lobby/qtzjxMSwEa/ypTds_0CK3/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_RedSuite_Lobby/qtzjxMSwEa/ypTds_0CK3/idle.mp4?cache_busting=2025-06-23T10:20:51.981Z",
+      "created_at": "2025-06-23T10:20:51.981Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-AvaMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Amber_BlackJacket_HomeOffice@9WuHtiUDnL",
+      "gender": "female",
+      "name": "Amber",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Amber_BlackJacket_HomeOffice/9WuHtiUDnL/Sc6QllBjEE/preview.mp4",
+      "modified_at": "2025-07-16T08:46:33.764Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Amber_BlackJacket_HomeOffice/9WuHtiUDnL/Sc6QllBjEE/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Amber_BlackJacket_HomeOffice/9WuHtiUDnL/Sc6QllBjEE/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Amber_BlackJacket_HomeOffice/9WuHtiUDnL/Sc6QllBjEE/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Amber_BlackJacket_HomeOffice/9WuHtiUDnL/Sc6QllBjEE/idle.mp4?cache_busting=2025-07-16T08:46:33.764Z",
+      "created_at": "2025-07-16T08:46:33.764Z",
+      "voice": {
+        "type": "elevenlabs",
+        "voice_id": "Dimf6681ffz3PTVPPAEX"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Amber_RedSweater_HomeOffice@atjDiWT4JK",
+      "gender": "female",
+      "name": "Amber",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Amber_RedSweater_HomeOffice/atjDiWT4JK/i2eRgX7DP_/preview.mp4",
+      "modified_at": "2025-07-16T19:13:05.502Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Amber_RedSweater_HomeOffice/atjDiWT4JK/i2eRgX7DP_/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Amber_RedSweater_HomeOffice/atjDiWT4JK/i2eRgX7DP_/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Amber_RedSweater_HomeOffice/atjDiWT4JK/i2eRgX7DP_/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Amber_RedSweater_HomeOffice/atjDiWT4JK/i2eRgX7DP_/idle.mp4?cache_busting=2025-07-16T19:13:05.502Z",
+      "created_at": "2025-07-16T19:13:05.502Z",
+      "voice": {
+        "type": "elevenlabs",
+        "voice_id": "Dimf6681ffz3PTVPPAEX"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Amber_WhiteBlueShirt_Outdoor@k_pw06LqHE",
+      "gender": "female",
+      "name": "Amber",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Amber_WhiteBlueShirt_Outdoor/k_pw06LqHE/7Px1lG7DoI/preview.mp4",
+      "modified_at": "2025-07-16T10:56:31.008Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Amber_WhiteBlueShirt_Outdoor/k_pw06LqHE/7Px1lG7DoI/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Amber_WhiteBlueShirt_Outdoor/k_pw06LqHE/7Px1lG7DoI/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Amber_WhiteBlueShirt_Outdoor/k_pw06LqHE/7Px1lG7DoI/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Amber_WhiteBlueShirt_Outdoor/k_pw06LqHE/7Px1lG7DoI/idle.mp4?cache_busting=2025-07-16T10:56:31.008Z",
+      "created_at": "2025-07-16T10:56:31.008Z",
+      "voice": {
+        "type": "elevenlabs",
+        "voice_id": "Dimf6681ffz3PTVPPAEX"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Arran_NoHands_GreyTshirt_Home@HI4xB5ma4y",
+      "gender": "male",
+      "name": "Arran",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Arran_NoHands_GreyTshirt_Home/HI4xB5ma4y/FFidybvDLa/preview.mp4",
+      "modified_at": "2025-06-23T10:24:08.562Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Arran_NoHands_GreyTshirt_Home/HI4xB5ma4y/FFidybvDLa/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Arran_NoHands_GreyTshirt_Home/HI4xB5ma4y/FFidybvDLa/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Arran_NoHands_GreyTshirt_Home/HI4xB5ma4y/FFidybvDLa/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Arran_NoHands_GreyTshirt_Home/HI4xB5ma4y/FFidybvDLa/idle.mp4?cache_busting=2025-06-23T10:24:08.562Z",
+      "created_at": "2025-06-23T10:24:08.562Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-GB-ThomasNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Dylan_NoHands_GreyShirt_Home@n3_canoTl3",
+      "gender": "male",
+      "name": "Dylan",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyShirt_Home/n3_canoTl3/ihTKL1EUBT/preview.mp4",
+      "modified_at": "2025-06-23T10:19:11.232Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyShirt_Home/n3_canoTl3/ihTKL1EUBT/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyShirt_Home/n3_canoTl3/ihTKL1EUBT/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyShirt_Home/n3_canoTl3/ihTKL1EUBT/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyShirt_Home/n3_canoTl3/ihTKL1EUBT/idle.mp4?cache_busting=2025-06-23T10:19:11.232Z",
+      "created_at": "2025-06-23T10:19:11.232Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-BrandonMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Dylan_NoHands_GreySuite_Lobby@_R6SxR9pgn",
+      "gender": "male",
+      "name": "Dylan",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreySuite_Lobby/_R6SxR9pgn/pbQ2A_h5wy/preview.mp4",
+      "modified_at": "2025-06-23T10:20:32.488Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreySuite_Lobby/_R6SxR9pgn/pbQ2A_h5wy/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreySuite_Lobby/_R6SxR9pgn/pbQ2A_h5wy/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreySuite_Lobby/_R6SxR9pgn/pbQ2A_h5wy/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreySuite_Lobby/_R6SxR9pgn/pbQ2A_h5wy/idle.mp4?cache_busting=2025-06-23T10:20:32.488Z",
+      "created_at": "2025-06-23T10:20:32.488Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-BrandonMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Dylan_NoHands_GreyTshirt_Outdoor@IklZc5mZIC",
+      "gender": "male",
+      "name": "Dylan",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyTshirt_Outdoor/IklZc5mZIC/G_K5a7FZNk/preview.mp4",
+      "modified_at": "2025-06-23T10:19:47.863Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyTshirt_Outdoor/IklZc5mZIC/G_K5a7FZNk/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyTshirt_Outdoor/IklZc5mZIC/G_K5a7FZNk/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyTshirt_Outdoor/IklZc5mZIC/G_K5a7FZNk/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyTshirt_Outdoor/IklZc5mZIC/G_K5a7FZNk/idle.mp4?cache_busting=2025-06-23T10:19:47.863Z",
+      "created_at": "2025-06-23T10:19:47.863Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-BrandonMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Fiona_NoHands_BlackJacket_ClassRoom@1BOeggEufb",
+      "gender": "female",
+      "name": "Fiona",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlackJacket_ClassRoom/1BOeggEufb/dbRUIwY6KY/preview.mp4",
+      "modified_at": "2025-06-23T10:24:19.666Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlackJacket_ClassRoom/1BOeggEufb/dbRUIwY6KY/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlackJacket_ClassRoom/1BOeggEufb/dbRUIwY6KY/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlackJacket_ClassRoom/1BOeggEufb/dbRUIwY6KY/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlackJacket_ClassRoom/1BOeggEufb/dbRUIwY6KY/idle.mp4?cache_busting=2025-06-23T10:24:19.666Z",
+      "created_at": "2025-06-23T10:24:19.666Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-EmmaMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Fiona_NoHands_BlueShirt_Lab@5HRTMswT4U",
+      "gender": "female",
+      "name": "Fiona",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlueShirt_Lab/5HRTMswT4U/qKIgVJmbyL/preview.mp4",
+      "modified_at": "2025-06-23T10:21:58.866Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlueShirt_Lab/5HRTMswT4U/qKIgVJmbyL/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlueShirt_Lab/5HRTMswT4U/qKIgVJmbyL/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlueShirt_Lab/5HRTMswT4U/qKIgVJmbyL/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlueShirt_Lab/5HRTMswT4U/qKIgVJmbyL/idle.mp4?cache_busting=2025-06-23T10:21:58.866Z",
+      "created_at": "2025-06-23T10:21:58.866Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-EmmaMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Fiona_NoHands_PinkTShirt_Outdoor@vZ3ie4xJCB",
+      "gender": "female",
+      "name": "Fiona",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_PinkTShirt_Outdoor/vZ3ie4xJCB/_AW6hUp8TH/preview.mp4",
+      "modified_at": "2025-06-23T10:24:34.289Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_PinkTShirt_Outdoor/vZ3ie4xJCB/_AW6hUp8TH/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_PinkTShirt_Outdoor/vZ3ie4xJCB/_AW6hUp8TH/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_PinkTShirt_Outdoor/vZ3ie4xJCB/_AW6hUp8TH/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_PinkTShirt_Outdoor/vZ3ie4xJCB/_AW6hUp8TH/idle.mp4?cache_busting=2025-06-23T10:24:34.289Z",
+      "created_at": "2025-06-23T10:24:34.289Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-EmmaMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Frank_NoHands_GreyJacket_CoffeeShop@HT3CCjVvV3",
+      "gender": "male",
+      "name": "Frank",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Frank_NoHands_GreyJacket_CoffeeShop/HT3CCjVvV3/lqbOUGqSDE/preview.mp4",
+      "modified_at": "2025-06-23T10:17:23.733Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Frank_NoHands_GreyJacket_CoffeeShop/HT3CCjVvV3/lqbOUGqSDE/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Frank_NoHands_GreyJacket_CoffeeShop/HT3CCjVvV3/lqbOUGqSDE/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Frank_NoHands_GreyJacket_CoffeeShop/HT3CCjVvV3/lqbOUGqSDE/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Frank_NoHands_GreyJacket_CoffeeShop/HT3CCjVvV3/lqbOUGqSDE/idle.mp4?cache_busting=2025-06-23T10:17:23.733Z",
+      "created_at": "2025-06-23T10:17:23.733Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-AlloyTurboMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Joseph_NoHands_OrangeShirt_Lab@hfdqirrsX9",
+      "gender": "male",
+      "name": "Joseph",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Joseph_NoHands_OrangeShirt_Lab/hfdqirrsX9/35RzcD3TlF/preview.mp4",
+      "modified_at": "2025-06-25T07:30:20.592Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Joseph_NoHands_OrangeShirt_Lab/hfdqirrsX9/35RzcD3TlF/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Joseph_NoHands_OrangeShirt_Lab/hfdqirrsX9/35RzcD3TlF/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Joseph_NoHands_OrangeShirt_Lab/hfdqirrsX9/35RzcD3TlF/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Joseph_NoHands_OrangeShirt_Lab/hfdqirrsX9/35RzcD3TlF/idle.mp4?cache_busting=2025-06-25T07:30:20.592Z",
+      "created_at": "2025-06-25T07:30:20.592Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-OnyxTurboMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Kayla_NoHands_BlackShirt_CoffeeShop@u1un3hTUDJ",
+      "gender": "female",
+      "name": "Kayla",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Kayla_NoHands_BlackShirt_CoffeeShop/u1un3hTUDJ/Oijd6UyS_5/preview.mp4",
+      "modified_at": "2025-06-23T10:24:50.517Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Kayla_NoHands_BlackShirt_CoffeeShop/u1un3hTUDJ/Oijd6UyS_5/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Kayla_NoHands_BlackShirt_CoffeeShop/u1un3hTUDJ/Oijd6UyS_5/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Kayla_NoHands_BlackShirt_CoffeeShop/u1un3hTUDJ/Oijd6UyS_5/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Kayla_NoHands_BlackShirt_CoffeeShop/u1un3hTUDJ/Oijd6UyS_5/idle.mp4?cache_busting=2025-06-23T10:24:50.517Z",
+      "created_at": "2025-06-23T10:24:50.517Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-NovaTurboMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Kayla_NoHands_BlackShirt_Lab@DBhQkMdJDF",
+      "gender": "female",
+      "name": "Kayla",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Kayla_NoHands_BlackShirt_Lab/DBhQkMdJDF/zZsSiLIBJf/preview.mp4",
+      "modified_at": "2025-06-23T10:21:32.217Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Kayla_NoHands_BlackShirt_Lab/DBhQkMdJDF/zZsSiLIBJf/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Kayla_NoHands_BlackShirt_Lab/DBhQkMdJDF/zZsSiLIBJf/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Kayla_NoHands_BlackShirt_Lab/DBhQkMdJDF/zZsSiLIBJf/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Kayla_NoHands_BlackShirt_Lab/DBhQkMdJDF/zZsSiLIBJf/idle.mp4?cache_busting=2025-06-23T10:21:32.217Z",
+      "created_at": "2025-06-23T10:21:32.217Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-NovaTurboMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Lily_NoHands_RedShirt_Office@JDOtgQlb_L",
+      "gender": "female",
+      "name": "Lily",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Lily_NoHands_RedShirt_Office/JDOtgQlb_L/XuasfjTBLY/preview.mp4",
+      "modified_at": "2025-06-25T07:31:13.583Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Lily_NoHands_RedShirt_Office/JDOtgQlb_L/XuasfjTBLY/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Lily_NoHands_RedShirt_Office/JDOtgQlb_L/XuasfjTBLY/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Lily_NoHands_RedShirt_Office/JDOtgQlb_L/XuasfjTBLY/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Lily_NoHands_RedShirt_Office/JDOtgQlb_L/XuasfjTBLY/idle.mp4?cache_busting=2025-06-25T07:31:13.583Z",
+      "created_at": "2025-06-25T07:31:13.583Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-EmmaMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Mary_NoHands_PurpleShirt_Office@vA__Ta4xnN",
+      "gender": "female",
+      "name": "Mary_NoHands_PurpleShirt_Office",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Mary_NoHands_PurpleShirt_Office/vA__Ta4xnN/ce7awSA_b3/preview.mp4",
+      "modified_at": "2025-07-31T07:43:42.950Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Mary_NoHands_PurpleShirt_Office/vA__Ta4xnN/ce7awSA_b3/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Mary_NoHands_PurpleShirt_Office/vA__Ta4xnN/ce7awSA_b3/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Mary_NoHands_PurpleShirt_Office/vA__Ta4xnN/ce7awSA_b3/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Mary_NoHands_PurpleShirt_Office/vA__Ta4xnN/ce7awSA_b3/idle.mp4?cache_busting=2025-07-31T07:43:42.950Z",
+      "created_at": "2025-07-31T07:43:42.950Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-NovaTurboMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Mary_NoHands_RedJacket_Lobby@EAJW87WBRh",
+      "gender": "female",
+      "name": "Mary",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Mary_NoHands_RedJacket_Lobby/EAJW87WBRh/i4ol4MaGVE/preview.mp4",
+      "modified_at": "2025-07-31T09:13:20.325Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Mary_NoHands_RedJacket_Lobby/EAJW87WBRh/i4ol4MaGVE/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Mary_NoHands_RedJacket_Lobby/EAJW87WBRh/i4ol4MaGVE/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Mary_NoHands_RedJacket_Lobby/EAJW87WBRh/i4ol4MaGVE/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Mary_NoHands_RedJacket_Lobby/EAJW87WBRh/i4ol4MaGVE/idle.mp4?cache_busting=2025-07-31T09:13:20.325Z",
+      "created_at": "2025-07-31T09:13:20.325Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-NovaTurboMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Matt_NoHands_GreyTshirt_Outdoor@rwE9avfhZE",
+      "gender": "male",
+      "name": "Matt",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Matt_NoHands_GreyTshirt_Outdoor/rwE9avfhZE/Kx_xEIPaws/preview.mp4",
+      "modified_at": "2025-06-25T07:32:03.875Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Matt_NoHands_GreyTshirt_Outdoor/rwE9avfhZE/Kx_xEIPaws/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Matt_NoHands_GreyTshirt_Outdoor/rwE9avfhZE/Kx_xEIPaws/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Matt_NoHands_GreyTshirt_Outdoor/rwE9avfhZE/Kx_xEIPaws/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Matt_NoHands_GreyTshirt_Outdoor/rwE9avfhZE/Kx_xEIPaws/idle.mp4?cache_busting=2025-06-25T07:32:03.875Z",
+      "created_at": "2025-06-25T07:32:03.875Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-AU-WilliamNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Rian_NoHands_RedJacket_Lobby@eEW_j8_sK6",
+      "gender": "male",
+      "name": "Rian",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Rian_NoHands_RedJacket_Lobby/eEW_j8_sK6/JWIsQ7pFUy/preview.mp4",
+      "modified_at": "2025-06-25T07:33:28.897Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Rian_NoHands_RedJacket_Lobby/eEW_j8_sK6/JWIsQ7pFUy/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Rian_NoHands_RedJacket_Lobby/eEW_j8_sK6/JWIsQ7pFUy/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Rian_NoHands_RedJacket_Lobby/eEW_j8_sK6/JWIsQ7pFUy/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Rian_NoHands_RedJacket_Lobby/eEW_j8_sK6/JWIsQ7pFUy/idle.mp4?cache_busting=2025-06-25T07:33:28.897Z",
+      "created_at": "2025-06-25T07:33:28.897Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-RyanMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_Rian_NoHands_WhiteTshirt_Home@fJyZiHrDxU",
+      "gender": "male",
+      "name": "Rian",
+      "preview_url": "https://clips-presenters.d-id.com/v2/Rian_NoHands_WhiteTshirt_Home/fJyZiHrDxU/V52r3PNssy/preview.mp4",
+      "modified_at": "2025-06-25T07:34:15.917Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/Rian_NoHands_WhiteTshirt_Home/fJyZiHrDxU/V52r3PNssy/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/Rian_NoHands_WhiteTshirt_Home/fJyZiHrDxU/V52r3PNssy/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/Rian_NoHands_WhiteTshirt_Home/fJyZiHrDxU/V52r3PNssy/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/Rian_NoHands_WhiteTshirt_Home/fJyZiHrDxU/V52r3PNssy/idle.mp4?cache_busting=2025-06-25T07:34:15.917Z",
+      "created_at": "2025-06-25T07:34:15.917Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-RyanMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_William_NoHands_BlackShirt_GreenScreen@1tBxWRlClh",
+      "gender": "male",
+      "name": "William",
+      "preview_url": "https://clips-presenters.d-id.com/v2/William_NoHands_BlackShirt_GreenScreen/1tBxWRlClh/wlUp9qlBmz/preview.mp4",
+      "modified_at": "2025-07-30T15:04:36.769Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/William_NoHands_BlackShirt_GreenScreen/1tBxWRlClh/wlUp9qlBmz/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/William_NoHands_BlackShirt_GreenScreen/1tBxWRlClh/wlUp9qlBmz/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/William_NoHands_BlackShirt_GreenScreen/1tBxWRlClh/wlUp9qlBmz/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/William_NoHands_BlackShirt_GreenScreen/1tBxWRlClh/wlUp9qlBmz/idle.mp4?cache_busting=2025-07-30T15:04:36.769Z",
+      "created_at": "2025-07-30T15:04:36.769Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-AlloyTurboMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_William_NoHands_BlackShirt_Lab@ro_YvG4mU1",
+      "gender": "male",
+      "name": "William",
+      "preview_url": "https://clips-presenters.d-id.com/v2/William_NoHands_BlackShirt_Lab/ro_YvG4mU1/LeoeCFQwjR/preview.mp4",
+      "modified_at": "2025-07-31T09:15:36.060Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/William_NoHands_BlackShirt_Lab/ro_YvG4mU1/LeoeCFQwjR/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/William_NoHands_BlackShirt_Lab/ro_YvG4mU1/LeoeCFQwjR/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/William_NoHands_BlackShirt_Lab/ro_YvG4mU1/LeoeCFQwjR/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/William_NoHands_BlackShirt_Lab/ro_YvG4mU1/LeoeCFQwjR/idle.mp4?cache_busting=2025-07-31T09:15:36.060Z",
+      "created_at": "2025-07-31T09:15:36.060Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-AlloyTurboMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_William_NoHands_BlackTshirt_Home@KdFVdrPYyc",
+      "gender": "male",
+      "name": "William",
+      "preview_url": "https://clips-presenters.d-id.com/v2/William_NoHands_BlackTshirt_Home/KdFVdrPYyc/UJg9NS_qhP/preview.mp4",
+      "modified_at": "2025-07-31T07:51:13.381Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/William_NoHands_BlackTshirt_Home/KdFVdrPYyc/UJg9NS_qhP/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/William_NoHands_BlackTshirt_Home/KdFVdrPYyc/UJg9NS_qhP/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/William_NoHands_BlackTshirt_Home/KdFVdrPYyc/UJg9NS_qhP/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/William_NoHands_BlackTshirt_Home/KdFVdrPYyc/UJg9NS_qhP/idle.mp4?cache_busting=2025-07-31T07:51:13.381Z",
+      "created_at": "2025-07-31T07:51:13.381Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-AlloyTurboMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_alex@qcvo4gupoy",
+      "gender": "male",
+      "name": "alex",
+      "preview_url": "https://clips-presenters.d-id.com/v2/alex/qcvo4gupoy/e3nbserss8/preview.mp4",
+      "modified_at": "2025-02-10T16:30:01.178Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/alex/qcvo4gupoy/e3nbserss8/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/alex/qcvo4gupoy/e3nbserss8/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/alex/qcvo4gupoy/e3nbserss8/talkingPreviewUrl.mp4",
+      "created_at": "2025-03-01T18:56:16.101Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_alex_biege_shirt_green_screen@sNZgzDrsOE",
+      "gender": "male",
+      "name": "Alex",
+      "preview_url": "https://clips-presenters.d-id.com/v2/alex_biege_shirt_green_screen/sNZgzDrsOE/YefnoNGzqI/preview.mp4",
+      "modified_at": "2025-04-23T08:57:22.270Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/alex_biege_shirt_green_screen/sNZgzDrsOE/YefnoNGzqI/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/alex_biege_shirt_green_screen/sNZgzDrsOE/YefnoNGzqI/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/alex_biege_shirt_green_screen/sNZgzDrsOE/YefnoNGzqI/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/alex_biege_shirt_green_screen/sNZgzDrsOE/YefnoNGzqI/idle_video.mp4?cache_busting=2025-04-23T08:57:22.270Z",
+      "created_at": "2025-04-23T08:57:22.270Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-AndrewMultilingualNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_alex_black_suite_green_screen@u8RGmlrjpD",
+      "gender": "male",
+      "name": "Alex",
+      "preview_url": "https://clips-presenters.d-id.com/v2/alex_black_suite_green_screen/u8RGmlrjpD/Q8ImoYHLlV/preview.mp4",
+      "modified_at": "2025-04-23T09:17:51.313Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/alex_black_suite_green_screen/u8RGmlrjpD/Q8ImoYHLlV/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/alex_black_suite_green_screen/u8RGmlrjpD/Q8ImoYHLlV/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/alex_black_suite_green_screen/u8RGmlrjpD/Q8ImoYHLlV/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/alex_black_suite_green_screen/u8RGmlrjpD/Q8ImoYHLlV/idle_video.mp4?cache_busting=2025-04-23T09:17:51.313Z",
+      "created_at": "2025-04-23T09:17:51.313Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-AndrewMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_alyssa@VNZgl_DF_x",
+      "gender": "female",
+      "name": "Alyssa",
+      "preview_url": "https://clips-presenters.d-id.com/v2/alyssa/VNZgl_DF_x/GeOOz__CM6/preview.mp4",
+      "modified_at": "2025-05-13T06:49:49.598Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/alyssa/VNZgl_DF_x/GeOOz__CM6/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/alyssa/VNZgl_DF_x/GeOOz__CM6/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/alyssa/VNZgl_DF_x/GeOOz__CM6/alyssa_talking_preview_video_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/alyssa/VNZgl_DF_x/GeOOz__CM6/idle_video.mp4?cache_busting=2025-05-13T06:49:49.598Z",
+      "created_at": "2025-05-13T06:49:49.598Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-AvaMultilingualNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_alyssa_black_shirt_green_screen@6nIEvVVGeP",
+      "gender": "male",
+      "name": "Alyssa",
+      "preview_url": "https://clips-presenters.d-id.com/v2/alyssa_black_shirt_green_screen/6nIEvVVGeP/5rpSVHWXxg/preview.mp4",
+      "modified_at": "2025-04-23T07:31:13.091Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/alyssa_black_shirt_green_screen/6nIEvVVGeP/5rpSVHWXxg/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/alyssa_black_shirt_green_screen/6nIEvVVGeP/5rpSVHWXxg/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/alyssa_black_shirt_green_screen/6nIEvVVGeP/5rpSVHWXxg/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/alyssa_black_shirt_green_screen/6nIEvVVGeP/5rpSVHWXxg/idle_video.mp4?cache_busting=2025-04-23T07:31:13.091Z",
+      "created_at": "2025-04-23T07:31:13.091Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-AvaMultilingualNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_alyssa_red_suite_green_screen@46XonMxLFm",
+      "gender": "female",
+      "name": "Alyssa",
+      "preview_url": "https://clips-presenters.d-id.com/v2/alyssa_red_suite_green_screen/46XonMxLFm/LRjggU94ze/preview.mp4",
+      "modified_at": "2025-02-10T16:30:01.137Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/alyssa_red_suite_green_screen/46XonMxLFm/LRjggU94ze/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/alyssa_red_suite_green_screen/46XonMxLFm/LRjggU94ze/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/alyssa_red_suite_green_screen/46XonMxLFm/LRjggU94ze/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/alyssa_red_suite_green_screen/46XonMxLFm/LRjggU94ze/idle_video.mp4?cache_busting=2025-02-10T16:30:01.137Z",
+      "created_at": "2025-02-14T18:56:16.101Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-AvaMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_alyssa_red_suite_lobby@eRGtappQAP",
+      "gender": "female",
+      "name": "Alyssa_Red_Suit Lobby",
+      "preview_url": "https://clips-presenters.d-id.com/v2/alyssa_red_suite_lobby/eRGtappQAP/G8MonUG3Nt/preview.mp4",
+      "modified_at": "2025-02-10T16:30:01.832Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/alyssa_red_suite_lobby/eRGtappQAP/G8MonUG3Nt/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/alyssa_red_suite_lobby/eRGtappQAP/G8MonUG3Nt/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/alyssa_red_suite_lobby/eRGtappQAP/G8MonUG3Nt/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/alyssa_red_suite_lobby/eRGtappQAP/G8MonUG3Nt/idle_video.mp4?cache_busting=2025-02-10T16:30:01.832Z",
+      "created_at": "2025-02-10T16:30:01.832Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_amber@Y5K02DLS4m",
+      "gender": "female",
+      "name": "Amber",
+      "preview_url": "https://clips-presenters.d-id.com/v2/amber/Y5K02DLS4m/9o3E6z8MPD/preview.mp4",
+      "modified_at": "2025-06-30T15:13:30.192Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/amber/Y5K02DLS4m/9o3E6z8MPD/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/amber/Y5K02DLS4m/9o3E6z8MPD/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/amber/Y5K02DLS4m/9o3E6z8MPD/talking_preview_amber.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/amber/Y5K02DLS4m/9o3E6z8MPD/amber_idle_video.mp4?cache_busting=2025-06-30T15:13:30.192Z",
+      "created_at": "2025-06-30T15:13:30.192Z",
+      "voice": {
+        "type": "elevenlabs",
+        "voice_id": "Dimf6681ffz3PTVPPAEX"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_anita@Os4oKCBIgZ",
+      "gender": "female",
+      "name": "Anita",
+      "preview_url": "https://clips-presenters.d-id.com/v2/anita/Os4oKCBIgZ/yTLykkbYHr/preview.mp4",
+      "modified_at": "2025-07-23T12:26:39.845Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/anita/Os4oKCBIgZ/yTLykkbYHr/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/anita/Os4oKCBIgZ/yTLykkbYHr/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/anita/Os4oKCBIgZ/yTLykkbYHr/anita_talking_preview_video_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/anita/Os4oKCBIgZ/yTLykkbYHr/idle_video.mp4?cache_busting=2025-07-23T12:26:39.845Z",
+      "created_at": "2025-07-23T12:26:39.845Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-IN-AartiNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_anita@ReIUkBUDQG",
+      "gender": "female",
+      "name": "Anita",
+      "preview_url": "https://clips-presenters.d-id.com/v2/anita/ReIUkBUDQG/VnDASr_Og2/preview.mp4",
+      "modified_at": "2025-07-23T12:29:58.394Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/anita/ReIUkBUDQG/VnDASr_Og2/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/anita/ReIUkBUDQG/VnDASr_Og2/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/anita/ReIUkBUDQG/VnDASr_Og2/anita_talking_preview_video_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/anita/ReIUkBUDQG/VnDASr_Og2/idle_video.mp4?cache_busting=2025-07-23T12:29:58.394Z",
+      "created_at": "2025-07-23T12:29:58.394Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-IN-AartiNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_anita_pink_shirt_classroom@w0TKk10XrO",
+      "gender": "female",
+      "name": "Anita_Pink_Shirt Classroom",
+      "preview_url": "https://clips-presenters.d-id.com/v2/anita_pink_shirt_classroom/w0TKk10XrO/xe22dmxG_4/preview.mp4",
+      "modified_at": "2025-02-10T16:30:01.337Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/anita_pink_shirt_classroom/w0TKk10XrO/xe22dmxG_4/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/anita_pink_shirt_classroom/w0TKk10XrO/xe22dmxG_4/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/anita_pink_shirt_classroom/w0TKk10XrO/xe22dmxG_4/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/anita_pink_shirt_classroom/w0TKk10XrO/xe22dmxG_4/idle_video.mp4?cache_busting=2025-02-10T16:30:01.337Z",
+      "created_at": "2025-02-10T16:30:01.337Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_anita_pink_shirt_green_screen@pw9Otj5BPp",
+      "gender": "female",
+      "name": "Anita",
+      "preview_url": "https://clips-presenters.d-id.com/v2/anita_pink_shirt_green_screen/pw9Otj5BPp/R6_zqlIWw2/preview.mp4",
+      "modified_at": "2025-02-10T16:30:01.232Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/anita_pink_shirt_green_screen/pw9Otj5BPp/R6_zqlIWw2/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/anita_pink_shirt_green_screen/pw9Otj5BPp/R6_zqlIWw2/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/anita_pink_shirt_green_screen/pw9Otj5BPp/R6_zqlIWw2/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/anita_pink_shirt_green_screen/pw9Otj5BPp/R6_zqlIWw2/idle_video.mp4?cache_busting=2025-02-10T16:30:01.232Z",
+      "created_at": "2025-01-14T18:56:16.101Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-IN-AartiNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_arran@Kp1RPNa28e",
+      "gender": "male",
+      "name": "Arran",
+      "preview_url": "https://clips-presenters.d-id.com/v2/arran/Kp1RPNa28e/pjEMU44TFB/preview.mp4",
+      "modified_at": "2025-07-23T12:09:15.798Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/arran/Kp1RPNa28e/pjEMU44TFB/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/arran/Kp1RPNa28e/pjEMU44TFB/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/arran/Kp1RPNa28e/pjEMU44TFB/arran_talking_preview_video_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/arran/Kp1RPNa28e/pjEMU44TFB/idle_video.mp4?cache_busting=2025-07-23T12:09:15.798Z",
+      "created_at": "2025-07-23T12:09:15.798Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-GB-ThomasNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_arran_beige_jacket_green_screen@EVXqXwvzWU",
+      "gender": "male",
+      "name": "Arran",
+      "preview_url": "https://clips-presenters.d-id.com/v2/arran_beige_jacket_green_screen/EVXqXwvzWU/GCjcyCn2r3/preview.mp4",
+      "modified_at": "2025-04-23T06:54:35.530Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/arran_beige_jacket_green_screen/EVXqXwvzWU/GCjcyCn2r3/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/arran_beige_jacket_green_screen/EVXqXwvzWU/GCjcyCn2r3/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/arran_beige_jacket_green_screen/EVXqXwvzWU/GCjcyCn2r3/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/arran_beige_jacket_green_screen/EVXqXwvzWU/GCjcyCn2r3/idle_video.mp4?cache_busting=2025-04-23T06:54:35.530Z",
+      "created_at": "2025-04-23T06:54:35.530Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-GB-ThomasNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_arran_grey_shirt_green_screen@idF0Ju2xHz",
+      "gender": "male",
+      "name": "Arran",
+      "preview_url": "https://clips-presenters.d-id.com/v2/arran_grey_shirt_green_screen/idF0Ju2xHz/wUOr6rTrvD/preview.mp4",
+      "modified_at": "2025-04-23T07:10:11.546Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/arran_grey_shirt_green_screen/idF0Ju2xHz/wUOr6rTrvD/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/arran_grey_shirt_green_screen/idF0Ju2xHz/wUOr6rTrvD/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/arran_grey_shirt_green_screen/idF0Ju2xHz/wUOr6rTrvD/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/arran_grey_shirt_green_screen/idF0Ju2xHz/wUOr6rTrvD/idle_video.mp4?cache_busting=2025-04-23T07:10:11.546Z",
+      "created_at": "2025-04-23T07:10:11.546Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-GB-ThomasNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_benjamin@vxbdlxieyn",
+      "gender": "male",
+      "name": "benjamin",
+      "preview_url": "https://clips-presenters.d-id.com/v2/benjamin/vxbdlxieyn/vlybvchhwz/preview.mp4",
+      "modified_at": "2025-02-10T16:30:01.323Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/benjamin/vxbdlxieyn/vlybvchhwz/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/benjamin/vxbdlxieyn/vlybvchhwz/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/benjamin/vxbdlxieyn/vlybvchhwz/talkingPreview.mp4",
+      "created_at": "2025-01-01T18:56:16.101Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_darren@88QjSpCkcq",
+      "gender": "male",
+      "name": "Darren",
+      "preview_url": "https://clips-presenters.d-id.com/v2/darren/88QjSpCkcq/WxKwqVL9H4/preview.mp4",
+      "modified_at": "2025-05-12T14:17:04.111Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/darren/88QjSpCkcq/WxKwqVL9H4/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/darren/88QjSpCkcq/WxKwqVL9H4/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/darren/88QjSpCkcq/WxKwqVL9H4/darren_talking_preview_video_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/darren/88QjSpCkcq/WxKwqVL9H4/idle_video.mp4?cache_busting=2025-05-12T14:17:04.111Z",
+      "created_at": "2025-05-12T14:17:04.111Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-BrianMultilingualNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_darren@JgxEH6fBQJ",
+      "gender": "male",
+      "name": "Darren",
+      "preview_url": "https://clips-presenters.d-id.com/v2/darren/JgxEH6fBQJ/xMuAGiEaQN/preview.mp4",
+      "modified_at": "2025-05-13T07:51:28.565Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/darren/JgxEH6fBQJ/xMuAGiEaQN/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/darren/JgxEH6fBQJ/xMuAGiEaQN/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/darren/JgxEH6fBQJ/xMuAGiEaQN/darren_talking_preview_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/darren/JgxEH6fBQJ/xMuAGiEaQN/idle_video.mp4?cache_busting=2025-05-13T07:51:28.565Z",
+      "created_at": "2025-05-13T07:51:28.565Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-BrianMultilingualNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_darren@rXvdB48gvI",
+      "gender": "male",
+      "name": "Darren",
+      "preview_url": "https://clips-presenters.d-id.com/v2/darren/rXvdB48gvI/u8bMNX6iw2/preview.mp4",
+      "modified_at": "2025-05-12T14:15:58.202Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/darren/rXvdB48gvI/u8bMNX6iw2/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/darren/rXvdB48gvI/u8bMNX6iw2/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/darren/rXvdB48gvI/u8bMNX6iw2/darren_talking_preview_video_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/darren/rXvdB48gvI/u8bMNX6iw2/idle_video.mp4?cache_busting=2025-05-12T14:15:58.202Z",
+      "created_at": "2025-05-12T14:15:58.202Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-BrianMultilingualNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_diana@so9Pg73d6N",
+      "gender": "female",
+      "name": "Diana",
+      "preview_url": "https://clips-presenters.d-id.com/v2/diana/so9Pg73d6N/T5Ts5WC1R0/preview.mp4",
+      "modified_at": "2025-05-13T06:50:22.042Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/diana/so9Pg73d6N/T5Ts5WC1R0/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/diana/so9Pg73d6N/T5Ts5WC1R0/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/diana/so9Pg73d6N/T5Ts5WC1R0/diana_talking_preview_video_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/diana/so9Pg73d6N/T5Ts5WC1R0/idle_video.mp4?cache_busting=2025-05-13T06:50:22.042Z",
+      "created_at": "2025-05-13T06:50:22.042Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-AshleyNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_diana@tftp6k9s9u",
+      "gender": "female",
+      "name": "diana",
+      "preview_url": "https://clips-presenters.d-id.com/v2/diana/tftp6k9s9u/orri9wsfbp/preview.mp4",
+      "modified_at": "2025-02-10T16:30:01.346Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/diana/tftp6k9s9u/orri9wsfbp/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/diana/tftp6k9s9u/orri9wsfbp/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/diana/tftp6k9s9u/orri9wsfbp/talking_preview.mp4",
+      "created_at": "2024-12-14T18:56:16.101Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-AshleyNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_diana_purple_shirt_1_green_screen@HiT0penpLE",
+      "gender": "female",
+      "name": "Diana_Purple_Shirt Green Screen",
+      "preview_url": "https://clips-presenters.d-id.com/v2/diana_purple_shirt_1_green_screen/HiT0penpLE/T4mnIx2ISP/preview.mp4",
+      "modified_at": "2025-02-10T16:30:01.143Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/diana_purple_shirt_1_green_screen/HiT0penpLE/T4mnIx2ISP/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/diana_purple_shirt_1_green_screen/HiT0penpLE/T4mnIx2ISP/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/diana_purple_shirt_1_green_screen/HiT0penpLE/T4mnIx2ISP/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/diana_purple_shirt_1_green_screen/HiT0penpLE/T4mnIx2ISP/idle_video.mp4?cache_busting=2025-02-10T16:30:01.143Z",
+      "created_at": "2025-02-10T16:30:01.143Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_diana_purple_shirt_1_hospital@0ICbk6FDig",
+      "gender": "female",
+      "name": "Diana_Purple_Shirt Hospital",
+      "preview_url": "https://clips-presenters.d-id.com/v2/diana_purple_shirt_1_hospital/0ICbk6FDig/FeSFT2_fSH/preview.mp4",
+      "modified_at": "2025-02-10T16:30:01.388Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/diana_purple_shirt_1_hospital/0ICbk6FDig/FeSFT2_fSH/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/diana_purple_shirt_1_hospital/0ICbk6FDig/FeSFT2_fSH/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/diana_purple_shirt_1_hospital/0ICbk6FDig/FeSFT2_fSH/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/diana_purple_shirt_1_hospital/0ICbk6FDig/FeSFT2_fSH/idle_video.mp4?cache_busting=2025-02-10T16:30:01.388Z",
+      "created_at": "2025-02-10T16:30:01.388Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_diana_purple_shirt_1_lobby@L0b13iZZAl",
+      "gender": "female",
+      "name": "Diana_Purple_Shirt Lobby",
+      "preview_url": "https://clips-presenters.d-id.com/v2/diana_purple_shirt_1_lobby/L0b13iZZAl/6hNPZ7Jlyw/preview.mp4",
+      "modified_at": "2025-02-10T16:30:01.828Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/diana_purple_shirt_1_lobby/L0b13iZZAl/6hNPZ7Jlyw/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/diana_purple_shirt_1_lobby/L0b13iZZAl/6hNPZ7Jlyw/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/diana_purple_shirt_1_lobby/L0b13iZZAl/6hNPZ7Jlyw/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/diana_purple_shirt_1_lobby/L0b13iZZAl/6hNPZ7Jlyw/idle_video.mp4?cache_busting=2025-02-10T16:30:01.828Z",
+      "created_at": "2025-02-10T16:30:01.828Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_dylan_dark_grey_shirt_green_screen@rPjBhdodCN",
+      "gender": "male",
+      "name": "Dylan",
+      "preview_url": "https://clips-presenters.d-id.com/v2/dylan_dark_grey_shirt_green_screen/rPjBhdodCN/W4m0UHrQfj/preview.mp4",
+      "modified_at": "2025-02-10T16:30:01.277Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/dylan_dark_grey_shirt_green_screen/rPjBhdodCN/W4m0UHrQfj/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/dylan_dark_grey_shirt_green_screen/rPjBhdodCN/W4m0UHrQfj/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/dylan_dark_grey_shirt_green_screen/rPjBhdodCN/W4m0UHrQfj/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/dylan_dark_grey_shirt_green_screen/rPjBhdodCN/W4m0UHrQfj/idle_video.mp4?cache_busting=2025-02-10T16:30:01.277Z",
+      "created_at": "2024-12-01T18:56:16.101Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-BrandonMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_dylan_dark_grey_shirt_nature@4DwMS4ibcR",
+      "gender": "male",
+      "name": "Dylan",
+      "preview_url": "https://clips-presenters.d-id.com/v2/dylan_dark_grey_shirt_nature/4DwMS4ibcR/8AOgVavfzg/preview.mp4",
+      "modified_at": "2025-02-10T16:30:05.203Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/dylan_dark_grey_shirt_nature/4DwMS4ibcR/8AOgVavfzg/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/dylan_dark_grey_shirt_nature/4DwMS4ibcR/8AOgVavfzg/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/dylan_dark_grey_shirt_nature/4DwMS4ibcR/8AOgVavfzg/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/dylan_dark_grey_shirt_nature/4DwMS4ibcR/8AOgVavfzg/idle_video.mp4?cache_busting=2025-02-10T16:30:05.203Z",
+      "created_at": "2024-12-01T18:56:16.101Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-BrandonMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_dylan_grey_suite_green_screen_1@KHlzCjIFiH",
+      "gender": "male",
+      "name": "Dylan",
+      "preview_url": "https://clips-presenters.d-id.com/v2/dylan_grey_suite_green_screen_1/KHlzCjIFiH/CssfNY1Jh4/preview.mp4",
+      "modified_at": "2025-02-10T16:30:01.545Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/dylan_grey_suite_green_screen_1/KHlzCjIFiH/CssfNY1Jh4/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/dylan_grey_suite_green_screen_1/KHlzCjIFiH/CssfNY1Jh4/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/dylan_grey_suite_green_screen_1/KHlzCjIFiH/CssfNY1Jh4/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/dylan_grey_suite_green_screen_1/KHlzCjIFiH/CssfNY1Jh4/idle_video.mp4?cache_busting=2025-02-10T16:30:01.545Z",
+      "created_at": "2024-12-01T18:56:16.101Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-BrandonMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_dylan_grey_suite_lobby@veRJGS_iOD",
+      "gender": "male",
+      "name": "Dylan_Grey_Suit Lobby",
+      "preview_url": "https://clips-presenters.d-id.com/v2/dylan_grey_suite_lobby/veRJGS_iOD/9mMps_xg_q/preview.mp4",
+      "modified_at": "2025-02-10T16:30:01.631Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/dylan_grey_suite_lobby/veRJGS_iOD/9mMps_xg_q/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/dylan_grey_suite_lobby/veRJGS_iOD/9mMps_xg_q/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/dylan_grey_suite_lobby/veRJGS_iOD/9mMps_xg_q/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/dylan_grey_suite_lobby/veRJGS_iOD/9mMps_xg_q/idle_video.mp4?cache_busting=2025-02-10T16:30:01.631Z",
+      "created_at": "2025-02-10T16:30:01.631Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_dylan_light_grey_shirt_green_screen@ambgbyeQun",
+      "gender": "male",
+      "name": "Dylan",
+      "preview_url": "https://clips-presenters.d-id.com/v2/dylan_light_grey_shirt_green_screen/ambgbyeQun/Rj3MvSZBui/preview.mp4",
+      "modified_at": "2025-02-10T16:39:21.931Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/dylan_light_grey_shirt_green_screen/ambgbyeQun/Rj3MvSZBui/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/dylan_light_grey_shirt_green_screen/ambgbyeQun/Rj3MvSZBui/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/dylan_light_grey_shirt_green_screen/ambgbyeQun/Rj3MvSZBui/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/dylan_light_grey_shirt_green_screen/ambgbyeQun/Rj3MvSZBui/idle_video.mp4?cache_busting=2025-02-10T16:39:21.931Z",
+      "created_at": "2024-12-01T18:56:16.101Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-BrandonMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_ella@p9l_fpg2_k",
+      "gender": "female",
+      "name": "Ella",
+      "preview_url": "https://clips-presenters.d-id.com/v2/ella/p9l_fpg2_k/q15Yu1RvRA/preview.mp4",
+      "modified_at": "2025-05-13T06:46:31.974Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/ella/p9l_fpg2_k/q15Yu1RvRA/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/ella/p9l_fpg2_k/q15Yu1RvRA/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/ella/p9l_fpg2_k/q15Yu1RvRA/ella_talking_preview_video_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/ella/p9l_fpg2_k/q15Yu1RvRA/idle_video.mp4?cache_busting=2025-05-13T06:46:31.974Z",
+      "created_at": "2025-05-13T06:46:31.974Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-AriaNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_ella_black_shirt_green_screen@OHEUQNO7ej",
+      "gender": "male",
+      "name": "Ella",
+      "preview_url": "https://clips-presenters.d-id.com/v2/ella_black_shirt_green_screen/OHEUQNO7ej/fwOCJ0xSrK/preview.mp4",
+      "modified_at": "2025-04-23T05:57:49.784Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/ella_black_shirt_green_screen/OHEUQNO7ej/fwOCJ0xSrK/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/ella_black_shirt_green_screen/OHEUQNO7ej/fwOCJ0xSrK/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/ella_black_shirt_green_screen/OHEUQNO7ej/fwOCJ0xSrK/talking_preview_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/ella_black_shirt_green_screen/OHEUQNO7ej/fwOCJ0xSrK/idle_video.mp4?cache_busting=2025-04-23T05:57:49.784Z",
+      "created_at": "2025-04-23T05:57:49.784Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-AriaNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_ella_pink_shirt_classroom@wmnCN4_87Q",
+      "gender": "female",
+      "name": "Ella_Pink Class",
+      "preview_url": "https://clips-presenters.d-id.com/v2/ella_pink_shirt_classroom/wmnCN4_87Q/tNGWKcDea1/preview.mp4",
+      "modified_at": "2025-02-10T16:30:09.636Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/ella_pink_shirt_classroom/wmnCN4_87Q/tNGWKcDea1/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/ella_pink_shirt_classroom/wmnCN4_87Q/tNGWKcDea1/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/ella_pink_shirt_classroom/wmnCN4_87Q/tNGWKcDea1/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/ella_pink_shirt_classroom/wmnCN4_87Q/tNGWKcDea1/idle_video.mp4?cache_busting=2025-02-10T16:30:09.636Z",
+      "created_at": "2025-02-10T16:30:09.636Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_ella_pink_shirt_green_screen@80Rz4oeQpJ",
+      "gender": "female",
+      "name": "Ella",
+      "preview_url": "https://clips-presenters.d-id.com/v2/ella_pink_shirt_green_screen/80Rz4oeQpJ/QWJVui_EGd/preview.mp4",
+      "modified_at": "2025-02-10T16:30:08.082Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/ella_pink_shirt_green_screen/80Rz4oeQpJ/QWJVui_EGd/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/ella_pink_shirt_green_screen/80Rz4oeQpJ/QWJVui_EGd/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/ella_pink_shirt_green_screen/80Rz4oeQpJ/QWJVui_EGd/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/ella_pink_shirt_green_screen/80Rz4oeQpJ/QWJVui_EGd/idle_video.mp4?cache_busting=2025-02-10T16:30:08.082Z",
+      "created_at": "2024-11-14T18:56:16.101Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-AriaNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_ethan@4dtv7uj_ko",
+      "gender": "male",
+      "name": "ethan",
+      "preview_url": "https://clips-presenters.d-id.com/v2/ethan/4dtv7uj_ko/mzktuab8x5/preview.mp4",
+      "modified_at": "2025-02-10T16:30:08.817Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/ethan/4dtv7uj_ko/mzktuab8x5/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/ethan/4dtv7uj_ko/mzktuab8x5/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/ethan/4dtv7uj_ko/mzktuab8x5/talkingPreview.mp4",
+      "created_at": "2024-11-01T18:56:16.101Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_ethan@hmt8kojzjp",
+      "gender": "male",
+      "name": "ethan",
+      "preview_url": "https://clips-presenters.d-id.com/v2/ethan/hmt8kojzjp/traoowwmob/preview.mp4",
+      "modified_at": "2025-02-10T16:30:09.527Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/ethan/hmt8kojzjp/traoowwmob/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/ethan/hmt8kojzjp/traoowwmob/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/ethan/hmt8kojzjp/traoowwmob/talkingPreview.mp4",
+      "created_at": "2024-11-01T18:56:16.101Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_eugene_black_shirt_green_screen@KyBpBkaXPX",
+      "gender": "male",
+      "name": "Eugene",
+      "preview_url": "https://clips-presenters.d-id.com/v2/eugene_black_shirt_green_screen/KyBpBkaXPX/LvKrGL784r/preview.mp4",
+      "modified_at": "2025-02-10T16:30:10.119Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/eugene_black_shirt_green_screen/KyBpBkaXPX/LvKrGL784r/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/eugene_black_shirt_green_screen/KyBpBkaXPX/LvKrGL784r/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/eugene_black_shirt_green_screen/KyBpBkaXPX/LvKrGL784r/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/eugene_black_shirt_green_screen/KyBpBkaXPX/LvKrGL784r/idle_video.mp4?cache_busting=2025-02-10T16:30:10.119Z",
+      "created_at": "2024-10-14T18:56:16.101Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-AndrewMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_eugene_black_shirt_lobby@CthhIOV7vW",
+      "gender": "male",
+      "name": "Eugene_Black_Shirt Lobby",
+      "preview_url": "https://clips-presenters.d-id.com/v2/eugene_black_shirt_lobby/CthhIOV7vW/GrsTVHDhB7/preview.mp4",
+      "modified_at": "2025-02-10T16:30:10.643Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/eugene_black_shirt_lobby/CthhIOV7vW/GrsTVHDhB7/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/eugene_black_shirt_lobby/CthhIOV7vW/GrsTVHDhB7/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/eugene_black_shirt_lobby/CthhIOV7vW/GrsTVHDhB7/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/eugene_black_shirt_lobby/CthhIOV7vW/GrsTVHDhB7/idle_video.mp4?cache_busting=2025-02-10T16:30:10.643Z",
+      "created_at": "2025-02-10T16:30:10.643Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_fiona_black_jacket_classroom@oVIoDEHlh1",
+      "gender": "female",
+      "name": "Fiona_Black_Jacket Classroom",
+      "preview_url": "https://clips-presenters.d-id.com/v2/fiona_black_jacket_classroom/oVIoDEHlh1/MyWOF4_YQf/preview.mp4",
+      "modified_at": "2025-02-10T16:30:07.911Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/fiona_black_jacket_classroom/oVIoDEHlh1/MyWOF4_YQf/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/fiona_black_jacket_classroom/oVIoDEHlh1/MyWOF4_YQf/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/fiona_black_jacket_classroom/oVIoDEHlh1/MyWOF4_YQf/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/fiona_black_jacket_classroom/oVIoDEHlh1/MyWOF4_YQf/idle_video.mp4?cache_busting=2025-02-10T16:30:07.911Z",
+      "created_at": "2025-02-10T16:30:07.911Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_fiona_black_jacket_green_screen@477B7MX1Vf",
+      "gender": "female",
+      "name": "Fiona",
+      "preview_url": "https://clips-presenters.d-id.com/v2/fiona_black_jacket_green_screen/477B7MX1Vf/o1UQHkgCxv/preview.mp4",
+      "modified_at": "2025-02-10T16:30:09.468Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/fiona_black_jacket_green_screen/477B7MX1Vf/o1UQHkgCxv/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/fiona_black_jacket_green_screen/477B7MX1Vf/o1UQHkgCxv/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/fiona_black_jacket_green_screen/477B7MX1Vf/o1UQHkgCxv/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/fiona_black_jacket_green_screen/477B7MX1Vf/o1UQHkgCxv/idle_video.mp4?cache_busting=2025-02-10T16:30:09.468Z",
+      "created_at": "2024-10-01T18:56:16.101Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-EmmaMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_fiona_blue_shirt_green_screen@4411G8YCuN",
+      "gender": "female",
+      "name": "Fiona",
+      "preview_url": "https://clips-presenters.d-id.com/v2/fiona_blue_shirt_green_screen/4411G8YCuN/RhVo5FxlWc/preview.mp4",
+      "modified_at": "2025-02-10T16:30:07.322Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/fiona_blue_shirt_green_screen/4411G8YCuN/RhVo5FxlWc/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/fiona_blue_shirt_green_screen/4411G8YCuN/RhVo5FxlWc/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/fiona_blue_shirt_green_screen/4411G8YCuN/RhVo5FxlWc/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/fiona_blue_shirt_green_screen/4411G8YCuN/RhVo5FxlWc/idle_video.mp4?cache_busting=2025-02-10T16:30:07.322Z",
+      "created_at": "2024-10-01T18:56:16.101Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-EmmaMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_fiona_blue_shirt_lab@FQBA_hemBB",
+      "gender": "female",
+      "name": "Fiona_Blue_Shirt Lab",
+      "preview_url": "https://clips-presenters.d-id.com/v2/fiona_blue_shirt_lab/FQBA_hemBB/SbQyQr6H5b/preview.mp4",
+      "modified_at": "2025-02-10T16:30:08.118Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/fiona_blue_shirt_lab/FQBA_hemBB/SbQyQr6H5b/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/fiona_blue_shirt_lab/FQBA_hemBB/SbQyQr6H5b/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/fiona_blue_shirt_lab/FQBA_hemBB/SbQyQr6H5b/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/fiona_blue_shirt_lab/FQBA_hemBB/SbQyQr6H5b/idle_video.mp4?cache_busting=2025-02-10T16:30:08.118Z",
+      "created_at": "2025-02-10T16:30:08.118Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_fiona_pink_shirt_green_screen@wGfcUyVsfT",
+      "gender": "female",
+      "name": "Fiona",
+      "preview_url": "https://clips-presenters.d-id.com/v2/fiona_pink_shirt_green_screen/wGfcUyVsfT/XlAWE8awYI/preview.mp4",
+      "modified_at": "2025-02-10T16:30:13.052Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/fiona_pink_shirt_green_screen/wGfcUyVsfT/XlAWE8awYI/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/fiona_pink_shirt_green_screen/wGfcUyVsfT/XlAWE8awYI/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/fiona_pink_shirt_green_screen/wGfcUyVsfT/XlAWE8awYI/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/fiona_pink_shirt_green_screen/wGfcUyVsfT/XlAWE8awYI/idle_video.mp4?cache_busting=2025-02-10T16:30:13.052Z",
+      "created_at": "2024-10-01T18:56:16.101Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-EmmaMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_fiona_pink_shirt_nature@YbSy_eGr0t",
+      "gender": "female",
+      "name": "Fiona_Pink_Shirt Nature",
+      "preview_url": "https://clips-presenters.d-id.com/v2/fiona_pink_shirt_nature/YbSy_eGr0t/YK3poyBbmx/preview.mp4",
+      "modified_at": "2025-02-10T16:30:12.436Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/fiona_pink_shirt_nature/YbSy_eGr0t/YK3poyBbmx/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/fiona_pink_shirt_nature/YbSy_eGr0t/YK3poyBbmx/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/fiona_pink_shirt_nature/YbSy_eGr0t/YK3poyBbmx/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/fiona_pink_shirt_nature/YbSy_eGr0t/YK3poyBbmx/idle_video.mp4?cache_busting=2025-02-10T16:30:12.436Z",
+      "created_at": "2025-02-10T16:30:12.436Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_flora@RPSCZ_knvq",
+      "gender": "female",
+      "name": "Flora",
+      "preview_url": "https://clips-presenters.d-id.com/v2/flora/RPSCZ_knvq/GJ2jGBsQMw/preview.mp4",
+      "modified_at": "2025-07-23T15:11:11.357Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/flora/RPSCZ_knvq/GJ2jGBsQMw/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/flora/RPSCZ_knvq/GJ2jGBsQMw/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/flora/RPSCZ_knvq/GJ2jGBsQMw/flora_talking_preview_video_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/flora/RPSCZ_knvq/GJ2jGBsQMw/idle_video.mp4?cache_busting=2025-07-23T15:11:11.357Z",
+      "created_at": "2025-07-23T15:11:11.357Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-GB-AdaMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_flora_red_shirt_green_screen@jWJ_nPGuRo",
+      "gender": "male",
+      "name": "Flora",
+      "preview_url": "https://clips-presenters.d-id.com/v2/flora_red_shirt_green_screen/jWJ_nPGuRo/jrQ3hjhXR8/preview.mp4",
+      "modified_at": "2025-02-10T16:39:20.972Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/flora_red_shirt_green_screen/jWJ_nPGuRo/jrQ3hjhXR8/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/flora_red_shirt_green_screen/jWJ_nPGuRo/jrQ3hjhXR8/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/flora_red_shirt_green_screen/jWJ_nPGuRo/jrQ3hjhXR8/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/flora_red_shirt_green_screen/jWJ_nPGuRo/jrQ3hjhXR8/idle_video.mp4?cache_busting=2025-02-10T16:39:20.972Z",
+      "created_at": "2024-09-14T18:56:16.101Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-GB-AdaMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_flora_white_shirt_green_screen@7YH3wAMXiM",
+      "gender": "male",
+      "name": "Flora",
+      "preview_url": "https://clips-presenters.d-id.com/v2/flora_white_shirt_green_screen/7YH3wAMXiM/EEIP6qmYia/preview.mp4",
+      "modified_at": "2025-04-23T09:24:14.530Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/flora_white_shirt_green_screen/7YH3wAMXiM/EEIP6qmYia/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/flora_white_shirt_green_screen/7YH3wAMXiM/EEIP6qmYia/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/flora_white_shirt_green_screen/7YH3wAMXiM/EEIP6qmYia/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/flora_white_shirt_green_screen/7YH3wAMXiM/EEIP6qmYia/idle_video.mp4?cache_busting=2025-04-23T09:24:14.530Z",
+      "created_at": "2025-04-23T09:24:14.530Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-GB-AdaMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_frank_grey_suite_green_screen@BjMgHTdAhG",
+      "gender": "male",
+      "name": "Frank",
+      "preview_url": "https://clips-presenters.d-id.com/v2/frank_grey_suite_green_screen/BjMgHTdAhG/fsa9zVI4wh/preview.mp4",
+      "modified_at": "2025-02-10T16:39:21.256Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/frank_grey_suite_green_screen/BjMgHTdAhG/fsa9zVI4wh/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/frank_grey_suite_green_screen/BjMgHTdAhG/fsa9zVI4wh/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/frank_grey_suite_green_screen/BjMgHTdAhG/fsa9zVI4wh/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/frank_grey_suite_green_screen/BjMgHTdAhG/fsa9zVI4wh/idle_video.mp4?cache_busting=2025-02-10T16:39:21.256Z",
+      "created_at": "2025-02-10T16:39:21.256Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_Id": "en-US-AlloyTurboMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_jack@hOMV94SahG",
+      "gender": "male",
+      "name": "Jack",
+      "preview_url": "https://clips-presenters.d-id.com/v2/jack/hOMV94SahG/rr1EsLk9dP/preview.mp4",
+      "modified_at": "2025-05-14T08:14:30.690Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/jack/hOMV94SahG/rr1EsLk9dP/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/jack/hOMV94SahG/rr1EsLk9dP/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/jack/hOMV94SahG/rr1EsLk9dP/jack_talking_preview_video_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/jack/hOMV94SahG/rr1EsLk9dP/idle_video.mp4?cache_busting=2025-05-14T08:14:30.690Z",
+      "created_at": "2025-05-14T08:14:30.690Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-SteffanMultilingualNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_jack@jkYuzaTYLd",
+      "gender": "male",
+      "name": "Jack",
+      "preview_url": "https://clips-presenters.d-id.com/v2/jack/jkYuzaTYLd/3_Ktqog_GO/preview.mp4",
+      "modified_at": "2025-05-14T08:14:57.910Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/jack/jkYuzaTYLd/3_Ktqog_GO/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/jack/jkYuzaTYLd/3_Ktqog_GO/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/jack/jkYuzaTYLd/3_Ktqog_GO/jack_talking_preview_video_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/jack/jkYuzaTYLd/3_Ktqog_GO/idle_video.mp4?cache_busting=2025-05-14T08:14:57.910Z",
+      "created_at": "2025-05-14T08:14:57.910Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-SteffanMultilingualNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_jack@usOzVTYnKE",
+      "gender": "male",
+      "name": "Jack",
+      "preview_url": "https://clips-presenters.d-id.com/v2/jack/usOzVTYnKE/lQdtEXFYVi/preview.mp4",
+      "modified_at": "2025-05-14T11:33:24.637Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/jack/usOzVTYnKE/lQdtEXFYVi/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/jack/usOzVTYnKE/lQdtEXFYVi/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/jack/usOzVTYnKE/lQdtEXFYVi/jack_talking_preview_video_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/jack/usOzVTYnKE/lQdtEXFYVi/idle_video.mp4?cache_busting=2025-05-14T11:33:24.637Z",
+      "created_at": "2025-05-14T11:33:24.637Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-SteffanMultilingualNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_jaimie@Isfx_UxygI",
+      "gender": "male",
+      "name": "Jaimie",
+      "preview_url": "https://clips-presenters.d-id.com/v2/jaimie/Isfx_UxygI/XABHPKdLtj/preview.mp4",
+      "modified_at": "2025-05-13T07:55:43.543Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/jaimie/Isfx_UxygI/XABHPKdLtj/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/jaimie/Isfx_UxygI/XABHPKdLtj/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/jaimie/Isfx_UxygI/XABHPKdLtj/jaimie_talking_preview_video_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/jaimie/Isfx_UxygI/XABHPKdLtj/idle_video.mp4?cache_busting=2025-05-13T07:55:43.543Z",
+      "created_at": "2025-05-13T07:55:43.543Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-GB-OliverNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_jaimie@RiVv0guE6w",
+      "gender": "male",
+      "name": "Jaimie",
+      "preview_url": "https://clips-presenters.d-id.com/v2/jaimie/RiVv0guE6w/W_34LOQ9tP/preview.mp4",
+      "modified_at": "2025-05-13T06:45:56.917Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/jaimie/RiVv0guE6w/W_34LOQ9tP/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/jaimie/RiVv0guE6w/W_34LOQ9tP/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/jaimie/RiVv0guE6w/W_34LOQ9tP/jaimie_talking_preview_video_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/jaimie/RiVv0guE6w/W_34LOQ9tP/idle_video.mp4?cache_busting=2025-05-13T06:45:56.917Z",
+      "created_at": "2025-05-13T06:45:56.917Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-GB-OliverNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_jaimie@u1525yEtB0",
+      "gender": "male",
+      "name": "Jaimie",
+      "preview_url": "https://clips-presenters.d-id.com/v2/jaimie/u1525yEtB0/2azxFshLcP/preview.mp4",
+      "modified_at": "2025-05-13T07:53:55.882Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/jaimie/u1525yEtB0/2azxFshLcP/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/jaimie/u1525yEtB0/2azxFshLcP/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/jaimie/u1525yEtB0/2azxFshLcP/jaimie_talking_preview_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/jaimie/u1525yEtB0/2azxFshLcP/idle_video.mp4?cache_busting=2025-05-13T07:53:55.882Z",
+      "created_at": "2025-05-13T07:53:55.882Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-GB-OliverNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_joseph_grey_suite_coffeeshop@7fiPyaDUIq",
+      "gender": "male",
+      "name": "Joseph",
+      "preview_url": "https://clips-presenters.d-id.com/v2/joseph_grey_suite_coffeeshop/7fiPyaDUIq/tj36rr5tjB/preview.mp4",
+      "modified_at": "2025-02-10T16:30:09.852Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/joseph_grey_suite_coffeeshop/7fiPyaDUIq/tj36rr5tjB/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/joseph_grey_suite_coffeeshop/7fiPyaDUIq/tj36rr5tjB/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/joseph_grey_suite_coffeeshop/7fiPyaDUIq/tj36rr5tjB/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/joseph_grey_suite_coffeeshop/7fiPyaDUIq/tj36rr5tjB/idle_video.mp4?cache_busting=2025-02-10T16:30:09.852Z",
+      "created_at": "2024-09-01T18:56:16.101Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-OnyxTurboMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_joseph_grey_suite_green_screen@yypxo8rFtH",
+      "gender": "male",
+      "name": "Joseph",
+      "preview_url": "https://clips-presenters.d-id.com/v2/joseph_grey_suite_green_screen/yypxo8rFtH/PveOqJv535/preview.mp4",
+      "modified_at": "2025-02-10T16:30:08.698Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/joseph_grey_suite_green_screen/yypxo8rFtH/PveOqJv535/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/joseph_grey_suite_green_screen/yypxo8rFtH/PveOqJv535/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/joseph_grey_suite_green_screen/yypxo8rFtH/PveOqJv535/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/joseph_grey_suite_green_screen/yypxo8rFtH/PveOqJv535/idle_video.mp4?cache_busting=2025-02-10T16:30:08.698Z",
+      "created_at": "2024-09-01T18:56:16.101Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-OnyxTurboMultilingualNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_joseph_orange_shirt_green_screen@agjOsHzETQ",
+      "gender": "male",
+      "name": "Joseph",
+      "preview_url": "https://clips-presenters.d-id.com/v2/joseph_orange_shirt_green_screen/agjOsHzETQ/u2TR94ds4J/preview.mp4",
+      "modified_at": "2025-04-23T09:41:44.126Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/joseph_orange_shirt_green_screen/agjOsHzETQ/u2TR94ds4J/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/joseph_orange_shirt_green_screen/agjOsHzETQ/u2TR94ds4J/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/joseph_orange_shirt_green_screen/agjOsHzETQ/u2TR94ds4J/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/joseph_orange_shirt_green_screen/agjOsHzETQ/u2TR94ds4J/idle_video.mp4?cache_busting=2025-04-23T09:41:44.126Z",
+      "created_at": "2025-04-23T09:41:44.126Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-OnyxTurboMultilingualNeura"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_kayla@gBAHXrHWYT",
+      "gender": "female",
+      "name": "Kayla",
+      "preview_url": "https://clips-presenters.d-id.com/v2/kayla/gBAHXrHWYT/QXC5QmOT_4/preview.mp4",
+      "modified_at": "2025-07-23T15:08:55.487Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/kayla/gBAHXrHWYT/QXC5QmOT_4/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/kayla/gBAHXrHWYT/QXC5QmOT_4/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/kayla/gBAHXrHWYT/QXC5QmOT_4/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/kayla/gBAHXrHWYT/QXC5QmOT_4/idle_video.mp4?cache_busting=2025-07-23T15:08:55.487Z",
+      "created_at": "2025-07-23T15:08:55.487Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-NovaTurboMultilingualNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_kayla@xQFytx9Fdn",
+      "gender": "female",
+      "name": "Kayla",
+      "preview_url": "https://clips-presenters.d-id.com/v2/kayla/xQFytx9Fdn/pHEObaJ86G/preview.mp4",
+      "modified_at": "2025-07-23T15:08:10.845Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/kayla/xQFytx9Fdn/pHEObaJ86G/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/kayla/xQFytx9Fdn/pHEObaJ86G/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/kayla/xQFytx9Fdn/pHEObaJ86G/kayla_talking_preview_video_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/kayla/xQFytx9Fdn/pHEObaJ86G/idle_video.mp4?cache_busting=2025-07-23T15:08:10.845Z",
+      "created_at": "2025-07-23T15:08:10.845Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-NovaTurboMultilingualNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_kayla_black_shirt_1_green_screen@lGzjLKaQae",
+      "gender": "male",
+      "name": "Kayla",
+      "preview_url": "https://clips-presenters.d-id.com/v2/kayla_black_shirt_1_green_screen/lGzjLKaQae/Wna0kWW8SY/preview.mp4",
+      "modified_at": "2025-04-23T07:16:36.165Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/kayla_black_shirt_1_green_screen/lGzjLKaQae/Wna0kWW8SY/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/kayla_black_shirt_1_green_screen/lGzjLKaQae/Wna0kWW8SY/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/kayla_black_shirt_1_green_screen/lGzjLKaQae/Wna0kWW8SY/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/kayla_black_shirt_1_green_screen/lGzjLKaQae/Wna0kWW8SY/idle_video.mp4?cache_busting=2025-04-23T07:16:36.165Z",
+      "created_at": "2025-04-23T07:16:36.165Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-NovaTurboMultilingualNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_lana@TtreMLgSnL",
+      "gender": "female",
+      "name": "Lana",
+      "preview_url": "https://clips-presenters.d-id.com/v2/lana/TtreMLgSnL/b4HH6GpEhF/preview.mp4",
+      "modified_at": "2025-07-23T15:03:27.307Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/lana/TtreMLgSnL/b4HH6GpEhF/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/lana/TtreMLgSnL/b4HH6GpEhF/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/lana/TtreMLgSnL/b4HH6GpEhF/lana_talking_preview_video_video.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/lana/TtreMLgSnL/b4HH6GpEhF/idle_video.mp4?cache_busting=2025-07-23T15:03:27.307Z",
+      "created_at": "2025-07-23T15:03:27.307Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-SaraNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_lana@lr0vlc_700",
+      "gender": "female",
+      "name": "lana",
+      "preview_url": "https://clips-presenters.d-id.com/v2/lana/lr0vlc_700/aex0x8dzcy/preview.mp4",
+      "modified_at": "2025-02-10T16:30:10.221Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/lana/lr0vlc_700/aex0x8dzcy/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/lana/lr0vlc_700/aex0x8dzcy/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/lana/lr0vlc_700/aex0x8dzcy/talkingPreviewUrl.mp4",
+      "created_at": "2024-08-14T18:56:16.101Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_lana_black_suite_classroom@kOgpJoXaCn",
+      "gender": "female",
+      "name": "Lana_Black_Suit Classroom",
+      "preview_url": "https://clips-presenters.d-id.com/v2/lana_black_suite_classroom/kOgpJoXaCn/JvDGArSQIb/preview.mp4",
+      "modified_at": "2025-02-10T16:30:12.880Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/lana_black_suite_classroom/kOgpJoXaCn/JvDGArSQIb/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/lana_black_suite_classroom/kOgpJoXaCn/JvDGArSQIb/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/lana_black_suite_classroom/kOgpJoXaCn/JvDGArSQIb/talkingPreview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/lana_black_suite_classroom/kOgpJoXaCn/JvDGArSQIb/idle_video.mp4?cache_busting=2025-02-10T16:30:12.880Z",
+      "created_at": "2025-02-10T16:30:12.880Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_lana_black_suite_green_screen@BTQAFVuIxZ",
+      "gender": "female",
+      "name": "Lana",
+      "preview_url": "https://clips-presenters.d-id.com/v2/lana_black_suite_green_screen/BTQAFVuIxZ/iImYWzOFVu/preview.mp4",
+      "modified_at": "2025-02-10T16:30:13.233Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/lana_black_suite_green_screen/BTQAFVuIxZ/iImYWzOFVu/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/lana_black_suite_green_screen/BTQAFVuIxZ/iImYWzOFVu/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/lana_black_suite_green_screen/BTQAFVuIxZ/iImYWzOFVu/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/lana_black_suite_green_screen/BTQAFVuIxZ/iImYWzOFVu/idle_video.mp4?cache_busting=2025-02-10T16:30:13.233Z",
+      "created_at": "2024-08-14T18:56:16.101Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-SaraNeural"
+      },
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_lily@addf3c9auh",
+      "gender": "female",
+      "name": "lily",
+      "preview_url": "https://clips-presenters.d-id.com/v2/lily/addf3c9auh/wvbwmxlwcq/preview.mp4",
+      "modified_at": "2025-02-10T16:30:07.995Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/lily/addf3c9auh/wvbwmxlwcq/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/lily/addf3c9auh/wvbwmxlwcq/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/lily/addf3c9auh/wvbwmxlwcq/talkingPreview.mp4",
+      "created_at": "2024-08-01T18:56:16.101Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_lily_black_jakcet_green_screen@MsCeSpEt6l",
+      "gender": "female",
+      "name": "Lily",
+      "preview_url": "https://clips-presenters.d-id.com/v2/lily_black_jakcet_green_screen/MsCeSpEt6l/LQs48uw9kk/preview.mp4",
+      "modified_at": "2025-04-23T11:08:03.660Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/lily_black_jakcet_green_screen/MsCeSpEt6l/LQs48uw9kk/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/lily_black_jakcet_green_screen/MsCeSpEt6l/LQs48uw9kk/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/lily_black_jakcet_green_screen/MsCeSpEt6l/LQs48uw9kk/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/lily_black_jakcet_green_screen/MsCeSpEt6l/LQs48uw9kk/idle_video.mp4?cache_busting=2025-04-23T11:08:03.660Z",
+      "created_at": "2025-04-23T11:08:03.660Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-EmmaMultilingualNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_lily_red_shirt_green_screen@hMGCU9urt7",
+      "gender": "female",
+      "name": "Lily",
+      "preview_url": "https://clips-presenters.d-id.com/v2/lily_red_shirt_green_screen/hMGCU9urt7/gVyqIylqqg/preview.mp4",
+      "modified_at": "2025-04-23T10:53:14.813Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/lily_red_shirt_green_screen/hMGCU9urt7/gVyqIylqqg/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/lily_red_shirt_green_screen/hMGCU9urt7/gVyqIylqqg/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/lily_red_shirt_green_screen/hMGCU9urt7/gVyqIylqqg/talking_preview.mp4",
+      "idle_video": "https://clips-presenters.d-id.com/v2/lily_red_shirt_green_screen/hMGCU9urt7/gVyqIylqqg/idle_video.mp4?cache_busting=2025-04-23T10:53:14.813Z",
+      "created_at": "2025-04-23T10:53:14.813Z",
+      "voice": {
+        "type": "microsoft",
+        "voice_id": "en-US-EmmaMultilingualNeural"
+      },
+      "is_streamable": false,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_lucas@aswtxwoss5",
+      "gender": "male",
+      "name": "lucas",
+      "preview_url": "https://clips-presenters.d-id.com/v2/lucas/aswtxwoss5/_kdcoivrkj/preview.mp4",
+      "modified_at": "2025-02-10T16:30:11.963Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/lucas/aswtxwoss5/_kdcoivrkj/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/lucas/aswtxwoss5/_kdcoivrkj/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/lucas/aswtxwoss5/_kdcoivrkj/talkingPreview.mp4",
+      "created_at": "2024-07-14T18:56:16.101Z",
+      "is_streamable": true,
+      "status": "done"
+    },
+    {
+      "presenter_id": "v2_public_lucas@vngv2djh6d",
+      "gender": "male",
+      "name": "lucas",
+      "preview_url": "https://clips-presenters.d-id.com/v2/lucas/vngv2djh6d/vz7n_w_05r/preview.mp4",
+      "modified_at": "2025-02-10T16:30:10.916Z",
+      "owner_id": "PUBLIC_D-ID",
+      "thumbnail_url": "https://clips-presenters.d-id.com/v2/lucas/vngv2djh6d/vz7n_w_05r/thumbnail.png",
+      "image_url": "https://clips-presenters.d-id.com/v2/lucas/vngv2djh6d/vz7n_w_05r/image.png",
+      "talking_preview_url": "https://clips-presenters.d-id.com/v2/lucas/vngv2djh6d/vz7n_w_05r/talkingPreview.mp4",
+      "created_at": "2024-07-14T18:56:16.101Z",
+      "is_streamable": true,
+      "status": "done"
+    }
+  ]
+}

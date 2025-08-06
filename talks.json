@@ -1,0 +1,1670 @@
+{
+  "talks": [
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null,
+          "logo",
+          "skip-credits"
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "org_id": null,
+        "owner_id": "google-oauth2|108986106772061763131",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "script": {
+        "subtitles": false,
+        "audio_url": "s3://d-id-presenters-prod/resources/silence.wav",
+        "type": "audio",
+        "reduce_noise": false
+      },
+      "webhook": "https://lmgid6rhacfsk72hoz42fjzadu0mfsre.lambda-url.us-west-2.on.aws/agents/webhooks",
+      "metadata": {
+        "driver_url": "bank://lively/driver-06/flipped",
+        "mouth_open": false,
+        "num_faces": 1,
+        "num_frames": 499,
+        "processing_fps": 45.59563524588292,
+        "resolution": [
+          608,
+          1080
+        ],
+        "size_kib": 1372.203125
+      },
+      "audio_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_47skAqSeu8rZ8-qCNfzKy/audio.wav?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754429180&Signature=V%2FB8dFrhVbEYB6%2Bt7e2Inpcf0RI%3D",
+      "created_at": "2025-08-04T21:26:20.880Z",
+      "face": {
+        "mask_confidence": 1,
+        "detection": [
+          425,
+          102,
+          591,
+          333
+        ],
+        "overlap": "no",
+        "size": 367,
+        "top_left": [
+          328,
+          15
+        ],
+        "face_id": 0,
+        "detect_confidence": 0.999832034111023
+      },
+      "user_data": "{\"agent_id\":\"v2_agt_tYVOcXV5\",\"owner_id\":\"google-oauth2|108986106772061763131\",\"id\":\"google-oauth2|108986106772061763131\",\"email\":\"aitekphsoftware@gmail.com\",\"features\":\"stitch,no-watermark,clips:write,api-keys:write,subtitles,translation,scene,premium-plus:skip-speaker-validation,,logo,skip-credits\"}",
+      "config": {
+        "stitch": true,
+        "align_driver": true,
+        "sharpen": true,
+        "normalization_factor": 1,
+        "result_format": ".mp4",
+        "fluent": true,
+        "output_resolution": 1080,
+        "pad_audio": 0,
+        "reduce_noise": false,
+        "auto_match": true,
+        "show_watermark": false,
+        "motion_factor": 0.85,
+        "optimize_audio": false,
+        "align_expand_factor": 0.3
+      },
+      "source_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_47skAqSeu8rZ8-qCNfzKy/source/image.png?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754429180&Signature=9PBbUaSFsvnc3fzRlA2fuMJeMh8%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://lively/driver-06/flipped/",
+      "modified_at": "2025-08-04T21:26:33.218Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "subtitles": false,
+      "id": "tlk_47skAqSeu8rZ8-qCNfzKy",
+      "duration": 20,
+      "started_at": "2025-08-04T21:26:21.478",
+      "result_url": "https://d-id-presenters-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/v2_agt_tYVOcXV5/idle_1754342779405.mp4?AWSAccessKeyId=ASIA5CUMPJBIBM5NHK6H&Content-Type=video%2Fmp4&Expires=1754346379&Signature=%2FJmLUrxoOuWV5fwVLmUpLVWtDxQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEBYaCXVzLXdlc3QtMiJHMEUCIBZ0HkyyQMMuDGxYit8UOz5C%2B8b%2FQ7JE8YBrIVhP3%2FxmAiEAq%2Fmch26WKMKowzS4LydmUXF6MVeaL3fC1lMz8clt2JUqkQMITxAEGgw4OTkwMTY1MDk1MjAiDDGl1mPnWjhgVPFkFyruArUzcpN8cwC5Cod7Rd2NqDhgoo5%2Fyd%2FbfaURHWOhLc%2Bd3hDa78BC4x963rPq29QpYLt2WO%2BKCGX9C%2FVBbDNUUVVkR83%2FH0cH9UcWcd4gZ9hh7%2FYZIfP7d4U4Ua267ItqQHZg0HV4W6AOXEEFO9WaHaF5f6dMXIdvvaWlQACKIIIP%2Bj1LeuY%2B1ryCh1F6NQgMeO3Hr42CoxNoUYylI8I2RUe%2BNK4dM6QMtmpdke2QRRSQYu1NuPfi1UFU%2BTG68qBs%2Fi%2Ft4VhX7NKPZHb6xUuC6PXHsS5ZJeWk1RTJ7QSuMYeD4oy%2B1ODq3h89x14QG2kGOMF7WOXK0K2%2BWnt1oYWlXWMvFtIn2mT%2BMfXU9EpFBSlmPbtX1U81MTjMEiDDAYfjiaPWweHN05lJaS%2BtTOpWwNwoM8d%2FHfOHO%2BO%2FdtqrsUkqy7ymll4pQnV5GbMaOuZq%2BHCKIwNTjU6hDbrGqV%2F6AnsbIOnshtsLQvZM48c%2F7TC9ysTEBjqdARr0OPOup8dd00vljAuC81WFO8QyswZcTTBi3MKECEmCr590Dx88bz%2F77WimDRRnVaVZ8DWZTnwbj4%2BjAnkJehJBH5AkIXuNfD06XYOlh%2BFf1XZsZm6DCGiS3i0YDK2l7YAbFGxw8KtMiLQRgM1D0ogdsGJmR2MUgw20r9hT0gqgXzakTu9MbEYweQM%2Bhs47KqCKgjTKGHcdsFQ0%2B34%3D"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null,
+          "logo",
+          "skip-credits"
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "owner_id": "google-oauth2|108986106772061763131",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "script": {
+        "subtitles": false,
+        "audio_url": "s3://d-id-presenters-prod/resources/silence.wav",
+        "type": "audio",
+        "reduce_noise": false
+      },
+      "webhook": "https://lmgid6rhacfsk72hoz42fjzadu0mfsre.lambda-url.us-west-2.on.aws/agents/webhooks",
+      "metadata": {
+        "driver_url": "bank://lively/driver-06/flipped",
+        "mouth_open": false,
+        "num_faces": 1,
+        "num_frames": 499,
+        "processing_fps": 45.88225601673608,
+        "resolution": [
+          608,
+          1080
+        ],
+        "size_kib": 1372.203125
+      },
+      "audio_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk__xcm1HuiPdZnZxczfOO9d/audio.wav?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754429120&Signature=iE8VAS2uNTnsAlmGgXj%2BFljRIZU%3D",
+      "created_at": "2025-08-04T21:25:20.734Z",
+      "face": {
+        "mask_confidence": 1,
+        "detection": [
+          425,
+          102,
+          591,
+          333
+        ],
+        "overlap": "no",
+        "size": 367,
+        "top_left": [
+          328,
+          15
+        ],
+        "face_id": 0,
+        "detect_confidence": 0.999832034111023
+      },
+      "user_data": "{\"agent_id\":\"agt_tYVOcXV5\",\"owner_id\":\"google-oauth2|108986106772061763131\",\"id\":\"google-oauth2|108986106772061763131\",\"email\":\"aitekphsoftware@gmail.com\",\"features\":\"stitch,no-watermark,clips:write,api-keys:write,subtitles,translation,scene,premium-plus:skip-speaker-validation,,logo,skip-credits\"}",
+      "config": {
+        "stitch": true,
+        "align_driver": true,
+        "sharpen": true,
+        "normalization_factor": 1,
+        "result_format": ".mp4",
+        "fluent": true,
+        "output_resolution": 1080,
+        "pad_audio": 0,
+        "reduce_noise": false,
+        "auto_match": true,
+        "show_watermark": false,
+        "motion_factor": 0.85,
+        "optimize_audio": false,
+        "align_expand_factor": 0.3
+      },
+      "source_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk__xcm1HuiPdZnZxczfOO9d/source/image.png?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754429120&Signature=csKnLxdkHAkfMKkziQR5easUoC0%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://lively/driver-06/flipped/",
+      "modified_at": "2025-08-04T21:25:32.598Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "subtitles": false,
+      "id": "tlk__xcm1HuiPdZnZxczfOO9d",
+      "duration": 20,
+      "started_at": "2025-08-04T21:25:20.877",
+      "result_url": "https://d-id-presenters-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/agt_tYVOcXV5/idle_1754342719262.mp4?AWSAccessKeyId=ASIA5CUMPJBIBM5NHK6H&Content-Type=video%2Fmp4&Expires=1754346319&Signature=7eL%2FFtDdftceSzT9KRu%2BGQjcaVE%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEBYaCXVzLXdlc3QtMiJHMEUCIBZ0HkyyQMMuDGxYit8UOz5C%2B8b%2FQ7JE8YBrIVhP3%2FxmAiEAq%2Fmch26WKMKowzS4LydmUXF6MVeaL3fC1lMz8clt2JUqkQMITxAEGgw4OTkwMTY1MDk1MjAiDDGl1mPnWjhgVPFkFyruArUzcpN8cwC5Cod7Rd2NqDhgoo5%2Fyd%2FbfaURHWOhLc%2Bd3hDa78BC4x963rPq29QpYLt2WO%2BKCGX9C%2FVBbDNUUVVkR83%2FH0cH9UcWcd4gZ9hh7%2FYZIfP7d4U4Ua267ItqQHZg0HV4W6AOXEEFO9WaHaF5f6dMXIdvvaWlQACKIIIP%2Bj1LeuY%2B1ryCh1F6NQgMeO3Hr42CoxNoUYylI8I2RUe%2BNK4dM6QMtmpdke2QRRSQYu1NuPfi1UFU%2BTG68qBs%2Fi%2Ft4VhX7NKPZHb6xUuC6PXHsS5ZJeWk1RTJ7QSuMYeD4oy%2B1ODq3h89x14QG2kGOMF7WOXK0K2%2BWnt1oYWlXWMvFtIn2mT%2BMfXU9EpFBSlmPbtX1U81MTjMEiDDAYfjiaPWweHN05lJaS%2BtTOpWwNwoM8d%2FHfOHO%2BO%2FdtqrsUkqy7ymll4pQnV5GbMaOuZq%2BHCKIwNTjU6hDbrGqV%2F6AnsbIOnshtsLQvZM48c%2F7TC9ysTEBjqdARr0OPOup8dd00vljAuC81WFO8QyswZcTTBi3MKECEmCr590Dx88bz%2F77WimDRRnVaVZ8DWZTnwbj4%2BjAnkJehJBH5AkIXuNfD06XYOlh%2BFf1XZsZm6DCGiS3i0YDK2l7YAbFGxw8KtMiLQRgM1D0ogdsGJmR2MUgw20r9hT0gqgXzakTu9MbEYweQM%2Bhs47KqCKgjTKGHcdsFQ0%2B34%3D"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null,
+          "logo",
+          "skip-credits"
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "org_id": null,
+        "owner_id": "google-oauth2|108986106772061763131",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "script": {
+        "subtitles": false,
+        "audio_url": "s3://d-id-presenters-prod/resources/silence.wav",
+        "type": "audio",
+        "reduce_noise": false
+      },
+      "webhook": "https://lmgid6rhacfsk72hoz42fjzadu0mfsre.lambda-url.us-west-2.on.aws/agents/webhooks",
+      "metadata": {
+        "driver_url": "bank://lively/driver-06/flipped",
+        "mouth_open": false,
+        "num_faces": 1,
+        "num_frames": 499,
+        "processing_fps": 44.64106392806115,
+        "resolution": [
+          1080,
+          608
+        ],
+        "size_kib": 618.8095703125
+      },
+      "audio_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_Byp8oGFavebAOIQNpZH4g/audio.wav?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754383012&Signature=KBhM8Yol4lcSYTf1r1TTft%2FukNs%3D",
+      "created_at": "2025-08-04T08:36:52.697Z",
+      "face": {
+        "mask_confidence": 1,
+        "detection": [
+          908,
+          48,
+          1012,
+          185
+        ],
+        "overlap": "no",
+        "size": 177,
+        "top_left": [
+          871,
+          28
+        ],
+        "face_id": 0,
+        "detect_confidence": 0.9959849119186401
+      },
+      "user_data": "{\"agent_id\":\"v2_agt_NqLT36MJ\",\"owner_id\":\"google-oauth2|108986106772061763131\",\"id\":\"google-oauth2|108986106772061763131\",\"email\":\"aitekphsoftware@gmail.com\",\"features\":\"stitch,no-watermark,clips:write,api-keys:write,subtitles,translation,scene,premium-plus:skip-speaker-validation,,logo,skip-credits\"}",
+      "config": {
+        "stitch": true,
+        "align_driver": true,
+        "sharpen": true,
+        "normalization_factor": 1,
+        "result_format": ".mp4",
+        "fluent": true,
+        "output_resolution": 1080,
+        "pad_audio": 0,
+        "reduce_noise": false,
+        "auto_match": true,
+        "show_watermark": false,
+        "motion_factor": 0.85,
+        "optimize_audio": false,
+        "align_expand_factor": 0.3
+      },
+      "source_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_Byp8oGFavebAOIQNpZH4g/source/image.jpeg?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754383012&Signature=0cDvKsvaQoyCtQtsFCzVnG80kUo%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://lively/driver-06/flipped/",
+      "modified_at": "2025-08-04T08:37:04.637Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "subtitles": false,
+      "id": "tlk_Byp8oGFavebAOIQNpZH4g",
+      "duration": 20,
+      "started_at": "2025-08-04T08:36:52.790",
+      "result_url": "https://d-id-presenters-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/v2_agt_NqLT36MJ/idle_1754296611375.mp4?AWSAccessKeyId=ASIA5CUMPJBIJQN3J36A&Content-Type=video%2Fmp4&Expires=1754300211&Signature=Na43wzYnnaEhN5oXlDuc8JV85kU%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEAkaCXVzLXdlc3QtMiJGMEQCIGDZHeXzq%2BqTMPIWiOfCAmwLcNkEAzzAQtd0072FurCXAiAaA5FpQ%2FEGQyZnQRYa6djQ2IjbwHa%2FXS5sTI%2BUvRfa5iqRAwhCEAQaDDg5OTAxNjUwOTUyMCIMwa%2BVxjDEwPIATzttKu4CwyLFEunK6k8sgNvhRw0CZOtVYZVqNoiHHz7J1RThoNAvBk%2BlVAmO5iLcLQwZYJjpvCJ2y1PVJDNcV%2FP3mhCPmen0N5%2Bw9rGJ49hG79H2OWC%2BIt%2FDvB4Kqptb9yq7ZzRBGCnsdsjfD6fugeNi70zlkAQKatHzCf3EctfONlZeWQTnlggNv6%2BYUm6L%2FoHdjbi3vkIaZXKkSiY4I9WmgVE9s7Bs9Ojmn%2FFB3HgNtwTKo6RRt%2FVsSu043r2SM9u0BSgfA%2Bf3Y3PYN94pZjQAGG1IY0nGFB%2BlValA3pUE9bFnhh6bZCEImjEl2bqPl3h1OAZSALII0jFNYmRF9czOlE%2F1QRaXSKS75Ss6bou2EgYmPPmuPGRFaTuze4wAmKjqfd6D28yhqdNfZ27J%2BUs0dw942%2FQvGCnC29Vrgpx6pogBDxAuNbuP%2F%2B6mxXQ7Eo2huK5dBOqlG9Rz%2FeleJLRjeaxUeb2tgO7ni1r7SxobibCPMJDcwcQGOp4B0iB5gHEvrAabVrE%2BrGASdH%2BqyQ4WjJ8Z8C%2FQ4egL9fn0pDHC1OcBw3P72uc%2BpkHIkgbJFjXLDwpIjgIUHOdeBI3thBmMwNiN8FKaAiQQqQ8M7e5nomFTjpEh%2Bsuk8EOsEn9Tu%2FEFNYBqTrRYcM4Q7WC%2FYf2WiHlJIpbO2S5s1vfiIsjaiGWufR9wjgwkuTNJetOMqjGyALzpqU78nCM%3D"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null,
+          "skip-credits"
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "authorizer": "bearer",
+        "org_id": null,
+        "owner_id": "google-oauth2|108986106772061763131",
+        "domain": "https://studio.d-id.com",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "script": {
+        "length": 78,
+        "ssml": false,
+        "subtitles": false,
+        "type": "text",
+        "provider": {
+          "type": "elevenlabs",
+          "voice_id": "2EiwWnXFnvU5JabPnv8n",
+          "model_id": "eleven_multilingual_v2"
+        }
+      },
+      "metadata": {
+        "driver_url": "bank://lively/driver-06/original",
+        "mouth_open": false,
+        "num_faces": 1,
+        "num_frames": 150,
+        "processing_fps": 28.41786384811978,
+        "resolution": [
+          1280,
+          720
+        ],
+        "size_kib": 212.2451171875
+      },
+      "audio_url": "s3://d-id-projects-prod/google-oauth2|108986106772061763131/prj_mYJF8636qsbY-Kw0Kuox_/scenes/Y7J0LRItsK/data/audio.wav",
+      "created_at": "2025-08-04T08:30:50.398Z",
+      "face": {
+        "mask_confidence": 1,
+        "detection": [
+          910,
+          46,
+          1010,
+          184
+        ],
+        "overlap": "no",
+        "size": 179,
+        "top_left": [
+          870,
+          25
+        ],
+        "face_id": 0,
+        "detect_confidence": 1
+      },
+      "user_data": "{\"project_id\":\"prj_mYJF8636qsbY-Kw0Kuox_\",\"scene_id\":\"Y7J0LRItsK\",\"skip_final_output\":true,\"position\":{\"top\":0,\"left\":0,\"height\":1080}}",
+      "config": {
+        "stitch": true,
+        "align_driver": true,
+        "sharpen": true,
+        "normalization_factor": 1,
+        "result_format": ".mp4",
+        "fluent": false,
+        "pad_audio": 0,
+        "reduce_noise": false,
+        "auto_match": true,
+        "show_watermark": false,
+        "motion_factor": 1,
+        "optimize_audio": false,
+        "align_expand_factor": 0.3
+      },
+      "source_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_orK-siDBZSiAQJ7RO7S7M/source/image.jpeg?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754382650&Signature=Hy%2BLCJhg1AI644wPI71nz%2FSSLkc%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://lively/",
+      "modified_at": "2025-08-04T08:30:56.439Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "subtitles": false,
+      "id": "tlk_orK-siDBZSiAQJ7RO7S7M",
+      "duration": 6.03425,
+      "started_at": "2025-08-04T08:30:50.798",
+      "result_url": "s3://d-id-projects-prod/google-oauth2|108986106772061763131/prj_mYJF8636qsbY-Kw0Kuox_/scenes/Y7J0LRItsK/result.mp4"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null,
+          "logo",
+          "skip-credits"
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "org_id": null,
+        "owner_id": "google-oauth2|108986106772061763131",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "script": {
+        "subtitles": false,
+        "audio_url": "s3://d-id-presenters-prod/resources/silence.wav",
+        "type": "audio",
+        "reduce_noise": false
+      },
+      "webhook": "https://lmgid6rhacfsk72hoz42fjzadu0mfsre.lambda-url.us-west-2.on.aws/agents/webhooks",
+      "metadata": {
+        "driver_url": "bank://lively/driver-06/flipped",
+        "mouth_open": false,
+        "num_faces": 1,
+        "num_frames": 499,
+        "processing_fps": 41.72613058372348,
+        "resolution": [
+          1080,
+          720
+        ],
+        "size_kib": 1249.361328125
+      },
+      "audio_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_HaPnEeC5yOGtkvcuKCVzi/audio.wav?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754370394&Signature=JtROXIySb3gyIx6IHmXp8ZZTJm8%3D",
+      "created_at": "2025-08-04T05:06:34.621Z",
+      "face": {
+        "mask_confidence": 1,
+        "detection": [
+          678,
+          57,
+          762,
+          163
+        ],
+        "overlap": "no",
+        "size": 175,
+        "top_left": [
+          632,
+          9
+        ],
+        "face_id": 0,
+        "detect_confidence": 0.9984632730484009
+      },
+      "user_data": "{\"agent_id\":\"v2_agt_oqI9ZMaG\",\"owner_id\":\"google-oauth2|108986106772061763131\",\"id\":\"google-oauth2|108986106772061763131\",\"email\":\"aitekphsoftware@gmail.com\",\"features\":\"stitch,no-watermark,clips:write,api-keys:write,subtitles,translation,scene,premium-plus:skip-speaker-validation,,logo,skip-credits\"}",
+      "config": {
+        "stitch": true,
+        "align_driver": true,
+        "sharpen": true,
+        "normalization_factor": 1,
+        "result_format": ".mp4",
+        "fluent": true,
+        "output_resolution": 1080,
+        "pad_audio": 0,
+        "reduce_noise": false,
+        "auto_match": true,
+        "show_watermark": false,
+        "motion_factor": 0.85,
+        "optimize_audio": false,
+        "align_expand_factor": 0.3
+      },
+      "source_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_HaPnEeC5yOGtkvcuKCVzi/source/image.png?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754370394&Signature=x6oiJd6RVy6wUJwC3VBLUgcbYN4%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://lively/driver-06/flipped/",
+      "modified_at": "2025-08-04T05:06:47.441Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "subtitles": false,
+      "id": "tlk_HaPnEeC5yOGtkvcuKCVzi",
+      "duration": 20,
+      "started_at": "2025-08-04T05:06:34.756",
+      "result_url": "https://d-id-presenters-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/v2_agt_oqI9ZMaG/idle_1754283993232.mp4?AWSAccessKeyId=ASIA5CUMPJBIH4BWTR7C&Content-Type=video%2Fmp4&Expires=1754287593&Signature=5OPayGNIMrAdsGLvmF86OrE8Rq0%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEAUaCXVzLXdlc3QtMiJHMEUCIGxkE%2Fzcfea9bBKeicW1qVglXNZXWK0NiA8gjs6CN%2FqnAiEA9Cy0ldBqBaeteHX9JSdMaXmd3AGeccO0s5QRXB9NUbQqkQMIPhAEGgw4OTkwMTY1MDk1MjAiDO9XRxQ6LxQLtZdKjCruAjP2PYrjeMPAa8rUSjm%2Ba0Q9alYeXZ8KZLTyYS%2F5ZEkNvdGDru0KksULXS62jGQ2TWNQYC1HCth%2FBJThDKCrE3RrGMAhVGmHau6aXIOnXmfr%2B2dVuygJeJYCl%2F8dZ8uIqK9IoJ8YtWDd5%2Bl0%2Bdju9J47v8DTwSAJIs%2B6mhMURt8sNGklIFODlSC2yNuEpo2pohc%2BcwaGkjsqJ3z5CkS5pNmP0TkMlIb1gtlUAjMC5%2F92L9xZRg6zgzvemm1tyQ5M9bpe1Ak8%2BLuZqU0ve%2BA4499D4lv1c%2Bg7tNC%2F17gSjFy9NUHHsCp1XYktk%2FyzEAWV05ubZoWG5IZSOTcXEKZJYHzVJhQHFJ64N7s5HbDAwGAXDapAyLxX4LozJpwPUST1d3%2BSsecgDUDf%2FRr2LEJ6vBaajsNQIXYM%2FeVS5dLOaId55tPvYWStrfSQ%2B4Te3os7kQ29fOduIria5v%2BgCm6hdKlpRh4vej4A6hxHFjfpyjDS%2FsDEBjqdAbizDimgPdphjfMNXz5K%2BMsvSptStva9UVIaU91BoLRx464OpOqEgEBSSwtZ1%2BGlCoEFD8FKFZ4cVUvvjIflh%2FAb%2Fxh%2FImP20Ld9zyHYimJvXON1DALJJEF%2FDbHa4FEhxQtFzDY4U2OmVYyRZ8XPkJ%2FvDmQpbbDda6GhKsKpSYEqzs2dVuPO8ttL2SIL04ryXpOxgqDIAWKZeSILMMA%3D"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null,
+          "logo",
+          "skip-credits"
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "owner_id": "google-oauth2|108986106772061763131",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "script": {
+        "subtitles": false,
+        "audio_url": "s3://d-id-presenters-prod/resources/silence.wav",
+        "type": "audio",
+        "reduce_noise": false
+      },
+      "webhook": "https://lmgid6rhacfsk72hoz42fjzadu0mfsre.lambda-url.us-west-2.on.aws/agents/webhooks",
+      "metadata": {
+        "driver_url": "bank://lively/driver-06/flipped",
+        "mouth_open": false,
+        "num_faces": 1,
+        "num_frames": 499,
+        "processing_fps": 39.94774930457693,
+        "resolution": [
+          1080,
+          720
+        ],
+        "size_kib": 1249.361328125
+      },
+      "audio_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_BnjISO3ei14uyeL93ildX/audio.wav?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754370288&Signature=jZrMDN5Q%2FNmZIpQ72ij8O4xO7Kw%3D",
+      "created_at": "2025-08-04T05:04:48.580Z",
+      "face": {
+        "mask_confidence": 1,
+        "detection": [
+          678,
+          57,
+          762,
+          163
+        ],
+        "overlap": "no",
+        "size": 175,
+        "top_left": [
+          632,
+          9
+        ],
+        "face_id": 0,
+        "detect_confidence": 0.9984632730484009
+      },
+      "user_data": "{\"agent_id\":\"agt_oqI9ZMaG\",\"owner_id\":\"google-oauth2|108986106772061763131\",\"id\":\"google-oauth2|108986106772061763131\",\"email\":\"aitekphsoftware@gmail.com\",\"features\":\"stitch,no-watermark,clips:write,api-keys:write,subtitles,translation,scene,premium-plus:skip-speaker-validation,,logo,skip-credits\"}",
+      "config": {
+        "stitch": true,
+        "align_driver": true,
+        "sharpen": true,
+        "normalization_factor": 1,
+        "result_format": ".mp4",
+        "fluent": true,
+        "output_resolution": 1080,
+        "pad_audio": 0,
+        "reduce_noise": false,
+        "auto_match": true,
+        "show_watermark": false,
+        "motion_factor": 0.85,
+        "optimize_audio": false,
+        "align_expand_factor": 0.3
+      },
+      "source_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_BnjISO3ei14uyeL93ildX/source/image.png?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754370288&Signature=s8OHdnJxv6v4cJuM%2Bcn8OlBvi2c%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://lively/driver-06/flipped/",
+      "modified_at": "2025-08-04T05:05:01.902Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "subtitles": false,
+      "id": "tlk_BnjISO3ei14uyeL93ildX",
+      "duration": 20,
+      "started_at": "2025-08-04T05:04:48.737",
+      "result_url": "https://d-id-presenters-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/agt_oqI9ZMaG/idle_1754283886140.mp4?AWSAccessKeyId=ASIA5CUMPJBIH4BWTR7C&Content-Type=video%2Fmp4&Expires=1754287486&Signature=5k7%2FIlQvaTJJ%2BjaYypgT%2FY0%2BKFE%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEAUaCXVzLXdlc3QtMiJHMEUCIGxkE%2Fzcfea9bBKeicW1qVglXNZXWK0NiA8gjs6CN%2FqnAiEA9Cy0ldBqBaeteHX9JSdMaXmd3AGeccO0s5QRXB9NUbQqkQMIPhAEGgw4OTkwMTY1MDk1MjAiDO9XRxQ6LxQLtZdKjCruAjP2PYrjeMPAa8rUSjm%2Ba0Q9alYeXZ8KZLTyYS%2F5ZEkNvdGDru0KksULXS62jGQ2TWNQYC1HCth%2FBJThDKCrE3RrGMAhVGmHau6aXIOnXmfr%2B2dVuygJeJYCl%2F8dZ8uIqK9IoJ8YtWDd5%2Bl0%2Bdju9J47v8DTwSAJIs%2B6mhMURt8sNGklIFODlSC2yNuEpo2pohc%2BcwaGkjsqJ3z5CkS5pNmP0TkMlIb1gtlUAjMC5%2F92L9xZRg6zgzvemm1tyQ5M9bpe1Ak8%2BLuZqU0ve%2BA4499D4lv1c%2Bg7tNC%2F17gSjFy9NUHHsCp1XYktk%2FyzEAWV05ubZoWG5IZSOTcXEKZJYHzVJhQHFJ64N7s5HbDAwGAXDapAyLxX4LozJpwPUST1d3%2BSsecgDUDf%2FRr2LEJ6vBaajsNQIXYM%2FeVS5dLOaId55tPvYWStrfSQ%2B4Te3os7kQ29fOduIria5v%2BgCm6hdKlpRh4vej4A6hxHFjfpyjDS%2FsDEBjqdAbizDimgPdphjfMNXz5K%2BMsvSptStva9UVIaU91BoLRx464OpOqEgEBSSwtZ1%2BGlCoEFD8FKFZ4cVUvvjIflh%2FAb%2Fxh%2FImP20Ld9zyHYimJvXON1DALJJEF%2FDbHa4FEhxQtFzDY4U2OmVYyRZ8XPkJ%2FvDmQpbbDda6GhKsKpSYEqzs2dVuPO8ttL2SIL04ryXpOxgqDIAWKZeSILMMA%3D"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null,
+          "skip-credits"
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "authorizer": "bearer",
+        "org_id": null,
+        "owner_id": "google-oauth2|108986106772061763131",
+        "domain": "https://studio.d-id.com",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "script": {
+        "length": 81,
+        "ssml": true,
+        "subtitles": false,
+        "type": "text",
+        "provider": {
+          "type": "microsoft",
+          "voice_id": "en-US-AlloyTurboMultilingualNeural",
+          "voice_config": {
+            "rate": "0.9",
+            "style": "empathetic"
+          }
+        }
+      },
+      "metadata": {
+        "driver_url": "bank://lively/driver-03/original",
+        "mouth_open": false,
+        "num_faces": 1,
+        "num_frames": 124,
+        "processing_fps": 27.03654403195545,
+        "resolution": [
+          1280,
+          720
+        ],
+        "size_kib": 199.697265625
+      },
+      "audio_url": "s3://d-id-projects-prod/google-oauth2|108986106772061763131/prj_E-RR0iZPZ_Bbvk1iZNtYy/scenes/zc6GYmj8by/data/audio.wav",
+      "created_at": "2025-08-03T19:28:43.188Z",
+      "face": {
+        "mask_confidence": 1,
+        "detection": [
+          702,
+          48,
+          760,
+          128
+        ],
+        "overlap": "no",
+        "size": 125,
+        "top_left": [
+          670,
+          21
+        ],
+        "face_id": 0,
+        "detect_confidence": 1
+      },
+      "user_data": "{\"project_id\":\"prj_E-RR0iZPZ_Bbvk1iZNtYy\",\"scene_id\":\"zc6GYmj8by\",\"skip_final_output\":true,\"position\":{\"top\":2.142286348316702e-12,\"left\":-95.44619052987674,\"height\":1079.999999999998}}",
+      "config": {
+        "stitch": true,
+        "align_driver": true,
+        "sharpen": true,
+        "normalization_factor": 1,
+        "result_format": ".mp4",
+        "fluent": false,
+        "pad_audio": 0,
+        "reduce_noise": false,
+        "auto_match": true,
+        "show_watermark": false,
+        "motion_factor": 1,
+        "optimize_audio": false,
+        "align_expand_factor": 0.3
+      },
+      "source_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_VCKBe2uc3qfjflQULbBrr/source/image-fixed.png?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754335723&Signature=MDLruXkK11RqKKAGAm9tiG%2FXTQI%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://lively/",
+      "modified_at": "2025-08-03T19:28:48.857Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "subtitles": false,
+      "id": "tlk_VCKBe2uc3qfjflQULbBrr",
+      "duration": 4.968,
+      "started_at": "2025-08-03T19:28:43.866",
+      "result_url": "s3://d-id-projects-prod/google-oauth2|108986106772061763131/prj_E-RR0iZPZ_Bbvk1iZNtYy/scenes/zc6GYmj8by/result.mp4"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null,
+          "logo",
+          "skip-credits"
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "org_id": null,
+        "owner_id": "google-oauth2|108986106772061763131",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "script": {
+        "subtitles": false,
+        "audio_url": "s3://d-id-presenters-prod/resources/silence.wav",
+        "type": "audio",
+        "reduce_noise": false
+      },
+      "webhook": "https://lmgid6rhacfsk72hoz42fjzadu0mfsre.lambda-url.us-west-2.on.aws/agents/webhooks",
+      "metadata": {
+        "driver_url": "bank://lively/driver-06/flipped",
+        "mouth_open": false,
+        "num_faces": 1,
+        "num_frames": 499,
+        "processing_fps": 49.78240897176779,
+        "resolution": [
+          1080,
+          588
+        ],
+        "size_kib": 705.080078125
+      },
+      "audio_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_ZOzY6pG0O73gAy9hLZpB5/audio.wav?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754334724&Signature=fFzpEFZXCAwXASGTDo%2FO9EAMsm0%3D",
+      "created_at": "2025-08-03T19:12:04.999Z",
+      "face": {
+        "mask_confidence": 0.9487179487179487,
+        "detection": [
+          672,
+          41,
+          732,
+          119
+        ],
+        "overlap": "no",
+        "size": 121,
+        "top_left": [
+          648,
+          5
+        ],
+        "face_id": 0,
+        "detect_confidence": 0.9995317459106445
+      },
+      "user_data": "{\"agent_id\":\"v2_agt_YHeBLiYy\",\"owner_id\":\"google-oauth2|108986106772061763131\",\"id\":\"google-oauth2|108986106772061763131\",\"email\":\"aitekphsoftware@gmail.com\",\"features\":\"stitch,no-watermark,clips:write,api-keys:write,subtitles,translation,scene,premium-plus:skip-speaker-validation,,logo,skip-credits\"}",
+      "config": {
+        "stitch": true,
+        "align_driver": true,
+        "sharpen": true,
+        "normalization_factor": 1,
+        "result_format": ".mp4",
+        "fluent": true,
+        "output_resolution": 1080,
+        "pad_audio": 0,
+        "reduce_noise": false,
+        "auto_match": true,
+        "show_watermark": false,
+        "motion_factor": 0.85,
+        "optimize_audio": false,
+        "align_expand_factor": 0.3
+      },
+      "source_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_ZOzY6pG0O73gAy9hLZpB5/source/image.jpeg?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754334724&Signature=6grZ0Dpb8J6eo7Eme9KhbBf30PM%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://lively/driver-06/flipped/",
+      "modified_at": "2025-08-03T19:12:15.891Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "subtitles": false,
+      "id": "tlk_ZOzY6pG0O73gAy9hLZpB5",
+      "duration": 20,
+      "started_at": "2025-08-03T19:12:05.094",
+      "result_url": "https://d-id-presenters-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/v2_agt_YHeBLiYy/idle_1754248323994.mp4?AWSAccessKeyId=ASIA5CUMPJBIDVVAGS32&Content-Type=video%2Fmp4&Expires=1754251923&Signature=4660Vwx4wO42F5KUFxRkN%2Bct1FU%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEPv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCLXuqjJbV0NQLEqrSpC03xTaom%2BVFxvmth7O9HwwiFlQIhAMzCtEjD6BNjZsTubKJmeX9IbmugqZ4HofnnuL7%2BR%2BW%2BKpEDCDQQBBoMODk5MDE2NTA5NTIwIgw6TQQXsPOxrKb1vrsq7gInQyqjP7im9zPAWGVRnbnUwuDoaIsPMSSotlHwIckl2rnwU5u6K3tUz4p%2B9DXdhF%2B83%2Blb4Viz63ttHjKX7BBWaREOboGNRSQCw5JjK2s%2Fb1x1ryR6%2BLl9BZ3AJWY1bLnSIB12ZT%2FqnbNgrtbPQxCIBxlA7LhFJ214Eh8en57DgSBtNn3RFwgkdwIzkzeEw%2F3UNWB3mZNqAFmhZGU9mChDiKl9Pbg9P9zBAJSaoKb4cdTv%2BZJ2t6JE408MPmJoYFTQ6Z0L7dXZqDhrNpC%2BEUWyd2u1LDWoVy0Or4OWyS1nYDTWt7wVsJB7Uytp4zPaWOPQYT%2BFl2yO9n2%2BIvdJZJShTsQOVwvpuCG46Q8xsEzsKdqRGcc361X%2BrDYYSl8NXa1PMbrdN2CsGi8QgBl%2BV1MlN5igzffHQthPgUvdQN21zoAx2lnvSbGB5k3hK0kD6KdwO%2FWnW2ABbzU9Q2v%2FpOviUm0I37GOqAMLcGzotDcw7eG%2BxAY6nAF6mUdyDENqeBy5s2tqR70Mi6qBRTio6GSLoqbYBjXC7ypBhSWvu9qrYAiTD5Jog6wjP4KFsUES%2BjJqCz1ZvnmS%2BNG7iaScTV0OFYpnAbpLWFqtTDsywgXjWJ7QZ0h6P9RASPysZNJVE39Avs%2F8AkBUiNzr5uTYNxYXs4inRbg0X4%2B%2FGZAEIgBLfs5u%2FUmdmtwr4dkv0vh%2BCfCilg8%3D"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null,
+          "skip-credits"
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "authorizer": "bearer",
+        "org_id": null,
+        "owner_id": "google-oauth2|108986106772061763131",
+        "domain": "https://studio.d-id.com",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "script": {
+        "length": 83,
+        "ssml": true,
+        "subtitles": false,
+        "type": "text",
+        "provider": {
+          "type": "microsoft",
+          "voice_id": "en-US-DavisNeural",
+          "voice_config": {
+            "rate": "0.9",
+            "style": "friendly"
+          }
+        }
+      },
+      "metadata": {
+        "driver_url": "bank://natural/driver-3/original",
+        "mouth_open": false,
+        "num_faces": 1,
+        "num_frames": 134,
+        "processing_fps": 30.200415819158106,
+        "resolution": [
+          1280,
+          698
+        ],
+        "size_kib": 197.1533203125
+      },
+      "audio_url": "s3://d-id-projects-prod/google-oauth2|108986106772061763131/prj_STvYaJ-uiIDs_SNatJ7BQ/scenes/3vxs_nEBaT/data/audio.wav",
+      "created_at": "2025-08-03T19:09:20.940Z",
+      "face": {
+        "mask_confidence": 1,
+        "detection": [
+          671,
+          38,
+          733,
+          119
+        ],
+        "overlap": "no",
+        "size": 132,
+        "top_left": [
+          639,
+          4
+        ],
+        "face_id": 0,
+        "detect_confidence": 1
+      },
+      "user_data": "{\"project_id\":\"prj_STvYaJ-uiIDs_SNatJ7BQ\",\"scene_id\":\"3vxs_nEBaT\",\"skip_final_output\":true,\"position\":{\"top\":16.363636363636374,\"left\":1.1368683772161603e-13,\"height\":1047.2727272727273}}",
+      "config": {
+        "stitch": true,
+        "align_driver": true,
+        "sharpen": true,
+        "normalization_factor": 1,
+        "result_format": ".mp4",
+        "fluent": false,
+        "pad_audio": 0,
+        "reduce_noise": false,
+        "auto_match": true,
+        "show_watermark": false,
+        "motion_factor": 1,
+        "optimize_audio": false,
+        "align_expand_factor": 0.3
+      },
+      "source_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_CHtmG3pKGizhcDRDTQOai/source/image.jpeg?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754334560&Signature=4P9vkJuecp9vZN1MvVOWsfEd0Ho%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://natural/",
+      "modified_at": "2025-08-03T19:09:26.057Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "subtitles": false,
+      "id": "tlk_CHtmG3pKGizhcDRDTQOai",
+      "duration": 5.376,
+      "started_at": "2025-08-03T19:09:21.243",
+      "result_url": "s3://d-id-projects-prod/google-oauth2|108986106772061763131/prj_STvYaJ-uiIDs_SNatJ7BQ/scenes/3vxs_nEBaT/result.mp4"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null,
+          "skip-credits"
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "authorizer": "bearer",
+        "org_id": null,
+        "owner_id": "google-oauth2|108986106772061763131",
+        "domain": "https://studio.d-id.com",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "script": {
+        "length": 81,
+        "ssml": true,
+        "subtitles": false,
+        "type": "text",
+        "provider": {
+          "type": "microsoft",
+          "voice_id": "en-US-AndrewMultilingualNeural",
+          "voice_config": {
+            "rate": "0.8",
+            "style": "empathetic"
+          }
+        }
+      },
+      "metadata": {
+        "driver_url": "bank://lively/driver-01/original",
+        "mouth_open": false,
+        "num_faces": 1,
+        "num_frames": 130,
+        "processing_fps": 26.77255969148126,
+        "resolution": [
+          1280,
+          720
+        ],
+        "size_kib": 251.302734375
+      },
+      "audio_url": "s3://d-id-projects-prod/google-oauth2|108986106772061763131/prj_E-RR0iZPZ_Bbvk1iZNtYy/scenes/zc6GYmj8by/data/audio.wav",
+      "created_at": "2025-08-03T19:05:32.003Z",
+      "face": {
+        "mask_confidence": 1,
+        "detection": [
+          702,
+          49,
+          760,
+          129
+        ],
+        "overlap": "no",
+        "size": 125,
+        "top_left": [
+          669,
+          21
+        ],
+        "face_id": 0,
+        "detect_confidence": 1
+      },
+      "user_data": "{\"project_id\":\"prj_E-RR0iZPZ_Bbvk1iZNtYy\",\"scene_id\":\"zc6GYmj8by\",\"skip_final_output\":true,\"position\":{\"top\":44.14012224084681,\"left\":-9.769962616701378e-15,\"height\":991.7197555183066}}",
+      "config": {
+        "stitch": true,
+        "align_driver": true,
+        "sharpen": true,
+        "normalization_factor": 1,
+        "result_format": ".mp4",
+        "fluent": false,
+        "driver_expressions": {
+          "expressions": [
+            {
+              "intensity": 0.6,
+              "start_frame": 0,
+              "expression": "happy"
+            }
+          ],
+          "transition_frames": 50
+        },
+        "pad_audio": 0,
+        "reduce_noise": false,
+        "auto_match": true,
+        "show_watermark": false,
+        "motion_factor": 1,
+        "optimize_audio": false,
+        "align_expand_factor": 0.3
+      },
+      "source_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_Rrzx5lyrFzTivwI6A_yM_/source/image.png?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754334332&Signature=dxEchl2Oq%2BpH919n2z9nDQsKs6c%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://lively/",
+      "modified_at": "2025-08-03T19:05:37.509Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "subtitles": false,
+      "id": "tlk_Rrzx5lyrFzTivwI6A_yM_",
+      "duration": 5.208,
+      "started_at": "2025-08-03T19:05:32.243",
+      "result_url": "s3://d-id-projects-prod/google-oauth2|108986106772061763131/prj_E-RR0iZPZ_Bbvk1iZNtYy/scenes/zc6GYmj8by/result.mp4"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null,
+          "logo",
+          "skip-credits"
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "org_id": null,
+        "owner_id": "google-oauth2|108986106772061763131",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "script": {
+        "subtitles": false,
+        "audio_url": "s3://d-id-presenters-prod/resources/silence.wav",
+        "type": "audio",
+        "reduce_noise": false
+      },
+      "webhook": "https://lmgid6rhacfsk72hoz42fjzadu0mfsre.lambda-url.us-west-2.on.aws/agents/webhooks",
+      "metadata": {
+        "driver_url": "bank://lively/driver-06/flipped",
+        "mouth_open": false,
+        "num_faces": 1,
+        "num_frames": 499,
+        "processing_fps": 39.55835122377604,
+        "resolution": [
+          1080,
+          720
+        ],
+        "size_kib": 1249.361328125
+      },
+      "audio_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_xJIc2sZaN5uLKsnbHlWRA/audio.wav?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754333809&Signature=O6YMzceYU%2BHG3YmtacAtLQYR0AY%3D",
+      "created_at": "2025-08-03T18:56:49.190Z",
+      "face": {
+        "mask_confidence": 1,
+        "detection": [
+          678,
+          57,
+          762,
+          163
+        ],
+        "overlap": "no",
+        "size": 175,
+        "top_left": [
+          632,
+          9
+        ],
+        "face_id": 0,
+        "detect_confidence": 0.9984632730484009
+      },
+      "user_data": "{\"agent_id\":\"v2_agt_eDoIlXvp\",\"owner_id\":\"google-oauth2|108986106772061763131\",\"id\":\"google-oauth2|108986106772061763131\",\"email\":\"aitekphsoftware@gmail.com\",\"features\":\"stitch,no-watermark,clips:write,api-keys:write,subtitles,translation,scene,premium-plus:skip-speaker-validation,,logo,skip-credits\"}",
+      "config": {
+        "stitch": true,
+        "align_driver": true,
+        "sharpen": true,
+        "normalization_factor": 1,
+        "result_format": ".mp4",
+        "fluent": true,
+        "output_resolution": 1080,
+        "pad_audio": 0,
+        "reduce_noise": false,
+        "auto_match": true,
+        "show_watermark": false,
+        "motion_factor": 0.85,
+        "optimize_audio": false,
+        "align_expand_factor": 0.3
+      },
+      "source_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_xJIc2sZaN5uLKsnbHlWRA/source/image.png?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754333809&Signature=JlFvAF%2BHv1cIwB9XunHtcVAA%2FRQ%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://lively/driver-06/flipped/",
+      "modified_at": "2025-08-03T18:57:03.105Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "subtitles": false,
+      "id": "tlk_xJIc2sZaN5uLKsnbHlWRA",
+      "duration": 20,
+      "started_at": "2025-08-03T18:56:49.793",
+      "result_url": "https://d-id-presenters-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/v2_agt_eDoIlXvp/idle_1754247407863.mp4?AWSAccessKeyId=ASIA5CUMPJBIDVVAGS32&Content-Type=video%2Fmp4&Expires=1754251007&Signature=CcyLQ73DlVtT8NxufHJXTT2IpmE%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEPv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCLXuqjJbV0NQLEqrSpC03xTaom%2BVFxvmth7O9HwwiFlQIhAMzCtEjD6BNjZsTubKJmeX9IbmugqZ4HofnnuL7%2BR%2BW%2BKpEDCDQQBBoMODk5MDE2NTA5NTIwIgw6TQQXsPOxrKb1vrsq7gInQyqjP7im9zPAWGVRnbnUwuDoaIsPMSSotlHwIckl2rnwU5u6K3tUz4p%2B9DXdhF%2B83%2Blb4Viz63ttHjKX7BBWaREOboGNRSQCw5JjK2s%2Fb1x1ryR6%2BLl9BZ3AJWY1bLnSIB12ZT%2FqnbNgrtbPQxCIBxlA7LhFJ214Eh8en57DgSBtNn3RFwgkdwIzkzeEw%2F3UNWB3mZNqAFmhZGU9mChDiKl9Pbg9P9zBAJSaoKb4cdTv%2BZJ2t6JE408MPmJoYFTQ6Z0L7dXZqDhrNpC%2BEUWyd2u1LDWoVy0Or4OWyS1nYDTWt7wVsJB7Uytp4zPaWOPQYT%2BFl2yO9n2%2BIvdJZJShTsQOVwvpuCG46Q8xsEzsKdqRGcc361X%2BrDYYSl8NXa1PMbrdN2CsGi8QgBl%2BV1MlN5igzffHQthPgUvdQN21zoAx2lnvSbGB5k3hK0kD6KdwO%2FWnW2ABbzU9Q2v%2FpOviUm0I37GOqAMLcGzotDcw7eG%2BxAY6nAF6mUdyDENqeBy5s2tqR70Mi6qBRTio6GSLoqbYBjXC7ypBhSWvu9qrYAiTD5Jog6wjP4KFsUES%2BjJqCz1ZvnmS%2BNG7iaScTV0OFYpnAbpLWFqtTDsywgXjWJ7QZ0h6P9RASPysZNJVE39Avs%2F8AkBUiNzr5uTYNxYXs4inRbg0X4%2B%2FGZAEIgBLfs5u%2FUmdmtwr4dkv0vh%2BCfCilg8%3D"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null,
+          "skip-credits"
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "authorizer": "bearer",
+        "org_id": null,
+        "owner_id": "google-oauth2|108986106772061763131",
+        "domain": "https://studio.d-id.com",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "script": {
+        "length": 54,
+        "ssml": false,
+        "subtitles": false,
+        "type": "text",
+        "provider": {
+          "type": "elevenlabs",
+          "voice_id": "pqHfZKP75CvOlQylNhV4",
+          "model_id": "eleven_multilingual_v2"
+        }
+      },
+      "metadata": {
+        "driver_url": "bank://natural/driver-1/flipped",
+        "mouth_open": false,
+        "num_faces": 1,
+        "num_frames": 115,
+        "processing_fps": 24.664879356568367,
+        "resolution": [
+          1280,
+          698
+        ],
+        "size_kib": 180.19140625
+      },
+      "audio_url": "s3://d-id-projects-prod/google-oauth2|108986106772061763131/prj_Jx794kxaGpAL_PVHzeC2m/scenes/3vxs_nEBaT/data/audio.wav",
+      "created_at": "2025-08-03T18:51:45.974Z",
+      "face": {
+        "mask_confidence": 1,
+        "detection": [
+          662,
+          50,
+          722,
+          130
+        ],
+        "overlap": "no",
+        "size": 130,
+        "top_left": [
+          630,
+          16
+        ],
+        "face_id": 0,
+        "detect_confidence": 1
+      },
+      "user_data": "{\"project_id\":\"prj_Jx794kxaGpAL_PVHzeC2m\",\"scene_id\":\"3vxs_nEBaT\",\"skip_final_output\":true,\"position\":{\"top\":16.363636363636374,\"left\":1.1368683772161603e-13,\"height\":1047.2727272727273}}",
+      "config": {
+        "stitch": true,
+        "align_driver": true,
+        "sharpen": true,
+        "normalization_factor": 1,
+        "result_format": ".mp4",
+        "fluent": false,
+        "pad_audio": 0,
+        "reduce_noise": false,
+        "auto_match": true,
+        "show_watermark": false,
+        "motion_factor": 1,
+        "optimize_audio": false,
+        "align_expand_factor": 0.3
+      },
+      "source_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_1_q7M4HkIb2JEXBGDCRyN/source/image.jpeg?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754333505&Signature=7cSCtoEFM2xMpZWj4JFRtwN2ono%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://natural/",
+      "modified_at": "2025-08-03T18:51:51.497Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "subtitles": false,
+      "id": "tlk_1_q7M4HkIb2JEXBGDCRyN",
+      "duration": 4.623625,
+      "started_at": "2025-08-03T18:51:46.471",
+      "result_url": "s3://d-id-projects-prod/google-oauth2|108986106772061763131/prj_Jx794kxaGpAL_PVHzeC2m/scenes/3vxs_nEBaT/result.mp4"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null,
+          "skip-credits"
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "authorizer": "bearer",
+        "org_id": null,
+        "owner_id": "google-oauth2|108986106772061763131",
+        "domain": "https://studio.d-id.com",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "script": {
+        "length": 54,
+        "ssml": false,
+        "subtitles": false,
+        "type": "text",
+        "provider": {
+          "type": "elevenlabs",
+          "voice_id": "pNInz6obpgDQGcFmaJgB",
+          "model_id": "eleven_monolingual_v1"
+        }
+      },
+      "metadata": {
+        "driver_url": "bank://lively/driver-02/original",
+        "mouth_open": false,
+        "num_faces": 1,
+        "num_frames": 69,
+        "processing_fps": 17.972887508478514,
+        "resolution": [
+          1280,
+          698
+        ],
+        "size_kib": 165.873046875
+      },
+      "audio_url": "s3://d-id-projects-prod/google-oauth2|108986106772061763131/prj_nZY-4f_NbAzkP8noOmZhC/scenes/DB0UkUQTr3/data/audio.wav",
+      "created_at": "2025-08-03T18:49:39.245Z",
+      "face": {
+        "mask_confidence": 1,
+        "detection": [
+          651,
+          37,
+          713,
+          123
+        ],
+        "overlap": "no",
+        "size": 128,
+        "top_left": [
+          617,
+          10
+        ],
+        "face_id": 0,
+        "detect_confidence": 1
+      },
+      "user_data": "{\"project_id\":\"prj_nZY-4f_NbAzkP8noOmZhC\",\"scene_id\":\"DB0UkUQTr3\",\"skip_final_output\":true,\"position\":{\"top\":16.363636363636374,\"left\":0,\"height\":1047.2727272727273}}",
+      "config": {
+        "stitch": true,
+        "align_driver": true,
+        "sharpen": true,
+        "normalization_factor": 1,
+        "result_format": ".mp4",
+        "fluent": false,
+        "pad_audio": 0,
+        "reduce_noise": false,
+        "auto_match": true,
+        "show_watermark": false,
+        "motion_factor": 1,
+        "optimize_audio": false,
+        "align_expand_factor": 0.3
+      },
+      "source_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_aBhGqFjSZhjXXH-i9z_aA/source/image.jpeg?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754333379&Signature=DqBVZad3wm11ghpG4X6xQIb4oGY%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://lively/",
+      "modified_at": "2025-08-03T18:49:44.264Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "subtitles": false,
+      "id": "tlk_aBhGqFjSZhjXXH-i9z_aA",
+      "duration": 2.768938,
+      "started_at": "2025-08-03T18:49:40.082",
+      "result_url": "s3://d-id-projects-prod/google-oauth2|108986106772061763131/prj_nZY-4f_NbAzkP8noOmZhC/scenes/DB0UkUQTr3/result.mp4"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null,
+          "skip-credits"
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "authorizer": "bearer",
+        "org_id": null,
+        "owner_id": "google-oauth2|108986106772061763131",
+        "domain": "https://studio.d-id.com",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "script": {
+        "length": 54,
+        "ssml": true,
+        "subtitles": false,
+        "type": "text",
+        "provider": {
+          "type": "microsoft",
+          "voice_id": "en-US-EmmaNeural",
+          "voice_config": {
+            "rate": "1",
+            "style": null
+          }
+        }
+      },
+      "metadata": {
+        "driver_url": "bank://lively/driver-02/original",
+        "mouth_open": false,
+        "num_faces": 1,
+        "num_frames": 78,
+        "processing_fps": 20.662125767180758,
+        "resolution": [
+          1280,
+          698
+        ],
+        "size_kib": 179.6650390625
+      },
+      "audio_url": "s3://d-id-projects-prod/google-oauth2|108986106772061763131/prj_-tHP9mQQd-3LbMt_WpyBm/scenes/DB0UkUQTr3/data/audio.wav",
+      "created_at": "2025-08-03T18:48:05.340Z",
+      "face": {
+        "mask_confidence": 1,
+        "detection": [
+          651,
+          37,
+          713,
+          123
+        ],
+        "overlap": "no",
+        "size": 128,
+        "top_left": [
+          617,
+          10
+        ],
+        "face_id": 0,
+        "detect_confidence": 1
+      },
+      "user_data": "{\"project_id\":\"prj_-tHP9mQQd-3LbMt_WpyBm\",\"scene_id\":\"DB0UkUQTr3\",\"skip_final_output\":true,\"position\":{\"top\":16.363636363636374,\"left\":0,\"height\":1047.2727272727273}}",
+      "config": {
+        "stitch": true,
+        "align_driver": true,
+        "sharpen": true,
+        "normalization_factor": 1,
+        "result_format": ".mp4",
+        "fluent": false,
+        "pad_audio": 0,
+        "reduce_noise": false,
+        "auto_match": true,
+        "show_watermark": false,
+        "motion_factor": 1,
+        "optimize_audio": false,
+        "align_expand_factor": 0.3
+      },
+      "source_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_tgPdHjq07C78daU1ZqR-b/source/image.jpeg?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754333285&Signature=Qhl6kbUgzsXsXTT%2FtDwvY96E6jI%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://lively/",
+      "modified_at": "2025-08-03T18:48:09.592Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "subtitles": false,
+      "id": "tlk_tgPdHjq07C78daU1ZqR-b",
+      "duration": 3.144,
+      "started_at": "2025-08-03T18:48:05.471",
+      "result_url": "s3://d-id-projects-prod/google-oauth2|108986106772061763131/prj_-tHP9mQQd-3LbMt_WpyBm/scenes/DB0UkUQTr3/result.mp4"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "authorizer": "basic",
+        "owner_id": "google-oauth2|108986106772061763131",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "script": {
+        "length": 58,
+        "subtitles": false,
+        "type": "text",
+        "provider": {
+          "type": "microsoft",
+          "voice_id": "en-US-JennyNeural"
+        }
+      },
+      "metadata": {
+        "driver_url": "bank://natural/driver-4/original",
+        "mouth_open": false,
+        "num_faces": 1,
+        "num_frames": 114,
+        "processing_fps": 34.30345923304687,
+        "resolution": [
+          512,
+          512
+        ],
+        "size_kib": 952.8408203125
+      },
+      "audio_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_af6vKZf1tNHeBYGEU_KC-/microsoft.wav?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754188042&Signature=JblP%2B0IaBzYcQ4lHMezSUJNR4io%3D",
+      "created_at": "2025-08-02T02:27:22.251Z",
+      "face": {
+        "mask_confidence": -1,
+        "detection": [
+          224,
+          198,
+          484,
+          552
+        ],
+        "overlap": "no",
+        "size": 512,
+        "top_left": [
+          98,
+          119
+        ],
+        "face_id": 0,
+        "detect_confidence": 0.9998352527618408
+      },
+      "config": {
+        "stitch": false,
+        "align_driver": true,
+        "sharpen": true,
+        "normalization_factor": 1,
+        "result_format": ".mp4",
+        "fluent": false,
+        "pad_audio": 0,
+        "reduce_noise": false,
+        "auto_match": true,
+        "show_watermark": false,
+        "logo": {
+          "url": "ai",
+          "position": [
+            0,
+            0
+          ]
+        },
+        "motion_factor": 1,
+        "optimize_audio": false,
+        "align_expand_factor": 0.3
+      },
+      "source_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_af6vKZf1tNHeBYGEU_KC-/source/alice.jpg?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754188042&Signature=AhT6xFzCsBfARrdL%2BFzRlx%2FNMEI%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://natural/",
+      "modified_at": "2025-08-02T02:27:26.087Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "subtitles": false,
+      "id": "tlk_af6vKZf1tNHeBYGEU_KC-",
+      "duration": 4.5125,
+      "started_at": "2025-08-02T02:27:22.343",
+      "result_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_af6vKZf1tNHeBYGEU_KC-/1754101642251.mp4?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754188046&Signature=pmPgqesnoXbx5XicPvZL8A1jhcs%3D"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "authorizer": "basic",
+        "owner_id": "google-oauth2|108986106772061763131",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "script": {
+        "length": 64,
+        "subtitles": false,
+        "type": "text",
+        "provider": {
+          "type": "microsoft",
+          "voice_id": "en-US-JennyNeural"
+        }
+      },
+      "metadata": {
+        "driver_url": "bank://natural/driver-4/original",
+        "mouth_open": false,
+        "num_faces": 1,
+        "num_frames": 119,
+        "processing_fps": 33.452939304561184,
+        "resolution": [
+          512,
+          512
+        ],
+        "size_kib": 990.8828125
+      },
+      "audio_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_kI4fFGofyyxJwqGUL5lbl/microsoft.wav?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754148641&Signature=Rmf6cOLzd7m1uAiAsy8IJP0j3Dw%3D",
+      "created_at": "2025-08-01T15:30:41.583Z",
+      "face": {
+        "mask_confidence": -1,
+        "detection": [
+          224,
+          198,
+          484,
+          552
+        ],
+        "overlap": "no",
+        "size": 512,
+        "top_left": [
+          98,
+          119
+        ],
+        "face_id": 0,
+        "detect_confidence": 0.9998352527618408
+      },
+      "config": {
+        "stitch": false,
+        "align_driver": true,
+        "sharpen": true,
+        "normalization_factor": 1,
+        "result_format": ".mp4",
+        "fluent": false,
+        "pad_audio": 0,
+        "reduce_noise": false,
+        "auto_match": true,
+        "show_watermark": false,
+        "logo": {
+          "url": "ai",
+          "position": [
+            0,
+            0
+          ]
+        },
+        "motion_factor": 1,
+        "optimize_audio": false,
+        "align_expand_factor": 0.3
+      },
+      "source_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_kI4fFGofyyxJwqGUL5lbl/source/alice.jpg?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754148641&Signature=B8pOtLb86eB5VK8UochK190ID2M%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://natural/",
+      "modified_at": "2025-08-01T15:30:46.491Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "subtitles": false,
+      "id": "tlk_kI4fFGofyyxJwqGUL5lbl",
+      "duration": 4.725,
+      "started_at": "2025-08-01T15:30:42.442",
+      "result_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_kI4fFGofyyxJwqGUL5lbl/1754062241583.mp4?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754148646&Signature=pnyimbz4fAGvclf5WX7hv%2FTcDVc%3D"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "authorizer": "basic",
+        "owner_id": "google-oauth2|108986106772061763131",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "script": {
+        "length": 49,
+        "subtitles": false,
+        "type": "text",
+        "provider": {
+          "type": "microsoft",
+          "voice_id": "en-US-JennyNeural"
+        }
+      },
+      "metadata": {
+        "driver_url": "bank://natural/driver-4/original",
+        "mouth_open": false,
+        "num_faces": 1,
+        "num_frames": 93,
+        "processing_fps": 30.283985633016705,
+        "resolution": [
+          512,
+          512
+        ],
+        "size_kib": 756.966796875
+      },
+      "audio_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_5hLKMRQZS8hh0LsYdhsLO/microsoft.wav?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754148621&Signature=34vwnKYOHzqtgVSBvkoRX%2BXGK7I%3D",
+      "created_at": "2025-08-01T15:30:21.522Z",
+      "face": {
+        "mask_confidence": -1,
+        "detection": [
+          224,
+          198,
+          484,
+          552
+        ],
+        "overlap": "no",
+        "size": 512,
+        "top_left": [
+          98,
+          119
+        ],
+        "face_id": 0,
+        "detect_confidence": 0.9998352527618408
+      },
+      "config": {
+        "stitch": false,
+        "align_driver": true,
+        "sharpen": true,
+        "normalization_factor": 1,
+        "result_format": ".mp4",
+        "fluent": false,
+        "pad_audio": 0,
+        "reduce_noise": false,
+        "auto_match": true,
+        "show_watermark": false,
+        "logo": {
+          "url": "ai",
+          "position": [
+            0,
+            0
+          ]
+        },
+        "motion_factor": 1,
+        "optimize_audio": false,
+        "align_expand_factor": 0.3
+      },
+      "source_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_5hLKMRQZS8hh0LsYdhsLO/source/alice.jpg?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754148621&Signature=DUXdJ1E9nqe%2BgmuUS0NJvuKAsQY%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://natural/",
+      "modified_at": "2025-08-01T15:30:26.911Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "subtitles": false,
+      "id": "tlk_5hLKMRQZS8hh0LsYdhsLO",
+      "duration": 3.675,
+      "started_at": "2025-08-01T15:30:23.393",
+      "result_url": "https://d-id-talks-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/tlk_5hLKMRQZS8hh0LsYdhsLO/1754062221521.mp4?AWSAccessKeyId=AKIA5CUMPJBIK65W6FGA&Expires=1754148626&Signature=VCkXfATuFwyxXkFfT8E0qNSXxQA%3D"
+    }
+  ]
+}

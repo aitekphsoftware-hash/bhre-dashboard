@@ -1,0 +1,262 @@
+{
+  "animations": [
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "authorizer": "basic",
+        "owner_id": "google-oauth2|108986106772061763131",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "metadata": {
+        "driver_url": "bank://nostalgia/driver-12/flipped",
+        "faces": [
+          {
+            "mask_confidence": -1,
+            "detection": [
+              224,
+              198,
+              484,
+              553
+            ],
+            "overlap": "no",
+            "size": 512,
+            "top_left": [
+              98,
+              119
+            ],
+            "face_id": 0,
+            "detect_confidence": 0.9998300075531006
+          }
+        ],
+        "num_frames": 225,
+        "processing_fps": 52.49724739432829,
+        "resolution": [
+          "512",
+          "512"
+        ],
+        "size_kib": 2805.794921875,
+        "source_pose": [
+          -0.4431915283203125,
+          -12.918487548828125,
+          -4.0704803466796875
+        ],
+        "video_fps": 20
+      },
+      "task": false,
+      "created_at": "2025-08-04T22:30:09.006Z",
+      "config": {
+        "logo": {
+          "url": "ai",
+          "position": [
+            0,
+            0
+          ]
+        },
+        "mute": true,
+        "motion_factor": 0.75,
+        "result_format": ".mp4"
+      },
+      "source_url": "https://d-id-animations-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/anm_Tq7FKKBAYXW-8mL3zncpf/source/alice.jpg?AWSAccessKeyId=AKIA5CUMPJBIKVXURAND&Expires=1754433009&Signature=iSZ2nLuOq1hld1Cas46uqrHuTgM%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://nostalgia/",
+      "num_animated_faces": 1,
+      "modified_at": "2025-08-04T22:30:13.633Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "face_ids": [
+        0
+      ],
+      "num_faces": 1,
+      "result_url": "https://d-id-animations-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/anm_Tq7FKKBAYXW-8mL3zncpf/1754346609049.mp4?AWSAccessKeyId=AKIA5CUMPJBIKVXURAND&Expires=1754433013&Signature=pyw3wCEBiSVX52FmgQw4aEiNApc%3D",
+      "id": "anm_Tq7FKKBAYXW-8mL3zncpf",
+      "started_at": "2025-08-04T22:30:09.159"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "authorizer": "basic",
+        "owner_id": "google-oauth2|108986106772061763131",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "metadata": {
+        "driver_url": "bank://nostalgia/driver-12/flipped",
+        "faces": [
+          {
+            "mask_confidence": -1,
+            "detection": [
+              224,
+              198,
+              484,
+              553
+            ],
+            "overlap": "no",
+            "size": 512,
+            "top_left": [
+              98,
+              119
+            ],
+            "face_id": 0,
+            "detect_confidence": 0.9998300075531006
+          }
+        ],
+        "num_frames": 225,
+        "processing_fps": 52.677861531675546,
+        "resolution": [
+          "512",
+          "512"
+        ],
+        "size_kib": 2805.794921875,
+        "source_pose": [
+          -0.4431915283203125,
+          -12.918487548828125,
+          -4.0704803466796875
+        ],
+        "video_fps": 20
+      },
+      "task": false,
+      "created_at": "2025-08-04T22:28:25.230Z",
+      "config": {
+        "logo": {
+          "url": "ai",
+          "position": [
+            0,
+            0
+          ]
+        },
+        "mute": true,
+        "motion_factor": 0.75,
+        "result_format": ".mp4"
+      },
+      "source_url": "https://d-id-animations-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/anm_JXh6OJ_9KFGfj3Gjav3ip/source/alice.jpg?AWSAccessKeyId=AKIA5CUMPJBIKVXURAND&Expires=1754432905&Signature=cAeCW1vTRCZBcNPOrVRPhy7n7Yk%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://nostalgia/",
+      "num_animated_faces": 1,
+      "modified_at": "2025-08-04T22:28:29.951Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "face_ids": [
+        0
+      ],
+      "num_faces": 1,
+      "result_url": "https://d-id-animations-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/anm_JXh6OJ_9KFGfj3Gjav3ip/1754346505259.mp4?AWSAccessKeyId=AKIA5CUMPJBIKVXURAND&Expires=1754432909&Signature=Tk0qoFasV0nAaaGA4gH317jpxlY%3D",
+      "id": "anm_JXh6OJ_9KFGfj3Gjav3ip",
+      "started_at": "2025-08-04T22:28:25.364"
+    },
+    {
+      "user": {
+        "features": [
+          "stitch",
+          "no-watermark",
+          "clips:write",
+          "api-keys:write",
+          "subtitles",
+          "translation",
+          "scene",
+          "premium-plus:skip-speaker-validation",
+          null
+        ],
+        "stripe_customer_id": "cus_SmhFI1cNrZKq65",
+        "stripe_plan_group": "deid-pro",
+        "authorizer": "basic",
+        "owner_id": "google-oauth2|108986106772061763131",
+        "id": "google-oauth2|108986106772061763131",
+        "plan": "deid-pro",
+        "email": "aitekphsoftware@gmail.com",
+        "stripe_price_id": "price_1Nk3sJJxEKZ2zAynejvpq0px"
+      },
+      "metadata": {
+        "driver_url": "bank://nostalgia/driver-12/flipped",
+        "faces": [
+          {
+            "mask_confidence": -1,
+            "detection": [
+              224,
+              198,
+              484,
+              553
+            ],
+            "overlap": "no",
+            "size": 512,
+            "top_left": [
+              98,
+              119
+            ],
+            "face_id": 0,
+            "detect_confidence": 0.9998300075531006
+          }
+        ],
+        "num_frames": 225,
+        "processing_fps": 52.783484258909326,
+        "resolution": [
+          "512",
+          "512"
+        ],
+        "size_kib": 2805.794921875,
+        "source_pose": [
+          -0.4431915283203125,
+          -12.918487548828125,
+          -4.0704803466796875
+        ],
+        "video_fps": 20
+      },
+      "task": false,
+      "created_at": "2025-08-03T16:23:07.763Z",
+      "config": {
+        "logo": {
+          "url": "ai",
+          "position": [
+            0,
+            0
+          ]
+        },
+        "mute": true,
+        "motion_factor": 0.75,
+        "result_format": ".mp4"
+      },
+      "source_url": "https://d-id-animations-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/anm_Y0FltO0NZ7LHQZbXYrf5N/source/alice.jpg?AWSAccessKeyId=AKIA5CUMPJBIKVXURAND&Expires=1754324587&Signature=62e0NOWfKSnFp87Hh%2Fs75nP6MEY%3D",
+      "created_by": "google-oauth2|108986106772061763131",
+      "status": "done",
+      "driver_url": "bank://nostalgia/",
+      "num_animated_faces": 1,
+      "modified_at": "2025-08-03T16:23:12.592Z",
+      "user_id": "google-oauth2|108986106772061763131",
+      "face_ids": [
+        0
+      ],
+      "num_faces": 1,
+      "result_url": "https://d-id-animations-prod.s3.us-west-2.amazonaws.com/google-oauth2%7C108986106772061763131/anm_Y0FltO0NZ7LHQZbXYrf5N/1754238187782.mp4?AWSAccessKeyId=AKIA5CUMPJBIKVXURAND&Expires=1754324592&Signature=nJpSHNOovpPEPAm%2FBsRcF6D767c%3D",
+      "id": "anm_Y0FltO0NZ7LHQZbXYrf5N",
+      "started_at": "2025-08-03T16:23:07.860"
+    }
+  ]
+}

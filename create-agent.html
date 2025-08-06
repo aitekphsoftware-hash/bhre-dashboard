@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Create Agent</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="min-h-screen flex items-center justify-center p-4">
+    <div class="modal-solid w-full max-w-3xl text-slate-200 p-6">
+      <div class="px-5 py-4 flex items-center justify-between border-b border-white/10">
+        <div class="flex items-center gap-3">
+          <a href="index.html" class="text-slate-400 hover:text-slate-200 mr-3">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+            </svg>
+          </a>
+          <img id="wzAvatarImg" class="h-12 w-12 rounded-lg object-cover bg-black/50 border border-white/10" alt="avatar"/>
+          <div>
+            <div class="text-lg font-bold">Create Agent — <span id="wzAvatarName" class="text-white">—</span></div>
+            <div class="text-xs text-slate-300">Customize voice, persona, knowledge, and settings.</div>
+          </div>
+        </div>
+        <button type="button" value="cancel" class="px-3 py-2 text-sm rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-100" onclick="window.location.href='index.html'">Close</button>
+      </div>
+
+      <div class="px-5 py-4 space-y-6">
+        <div class="flex items-center gap-2 text-xs">
+          <span id="step1i" class="px-2 py-1 rounded bg-emerald-700/40 border border-emerald-400/30">1. Voice</span>
+          <span id="step2i" class="px-2 py-1 rounded bg-slate-800 border border-white/10">2. Persona</span>
+          <span id="step3i" class="px-2 py-1 rounded bg-slate-800 border border-white/10">3. Knowledge</span>
+          <span id="step4i" class="px-2 py-1 rounded bg-slate-800 border border-white/10">4. Review</span>
+        </div>
+
+        <!-- STEP 1: Voice + Settings -->
+        <section id="step1">
+          <div class="grid gap-4 md:grid-cols-2">
+            <div class="space-y-2">
+              <label class="text-sm">Voice</label>
+              <div class="flex gap-2">
+                <select id="wzVoice" class="ring-focus w-full px-3 py-2 rounded-lg bg-slate-900/60 border border-slate-700/60 text-slate-100"></select>
+                <button type="button" id="wzVoicePreview" class="px-3 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-100 disabled:opacity-40 disabled:pointer-events-none">Preview</button>
+              </div>
+              <audio id="wzAudio" class="hidden"></audio>
+            </div>
+            <div class="space-y-2">
+              <label class="text-sm">Speech Speed (<span id="wzRateVal">1.00</span>x)</label>
+              <input id="wzRate" type="range" min="0.7" max="1.3" step="0.05" value="1" class="w-full">
+            </div>
+          </div>
+          <div class="mt-4">
+             <label class="inline-flex items-center gap-2 text-sm">
+                <input id="wzStreamable" type="checkbox" class="accent-emerald-500">
+                <span>Make agent streamable</span>
+              </label>
+          </div>
+        </section>
+
+        <!-- STEP 2: Persona -->
+        <section id="step2" class="hidden">
+          <div class="space-y-4">
+            <div class="space-y-2">
+              <label class="text-sm">System Prompt</label>
+              <textarea id="wzPrompt" rows="5" class="ring-focus w-full px-3 py-2 rounded-lg bg-slate-900/60 border border-slate-700/60 text-slate-100" placeholder="Describe persona, tone, guardrails…"></textarea>
+              <div class="flex gap-2 text-xs">
+                <button type="button" id="wzPromptDefault" class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-slate-100">Insert Template</button>
+                <button type="button" id="wzPromptSave" class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-slate-100">Save as Default</button>
+              </div>
+            </div>
+            <div class="space-y-2">
+              <label class="text-sm">Greeting Message (one per line, spoken by agent)</label>
+              <textarea id="wzGreeting" rows="3" class="ring-focus w-full px-3 py-2 rounded-lg bg-slate-900/60 border border-slate-700/60 text-slate-100" placeholder="e.g., Hello, how can I help you today?"></textarea>
+            </div>
+          </div>
+        </section>
+
+        <!-- STEP 3: Knowledge Base -->
+        <section id="step3" class="hidden">
+          <div class="space-y-4">
+             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="space-y-2">
+                  <label class="text-sm">Knowledge Base Name</label>
+                  <input id="wzKbName" type="text" class="ring-focus w-full px-3 py-2 rounded-lg bg-slate-900/60 border border-slate-700/60 text-slate-100" placeholder="e.g., Company Info">
+                </div>
+                 <div class="space-y-2">
+                  <label class="text-sm">Knowledge Base Description</label>
+                  <input id="wzKbDesc" type="text" class="ring-focus w-full px-3 py-2 rounded-lg bg-slate-900/60 border border-slate-700/60 text-slate-100" placeholder="e.g., For customer support">
+                </div>
+            </div>
+            <div class="space-y-2">
+              <label class="text-sm">Starter Messages (one per line, for user to click)</label>
+              <textarea id="wzKbStarter" rows="3" class="ring-focus w-full px-3 py-2 rounded-lg bg-slate-900/60 border border-slate-700/60 text-slate-100" placeholder="e.g., What are your business hours?"></textarea>
+            </div>
+            <div class="space-y-2">
+              <label class="text-sm">Base Knowledge (Plain Text)</label>
+              <textarea id="wzKbBase" rows="4" class="ring-focus w-full px-3 py-2 rounded-lg bg-slate-900/60 border border-slate-700/60 text-slate-100" placeholder="Provide context or information for the agent..."></textarea>
+            </div>
+          </div>
+        </section>
+
+        <!-- STEP 4: Review & Generate -->
+        <section id="step4" class="hidden">
+          <div id="review-summary" class="p-4 rounded-lg bg-slate-800 border border-white/10 space-y-3">
+             <h3 class="text-lg font-bold">Configuration Summary</h3>
+             <div id="summary-content" class="text-sm space-y-2"></div>
+          </div>
+          <div class="flex flex-wrap gap-2 pt-4">
+            <button type="button" id="btnGenAgent" class="px-3 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-slate-100">Create Agent</button>
+          </div>
+          <div id="genStatus" class="text-xs text-slate-300 pt-2"></div>
+          <div id="genResult" class="pt-3 space-y-2"></div>
+        </section>
+
+        <div class="flex items-center justify-between pt-2">
+          <button type="button" id="prevStep" class="px-3 py-2 text-sm rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-100">Back</button>
+          <button type="button" id="nextStep" class="px-3 py-2 text-sm rounded-lg bg-emerald-600 hover:bg-emerald-500 text-slate-100">Next</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module">
+    /* ---------- Firebase ---------- */
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js";
+    import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-database.js";
+    import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-auth.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyA_Lpw7jX9I084OND8dA-4RNaqfCcu68vU",
+      authDomain: "aiteken11.firebaseapp.com",
+      databaseURL: "https://aiteken11-default-rtdb.firebaseio.com",
+      projectId: "aiteken11",
+      storageBucket: "aiteken11.appspot.com",
+      messagingSenderId: "624322865830",
+      appId: "1:624322865830:web:96991767b5b38558846267",
+      measurementId: "G-LRBSV200FM"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getDatabase(app);
+    const auth = getAuth(app);
+    signInAnonymously(auth).catch(()=>{});
+    const state = { selected:null, voices:[], step:1, kb_id:null, job_id:null, user:null };
+    onAuthStateChanged(auth, (u)=> state.user = u || null);
+
+    const VOICES_JSON_URL = 'voices.json';
+    const $ = (s,c=document)=>c.querySelector(s);
+    function toast(m){ const el=document.createElement('div'); el.textContent=m; el.className="fixed bottom-4 right-4 px-3 py-2 rounded-lg bg-black/70 border border-white/10 text-xs"; document.body.appendChild(el); setTimeout(()=>el.remove(),1400); }
+
+    function mapVoices(raw) {
+      return (raw || []).map(v => {
+        let preview = v.previewUrl;
+        if (!preview && Array.isArray(v.languages)) {
+          const withPrev = v.languages.find(l => l.previewUrl);
+          if (withPrev) preview = withPrev.previewUrl;
+        }
+        return { id: v.id, name: v.name || v.id, previewUrl: preview || null, provider: v.provider || null };
+      });
+    }
+
+    async function loadVoices(){
+      const sel = document.getElementById('wzVoice');
+      sel.innerHTML = `<option>Loading…</option>`;
+      try {
+        const rLocal = await fetch(VOICES_JSON_URL, { cache:'no-store' });
+        if (rLocal.ok) {
+          const local = await rLocal.json();
+          const arr = Array.isArray(local) ? local : (local.voices || []);
+          state.voices = mapVoices(arr);
+        } else { throw new Error('voices.json missing'); }
+      } catch {
+          state.voices = mapVoices([{ id:'voice_en_m_1', name:'English Male 1' },{ id:'voice_en_f_1', name:'English Female 1' }]);
+      }
+      sel.innerHTML = state.voices.map(v => `<option value="${v.id}">${v.name}</option>`).join('');
+      const saved = localStorage.getItem('_voice');
+      if (saved && state.voices.some(v=>v.id===saved)) sel.value = saved;
+      document.getElementById('wzVoicePreview').disabled = !getSelectedVoice()?.previewUrl;
+    }
+
+    function getSelectedVoice(){
+      const id = document.getElementById('wzVoice').value;
+      return state.voices.find(v => v.id === id) || null;
+    }
+
+    document.addEventListener('change', e=>{
+      if(e.target && e.target.id==='wzVoice'){
+        localStorage.setItem('_voice', e.target.value);
+        const v = getSelectedVoice();
+        document.getElementById('wzVoicePreview').disabled = !v || !v.previewUrl;
+      }
+    });
+
+    document.addEventListener('click', e=>{
+      if(e.target && e.target.id==='wzVoicePreview'){
+        const v = getSelectedVoice();
+        if (!v || !v.previewUrl) return;
+        const audio = document.getElementById('wzAudio');
+        audio.src = v.previewUrl;
+        audio.classList.remove('hidden');
+        audio.play().catch(()=>{});
+      }
+    });
+
+    function setStep(n){
+      state.step=n;
+      ['step1','step2','step3','step4'].forEach((id,i)=>{
+        const show=(i+1)===n;
+        $('#'+id).classList.toggle('hidden',!show);
+        const stepIndicator = $('#step'+(i+1)+'i');
+        stepIndicator.textContent = i === 1 ? '2. Persona' : (i === 2 ? '3. Knowledge' : stepIndicator.textContent.split(' ✓')[0]);
+        stepIndicator.className='px-2 py-1 rounded '+(show?'bg-emerald-700/40 border border-emerald-400/30':'bg-slate-800 border border-white/10');
+      });
+      $('#prevStep').disabled=(n===1);
+      $('#nextStep').textContent=(n===4?'Finish':'Next');
+      if(n===4) renderReview();
+    }
+    
+    function renderReview() {
+        const payload = payloadBase();
+        const summaryContent = $('#summary-content');
+        summaryContent.innerHTML = `
+            <p><strong>Avatar:</strong> ${state.selected?.name || 'N/A'}</p>
+            <p><strong>Voice:</strong> ${$('#wzVoice option:checked').textContent || 'N/A'}</p>
+            <p><strong>Speech Speed:</strong> ${payload.speech_rate}x</p>
+            <p><strong>Streamable:</strong> ${payload.streamable}</p>
+            <p><strong>Greeting(s):</strong></p>
+            <ul class="list-disc pl-5 text-slate-300">
+                ${payload.greetings.map(g => `<li>${g}</li>`).join('') || '<li>None</li>'}
+            </ul>
+            <p><strong>Knowledge Base ID:</strong> ${payload.kb_id || 'None'}</p>
+        `;
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const avatarData = urlParams.get('avatar');
+      if (avatarData) {
+        try {
+          state.selected = JSON.parse(avatarData);
+          $('#wzAvatarName').textContent = state.selected.name || state.selected.id;
+          $('#wzStreamable').checked = false; // Default to false
+          const pic = state.selected.thumb || state.selected.image || state.selected.talking_preview || state.selected.preview || '';
+          $('#wzAvatarImg').src = pic || '';
+        } catch (e) { console.error('Error parsing avatar data:', e); alert('Error loading avatar data.'); }
+      } else {
+        alert('No avatar data provided. Please select an avatar from the main page.');
+      }
+      setStep(1);
+      loadVoices();
+      $('#wzPrompt').value = localStorage.getItem('_prompt') || '';
+      $('#wzGreeting').value = localStorage.getItem('_greeting') || '';
+    });
+
+    $('#prevStep').addEventListener('click',()=>setStep(Math.max(1,state.step-1)));
+    
+    $('#nextStep').addEventListener('click', async () => {
+      const genStatus = $('#genStatus');
+      if (state.step === 3) {
+        genStatus.textContent = 'Creating knowledge base...';
+        $('#nextStep').disabled = true;
+        $('#prevStep').disabled = true;
+        try {
+          const kb_id = await createKnowledgeBase();
+          state.kb_id = kb_id;
+          genStatus.textContent = kb_id ? `Knowledge base created successfully: ${kb_id}` : 'No knowledge base to create. Proceeding...';
+          toast(genStatus.textContent);
+          setStep(state.step + 1);
+        } catch (e) {
+          genStatus.textContent = 'Error: ' + (e.message || e);
+          toast('Error: ' + (e.message || e));
+        } finally {
+          $('#nextStep').disabled = false;
+          $('#prevStep').disabled = false;
+        }
+      } else if (state.step < 4) {
+        setStep(state.step + 1);
+      } else {
+        window.location.href='index.html';
+      }
+    });
+
+    $('#wzRate').addEventListener('input',e=>$('#wzRateVal').textContent=Number(e.target.value).toFixed(2));
+    
+    $('#wzPromptDefault').addEventListener('click',()=>{
+      $('#wzPrompt').value=`You are a helpful, humanlike on-screen presenter for Bots Are Here.
+- Speak clearly and naturally.
+- Keep responses concise, friendly, and factual.
+- Avoid sensitive or harmful content.
+- Style: conversational, confident, energetic.`;
+    });
+
+    $('#wzPromptSave').addEventListener('click',()=>{ 
+      localStorage.setItem('_prompt',$('#wzPrompt').value.trim());
+      localStorage.setItem('_greeting', $('#wzGreeting').value.trim());
+      toast('Persona settings saved');
+    });
+
+    async function createKnowledgeBase() {
+        const name = $('#wzKbName').value.trim();
+        const description = $('#wzKbDesc').value.trim();
+        const starter_message = $('#wzKbStarter').value.trim().split('\n').map(s => s.trim()).filter(Boolean);
+        const base_knowledge = $('#wzKbBase').value.trim();
+
+        if (!name && !description && starter_message.length === 0 && !base_knowledge) {
+            return null; // Nothing to create, return null ID
+        }
+        if (!name || !description) {
+            throw new Error("Knowledge Base Name and Description are required.");
+        }
+
+        const body = { name, description };
+        if (starter_message.length > 0) body.starter_message = starter_message;
+        if (base_knowledge) body.base_knowledge = base_knowledge;
+
+        const response = await fetch('https://api.d-id.com/knowledge', {
+            method: 'POST',
+            headers: {
+                'accept': 'application/json',
+                'authorization': 'Basic WTI5a1pYaDRlR2h2YzNSQVoyMWhhV3d1WTI5dDpMREo0Rm4yWTlxTlAxdmpKZXREU2w=',
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(body)
+        });
+
+        if (!response.ok) {
+            const errorText = await response.text();
+            throw new Error(`Knowledge creation failed: ${errorText}`);
+        }
+        const j = await response.json();
+        return j.id || null;
+    }
+
+    function payloadBase(){
+      localStorage.setItem('_greeting', $('#wzGreeting').value.trim());
+      return {
+        name: state.selected?.name || "My Agent", // Agent name for creation
+        presenter: { presenter_id: state.selected?.id },
+        llm: {
+            provider: "d-id-gpt-4",
+            instructions: $('#wzPrompt').value.trim(),
+        },
+        greetings: $('#wzGreeting').value.trim().split('\n').map(s => s.trim()).filter(Boolean),
+        knowledge: state.kb_id ? { id: state.kb_id } : null,
+        streamable: $('#wzStreamable').checked === true
+      };
+    }
+
+    async function saveAgentToFirebase(agent){
+      const agent_id=agent.agent_id||agent.id;
+      if (!agent_id) return;
+      const record={...agent, agent_id, created_at:new Date().toISOString(), created_by:state.user?.uid||null};
+      await set(ref(db,`agents/${agent_id}`),record);
+      return agent_id;
+    }
+
+    async function generateAgent(){
+      $('#genStatus').textContent='Creating agent…';
+      try{
+        const body = payloadBase();
+        
+        // This is a direct API call to create the agent
+        const r = await fetch('https://api.d-id.com/agents', {
+            method: 'POST',
+            headers: {
+                'accept': 'application/json',
+                'authorization': 'Basic WTI5a1pYaDRlR2h2YzNSQVoyMWhhV3d1WTI5dDpMREo0Rm4yWTlxTlAxdmpKZXREU2w=',
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(body)
+        });
+        
+        if(!r.ok) {
+          const errorText = await r.text();
+          throw new Error(`Agent creation failed: ${errorText}`);
+        }
+
+        const j = await r.json();
+        const agentResp={ agent_id: j.id, ...j };
+        const savedId = await saveAgentToFirebase(agentResp);
+        
+        $('#genStatus').textContent='Agent created successfully.';
+        $('#genResult').innerHTML=`<div class="p-3 rounded-lg text-sm border border-white/10 bg-black/30">
+          <div><b>Agent ID:</b> ${agentResp.id}</div>
+          <div><b>Dashboard:</b> <a href="https://studio.d-id.com/agents" target="_blank" class="text-emerald-300 underline">View in Studio</a></div>
+          <div class="text-slate-300"><b>Saved to Firebase:</b> /agents/${savedId}</div>
+        </div>`;
+      }catch(e){ 
+        $('#genStatus').textContent='Error: '+(e.message||e); 
+      }
+    }
+
+    document.getElementById('btnGenAgent').addEventListener('click', generateAgent);
+  </script>
+</body>
+</html>

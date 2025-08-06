@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Preview Modal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Preview modal (overlay bg = page bg) -->
+  <dialog id="previewModal" class="w-full max-w-none p-0 m-0" open>
+    <div class="min-h-screen flex items-center justify-center p-4">
+      <div class="modal-solid w-full max-w-[1100px] text-slate-200">
+        <div class="flex items-center justify-between px-4 py-3 border-b border-white/10">
+          <div class="flex items-center gap-3">
+            <a href="index.html" class="text-slate-400 hover:text-slate-200 mr-3">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+              </svg>
+            </a>
+            <div class="h-8 w-8 rounded-lg bg-emerald-500/20 ring-1 ring-emerald-400/30 flex items-center justify-center">
+              <span class="text-emerald-300 text-sm font-bold"></span>
+            </div>
+            <div>
+              <div class="text-sm font-semibold" id="pvName">Preview</div>
+              <div class="text-[11px] text-slate-300" id="pvId"></div>
+            </div>
+          </div>
+          <div class="flex items-center gap-2">
+            <div class="flex bg-slate-800 rounded-lg p-1">
+              <button id="btnLandscape" class="px-3 py-1.5 text-xs rounded-md bg-slate-700 text-slate-100">Landscape</button>
+              <button id="btnMobile" class="px-3 py-1.5 text-xs rounded-md hover:bg-slate-700 text-slate-100">Mobile</button>
+            </div>
+            <button id="btnClosePrev" class="px-3 py-2 text-sm rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-100">Close</button>
+          </div>
+        </div>
+        <div class="p-4 flex items-center justify-center">
+          <div id="vp" class="vp landscape flex items-center justify-center">
+            <video id="pvVideo" controls></video>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-2 pt-4 justify-center">
+          <a id="createAgentLink" href="create-agent.html" class="px-3 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-slate-100">Create Agent</a>
+          <a id="createVideoLink" href="create-video.html" class="px-3 py-2 rounded-lg bg-sky-600 hover:bg-sky-500 text-slate-100">Create Video</a>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <script type="module">
+    const $ = (s,c=document)=>c.querySelector(s);
+
+    document.getElementById('btnClosePrev').addEventListener('click',()=>{ const v=$('#pvVideo'); v.pause(); $('#previewModal').close(); });
+    document.getElementById('btnLandscape').addEventListener('click',()=>{ const vp=$('#vp'); vp.classList.remove('mobile'); vp.classList.add('landscape'); $('#btnLandscape').classList.add('bg-slate-700'); $('#btnMobile').classList.remove('bg-slate-700'); });
+    document.getElementById('btnMobile').addEventListener('click',()=>{ const vp=$('#vp'); vp.classList.remove('landscape'); vp.classList.add('mobile'); $('#btnMobile').classList.add('bg-slate-700'); $('#btnLandscape').classList.remove('bg-slate-700'); });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const avatarData = urlParams.get('avatar');
+      const pvName = $('#pvName');
+      const pvId = $('#pvId');
+      const pvVideo = $('#pvVideo');
+      const vp = $('#vp');
+      const btnLandscape = $('#btnLandscape');
+      const btnMobile = $('#btnMobile');
+      const createAgentLink = $('#createAgentLink');
+      const createVideoLink = $('#createVideoLink');
+
+      if (avatarData) {
+        try {
+          const avatar = JSON.parse(avatarData);
+          const src = avatar.talking_preview || avatar.preview || avatar.thumb || avatar.image;
+          if (src) {
+            pvName.textContent = avatar.name || 'Preview';
+            pvId.textContent = avatar.id || '';
+            pvVideo.src = src;
+            pvVideo.currentTime = 0;
+            pvVideo.play().catch(() => {});
+            vp.classList.remove('mobile');
+            vp.classList.add('landscape'); // default PC view (16:9)
+            btnLandscape.classList.add('bg-slate-700');
+            btnMobile.classList.remove('bg-slate-700');
+
+            // Pass avatar data to the create links
+            const createAgentUrl = new URL('create-agent.html', window.location.href);
+            createAgentUrl.searchParams.set('avatar', avatarData);
+            createAgentLink.href = createAgentUrl.toString();
+
+            const createVideoUrl = new URL('create-video.html', window.location.href);
+            createVideoUrl.searchParams.set('avatar', avatarData);
+            createVideoLink.href = createVideoUrl.toString();
+          } else {
+            pvName.textContent = 'No Preview Available';
+            pvId.textContent = 'Missing video source for avatar.';
+            pvVideo.style.display = 'none'; // Hide video element
+          }
+        } catch (e) {
+          console.error('Error parsing avatar data:', e);
+          pvName.textContent = 'Error Loading Preview';
+          pvId.textContent = 'Could not parse avatar data.';
+          pvVideo.style.display = 'none'; // Hide video element
+        }
+      } else {
+        pvName.textContent = 'No Avatar Data Provided';
+        pvId.textContent = 'Please provide avatar data via URL parameters.';
+        pvVideo.style.display = 'none'; // Hide video element
+      }
+    });
+  </script>
+</body>
+</html>

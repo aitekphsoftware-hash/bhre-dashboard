@@ -1,0 +1,51 @@
+:root { 
+    --brand: #111827;
+    --accent: #10b981; 
+}
+
+body { 
+    background: var(--brand); 
+    color:#e5e7eb; 
+    font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif; 
+}
+
+.ring-focus:focus { 
+    outline:none; 
+    box-shadow:0 0 0 3px rgba(16,185,129,.35); 
+}
+
+/* SOLID modal containers */
+.modal-solid { 
+    background: var(--brand); 
+    border:1px solid rgba(255,255,255,0.08); 
+    border-radius: 1rem; 
+}
+
+/* Preview viewport */
+.vp { 
+    background:#000; 
+    border-radius: 1rem; 
+    overflow:hidden; 
+    box-shadow: 0 10px 30px rgba(0,0,0,.5); 
+}
+.vp.landscape { width:min(1100px,96vw); aspect-ratio:16/9; }
+.vp.mobile    { width:390px; max-width:92vw; aspect-ratio:9/16; }
+.vp > video, .vp > img { 
+    width:100%; 
+    height:100%; 
+    object-fit:contain; 
+    background:#000; 
+}
+
+/* Card media */
+.card-media { 
+    width:100%; 
+    aspect-ratio: 4/3; 
+    object-fit:cover; 
+    background:#000; 
+}
+
+/* Preview modal overlay */
+#previewModal::backdrop { 
+    background: var(--brand); 
+}

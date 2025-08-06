@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Bots Are Here</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+        import { getAuth, createUserWithEmailAndPassword, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js';
+        
+        const firebaseConfig = {
+            apiKey: "AIzaSyA_Lpw7jX9I084OND8dA-4RNaqfCcu68vU",
+            authDomain: "aiteken11.firebaseapp.com",
+            projectId: "aiteken11",
+            storageBucket: "aiteken11.appspot.com",
+            appId: "1:624322865830:web:96991767b5b38558846267"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        
+        window.firebaseAuth = {
+            auth,
+            createUserWithEmailAndPassword,
+            onAuthStateChanged
+        };
+    </script>
+    <style>
+        :root {
+            --brand: hsl(240, 10%, 3.9%);
+            --brand-foreground: hsl(0, 0%, 98%);
+            --background: hsl(240, 10%, 3.9%);
+            --foreground: hsl(0, 0%, 98%);
+        }
+
+        body {
+            background: var(--background);
+            color: var(--foreground);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .auth-container {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid rgba(100, 116, 139, 0.4);
+            border-radius: 1rem;
+            padding: 2rem;
+            max-width: 400px;
+            width: 90%;
+            backdrop-filter: blur(10px);
+        }
+
+        .btn {
+            padding: 0.75rem 1rem;
+            border-radius: 0.375rem;
+            border: none;
+            cursor: pointer;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+
+        .btn-primary {
+            background: rgb(34, 197, 94);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: rgb(22, 163, 74);
+        }
+
+        .btn-ghost {
+            background: transparent;
+            color: rgb(148, 163, 184);
+            border: none;
+            text-decoration: underline;
+        }
+
+        .btn-ghost:hover {
+            color: white;
+        }
+
+        .input {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid rgb(100, 116, 139);
+            border-radius: 0.375rem;
+            background: rgba(30, 41, 59, 0.6);
+            color: white;
+            margin-bottom: 1rem;
+            box-sizing: border-box;
+        }
+
+        .input:focus {
+            outline: none;
+            border-color: rgb(34, 197, 94);
+        }
+
+        .text-center { text-align: center; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-6 { margin-bottom: 1.5rem; }
+        .text-slate-400 { color: rgb(148, 163, 184); }
+        .text-white { color: white; }
+        .text-sm { font-size: 0.875rem; }
+        .hidden { display: none !important; }
+
+        .password-requirements {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(100, 116, 139, 0.3);
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .requirement {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+        }
+
+        .requirement.valid { color: rgb(34, 197, 94); }
+        .requirement.invalid { color: rgb(239, 68, 68); }
+    </style>
+</head>
+<body>
+    <div class="auth-container">
+        <div class="text-center mb-6">
+            <h1 class="text-2xl font-bold text-white mb-2">Create Account</h1>
+            <p class="text-slate-400">Join Bots Are Here and start creating AI agents</p>
+        </div>
+
+        <form id="signup-form">
+            <div class="mb-4">
+                <label class="block text-slate-400 mb-2">Email</label>
+                <input id="email" type="email" class="input" placeholder="Enter your email" required>
+            </div>
+            
+            <div class="mb-4">
+                <label class="block text-slate-400 mb-2">Password</label>
+                <input id="password" type="password" class="input" placeholder="Create a password" required>
+            </div>
+
+            <div class="password-requirements">
+                <h4 class="text-white mb-2">Password Requirements:</h4>
+                <div id="req-length" class="requirement invalid">
+                    <span>•</span>
+                    <span>At least 6 characters</span>
+                </div>
+                <div id="req-uppercase" class="requirement invalid">
+                    <span>•</span>
+                    <span>One uppercase letter</span>
+                </div>
+                <div id="req-lowercase" class="requirement invalid">
+                    <span>•</span>
+                    <span>One lowercase letter</span>
+                </div>
+                <div id="req-number" class="requirement invalid">
+                    <span>•</span>
+                    <span>One number</span>
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <label class="block text-slate-400 mb-2">Confirm Password</label>
+                <input id="confirm-password" type="password" class="input" placeholder="Confirm your password" required>
+                <div id="password-match" class="text-sm hidden"></div>
+            </div>
+
+            <button type="submit" id="signup-btn" class="btn btn-primary" disabled>Create Account</button>
+        </form>
+
+        <div class="text-center mt-6">
+            <p class="text-slate-400 mb-2">
+                Already have an account? 
+                <a href="signin.html" class="btn-ghost">Sign in</a>
+            </p>
+        </div>
+
+        <div class="text-center mt-6">
+            <a href="index.html" class="btn-ghost">← Back to Home</a>
+        </div>
+    </div>
+
+    <script>
+        let passwordValid = false;
+        let passwordsMatch = false;
+
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
+
+            const signupForm = document.getElementById('signup-form');
+            const passwordInput = document.getElementById('password');
+            const confirmPasswordInput = document.getElementById('confirm-password');
+            const signupBtn = document.getElementById('signup-btn');
+
+            signupForm.addEventListener('submit', handleSignUp);
+            passwordInput.addEventListener('input', validatePassword);
+            confirmPasswordInput.addEventListener('input', checkPasswordMatch);
+
+            // Check if user is already authenticated
+            if (window.firebaseAuth) {
+                window.firebaseAuth.onAuthStateChanged(window.firebaseAuth.auth, (user) => {
+                    if (user) {
+                        // User is signed in, redirect to main app
+                        window.location.href = 'index.html';
+                    }
+                });
+            }
+        });
+
+        function validatePassword() {
+            const password = document.getElementById('password').value;
+            const signupBtn = document.getElementById('signup-btn');
+            
+            // Check requirements
+            const hasLength = password.length >= 6;
+            const hasUppercase = /[A-Z]/.test(password);
+            const hasLowercase = /[a-z]/.test(password);
+            const hasNumber = /\d/.test(password);
+
+            // Update UI
+            updateRequirement('req-length', hasLength);
+            updateRequirement('req-uppercase', hasUppercase);
+            updateRequirement('req-lowercase', hasLowercase);
+            updateRequirement('req-number', hasNumber);
+
+            passwordValid = hasLength && hasUppercase && hasLowercase && hasNumber;
+            
+            // Update button state
+            signupBtn.disabled = !(passwordValid && passwordsMatch);
+            
+            // Check password match again
+            checkPasswordMatch();
+        }
+
+        function updateRequirement(id, valid) {
+            const element = document.getElementById(id);
+            element.className = `requirement ${valid ? 'valid' : 'invalid'}`;
+        }
+
+        function checkPasswordMatch() {
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirm-password').value;
+            const matchDiv = document.getElementById('password-match');
+            const signupBtn = document.getElementById('signup-btn');
+
+            if (confirmPassword) {
+                passwordsMatch = password === confirmPassword;
+                matchDiv.className = `text-sm ${passwordsMatch ? 'text-green-400' : 'text-red-400'}`;
+                matchDiv.textContent = passwordsMatch ? '✓ Passwords match' : '✗ Passwords do not match';
+                matchDiv.classList.remove('hidden');
+            } else {
+                matchDiv.classList.add('hidden');
+                passwordsMatch = false;
+            }
+
+            signupBtn.disabled = !(passwordValid && passwordsMatch);
+        }
+
+        function handleSignUp(e) {
+            e.preventDefault();
+            
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirm-password').value;
+
+            if (!email || !password || !confirmPassword) {
+                showToast('Please fill in all fields', 'error');
+                return;
+            }
+
+            if (!passwordValid) {
+                showToast('Please meet all password requirements', 'error');
+                return;
+            }
+
+            if (!passwordsMatch) {
+                showToast('Passwords do not match', 'error');
+                return;
+            }
+
+            if (window.firebaseAuth) {
+                window.firebaseAuth.createUserWithEmailAndPassword(window.firebaseAuth.auth, email, password)
+                    .then(() => {
+                        showToast('Account created successfully!', 'success');
+                        setTimeout(() => {
+                            window.location.href = 'index.html';
+                        }, 1000);
+                    })
+                    .catch((error) => {
+                        showToast(error.message, 'error');
+                    });
+            }
+        }
+
+        function showToast(message, type = 'info') {
+            const toast = document.createElement('div');
+            toast.className = `fixed top-4 right-4 px-4 py-2 rounded-lg text-white z-50 ${
+                type === 'success' ? 'bg-green-600' : 
+                type === 'error' ? 'bg-red-600' : 'bg-blue-600'
+            }`;
+            toast.textContent = message;
+            
+            document.body.appendChild(toast);
+            
+            setTimeout(() => {
+                toast.remove();
+            }, 3000);
+        }
+    </script>
+</body>
+</html>

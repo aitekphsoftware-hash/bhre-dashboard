@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bots Are Here - Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <style>
+        :root {
+            --brand: #111827;
+            --brand-foreground: #e5e7eb;
+            --background: #111827;
+            --foreground: #e5e7eb;
+            --card: #111827;
+            --card-foreground: #e5e7eb;
+            --popover: #111827;
+            --popover-foreground: #e5e7eb;
+            --primary: #e5e7eb;
+            --primary-foreground: #111827;
+            --secondary: #1F2937;
+            --secondary-foreground: #e5e7eb;
+            --muted: #1F2937;
+            --muted-foreground: #9CA3AF;
+            --accent: #10B981;
+            --accent-foreground: #e5e7eb;
+            --destructive: hsl(0, 62.8%, 30.6%);
+            --destructive-foreground: #e5e7eb;
+            --border: #1F2937;
+            --input: #1F2937;
+            --ring: hsl(240, 4.9%, 83.9%);
+        }
+
+        body {
+            background: var(--brand);
+            color: var(--foreground);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .sidebar {
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100vh;
+            background: var(--card);
+            border-right: 1px solid var(--border);
+            transition: width 0.3s ease-in-out;
+            z-index: 50;
+            backdrop-filter: blur(10px);
+        }
+
+        .sidebar.collapsed { 
+            width: 4rem; 
+        }
+        .sidebar.collapsed .nav-label {
+            display: none;
+        }
+        .sidebar.collapsed .flex.items-center.justify-between {
+            justify-content: center;
+        }
+        .sidebar.collapsed .h-9.w-9 {
+            margin: 0 auto;
+        }
+        .sidebar.collapsed #sidebar-title {
+            display: none;
+        }
+        
+        .sidebar.expanded { 
+            width: 16rem; 
+        }
+
+        .main-content {
+            transition: margin-left 0.3s ease-in-out;
+            min-height: 100vh;
+        }
+
+        .main-content.sidebar-collapsed { 
+            margin-left: 4rem; 
+        }
+        
+        .main-content.sidebar-expanded { 
+            margin-left: 16rem; 
+        }
+
+        #grid {
+            display: grid;
+            gap: 1.5rem;
+        }
+        
+        .main-content.sidebar-expanded #grid {
+             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        }
+
+        .main-content.sidebar-collapsed #grid {
+             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        }
+
+        .avatar-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .card-media {
+            width: 100%;
+            aspect-ratio: 4/3;
+            object-fit: cover;
+            border-radius: 0.75rem;
+            background: var(--muted);
+        }
+
+        .filter-container {
+            background: #1F2937 !important;
+            border: 1px solid #374151 !important;
+        }
+
+        .filter-control {
+            background: #1F2937;
+            border: 1px solid #4B5563;
+            color: #E5E7EB;
+        }
+
+        .filter-control::placeholder {
+            color: #9CA3AF;
+        }
+
+        .filter-control:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.35);
+            border-color: #10B981;
+        }
+
+        select.filter-control {
+            color: #E5E7EB;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%239CA3AF' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+            background-position: right 0.5rem center;
+            background-repeat: no-repeat;
+            background-size: 1.5em 1.5em;
+            padding-right: 2.5rem;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        option {
+            background: #1F2937;
+        }
+    </style>
+</head>
+<body>
+  <div id="glitter-bg"></div>
+
+  <div id="app">
+    <div id="sidebar" class="sidebar expanded flex flex-col">
+        <div class="p-4 border-b border-slate-700">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3 overflow-hidden">
+                    <div class="h-9 w-9 rounded-xl flex items-center justify-center bg-emerald-500/20 ring-1 ring-emerald-400/30 shrink-0">
+                        <img src="https://i0.wp.com/bots-r-here.com/wp-content/uploads/2024/12/Ontwerp-zonder-titel.png?resize=300%3C300&ssl=1" alt="Logo" class="h-6 w-6 object-contain">
+                    </div>
+                    <h2 id="sidebar-title" class="nav-label text-white font-bold text-lg whitespace-nowrap">BotsRHere</h2>
+                </div>
+                <button id="sidebar-toggle" class="p-1 rounded-full hover:bg-slate-700">
+                    <i data-lucide="menu" class="h-6 w-6"></i>
+                </button>
+            </div>
+        </div>
+        
+        <nav class="flex-1 p-2 space-y-1 overflow-y-auto">
+            <a href="index.html" class="flex items-center gap-3 px-4 py-2.5 text-sm font-medium rounded-md bg-emerald-500/10 text-emerald-300">
+                <i data-lucide="home" class="h-5 w-5 shrink-0"></i>
+                <span class="nav-label">Home</span>
+            </a>
+            <a href="video.html" class="flex items-center gap-3 px-4 py-2.5 text-sm font-medium rounded-md text-slate-400 hover:bg-slate-700">
+                <i data-lucide="video" class="h-5 w-5 shrink-0"></i>
+                <span class="nav-label">Video</span>
+            </a>
+            <a href="images.html" class="flex items-center gap-3 px-4 py-2.5 text-sm font-medium rounded-md text-slate-400 hover:bg-slate-700">
+                <i data-lucide="image" class="h-5 w-5 shrink-0"></i>
+                <span class="nav-label">Images</span>
+            </a>
+            <a href="voices.html" class="flex items-center gap-3 px-4 py-2.5 text-sm font-medium rounded-md text-slate-400 hover:bg-slate-700">
+                <i data-lucide="mic" class="h-5 w-5 shrink-0"></i>
+                <span class="nav-label">Voices</span>
+            </a>
+            <a href="agents.html" class="flex items-center gap-3 px-4 py-2.5 text-sm font-medium rounded-md text-slate-400 hover:bg-slate-700">
+                <i data-lucide="crown" class="h-5 w-5 shrink-0"></i>
+                <span class="nav-label">Agents</span>
+            </a>
+            <a href="stream.html" class="flex items-center gap-3 px-4 py-2.5 text-sm font-medium rounded-md text-slate-400 hover:bg-slate-700">
+                <i data-lucide="eye" class="h-5 w-5 shrink-0"></i>
+                <span class="nav-label">Steam</span>
+            </a>
+        </nav>
+        
+        <div class="mt-auto p-2 border-t border-slate-700 space-y-1">
+            <a href="account.html" class="flex items-center gap-3 px-4 py-2.5 text-sm font-medium rounded-md text-slate-400 hover:bg-slate-700">
+                <i data-lucide="user" class="h-5 w-5 shrink-0"></i>
+                <span class="nav-label">Account</span>
+            </a>
+            <div id="logout-btn" class="flex items-center gap-3 px-4 py-2.5 text-sm font-medium rounded-md text-slate-400 hover:bg-slate-700 cursor-pointer">
+                <i data-lucide="log-out" class="h-5 w-5 shrink-0"></i>
+                <span class="nav-label">Log out</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-content" class="main-content sidebar-expanded">
+      <header class="sticky top-0 bg-brand/80 backdrop-blur-sm z-30">
+        <div class="px-6 py-4 flex items-center justify-between h-16">
+          <div class="flex-1 text-sm text-slate-400">Select Avatar</div>
+          <div class="flex items-center gap-4">
+            <button class="p-2 rounded-full hover:bg-slate-700/50">
+                <i data-lucide="bell" class="h-6 w-6"></i>
+            </button>
+            <div class="text-xs text-right">
+              <div class="font-semibold text-slate-200">User Profile ID</div>
+              <div id="user-id-display" class="text-slate-400 truncate">Loading...</div>
+            </div>
+          </div>
+        </div>
+        <div class="px-6 pb-4">
+            <div class="rounded-xl p-3 grid grid-cols-1 md:grid-cols-3 gap-3 filter-container">
+                <input id="q" placeholder="Search name or ID…" class="filter-control px-3 py-2 rounded-lg md:col-span-1" />
+                <select id="gender" class="filter-control px-3 py-2 rounded-lg">
+                <option value="">All genders</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+                </select>
+                <select id="stream" class="filter-control px-3 py-2 rounded-lg">
+                <option value="">All</option>
+                <option value="true">Streamable</option>
+                <option value="false">Non-streamable</option>
+                </select>
+            </div>
+        </div>
+      </header>
+      
+      <main class="flex-1 p-6">
+        <div id="grid">
+          <div class="rounded-2xl p-4 w-full bg-slate-800/50 animate-pulse"><div class="w-full aspect-[4/3] bg-slate-700/50 rounded-xl"></div><div class="mt-4 flex items-center justify-between"><div class="w-1/2 h-5 bg-slate-700/50 rounded"></div><div class="w-1/4 h-8 bg-slate-700/50 rounded"></div></div></div>
+          <div class="rounded-2xl p-4 w-full bg-slate-800/50 animate-pulse"><div class="w-full aspect-[4/3] bg-slate-700/50 rounded-xl"></div><div class="mt-4 flex items-center justify-between"><div class="w-1/2 h-5 bg-slate-700/50 rounded"></div><div class="w-1/4 h-8 bg-slate-700/50 rounded"></div></div></div>
+          <div class="rounded-2xl p-4 w-full bg-slate-800/50 animate-pulse"><div class="w-full aspect-[4/3] bg-slate-700/50 rounded-xl"></div><div class="mt-4 flex items-center justify-between"><div class="w-1/2 h-5 bg-slate-700/50 rounded"></div><div class="w-1/4 h-8 bg-slate-700/50 rounded"></div></div></div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <template id="card-tpl">
+    <div class="rounded-2xl p-4 transition hover:-translate-y-0.5 border border-slate-700 w-full bg-slate-800">
+      <div class="relative rounded-xl overflow-hidden flex items-center justify-center">
+        <img class="card-media thumb" alt="avatar thumbnail" style="display:none;"/>
+        <video class="card-media preview" playsinline muted loop style="display:none;"></video>
+      </div>
+      <div class="mt-4 space-y-3">
+        <div class="flex items-start justify-between gap-3">
+          <div class="min-w-0"><div class="font-semibold name truncate text-white"></div></div>
+          <div class="flex gap-2 shrink-0">
+            <button class="px-3 py-2 text-xs rounded bg-slate-700 hover:bg-slate-600 previewBtn">Preview</button>
+            <a href="create-agent.html" class="px-3 py-2 text-xs rounded bg-emerald-600 hover:bg-emerald-500 selectBtn">Create Agent</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js";
+    import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-auth.js";
+    const firebaseConfig = { apiKey: "AIzaSyA_Lpw7jX9I084OND8dA-4RNaqfCcu68vU", authDomain: "aiteken11.firebaseapp.com", projectId: "aiteken11", appId: "1:624322865830:web:96991767b5b38558846267" };
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    signInAnonymously(auth).catch((error) => console.error("Anonymous sign-in failed:", error));
+    onAuthStateChanged(auth, (user) => {
+        document.getElementById('user-id-display').textContent = user ? user.uid.slice(0, 12) + '...' : 'Not signed in';
+    });
+
+    const state = { all:[], filtered:[] };
+    const AVATAR_JSON_URL = 'avatars.json';
+    const API_BASE_URL = 'https://api.d-id.com';
+    const API_AUTH_TOKEN = 'Basic WTI5a1pYaDRlR2h2YzNSQVoyMWhhV3d1WTI5dDpMREo0Rm4yWTlxTlAxdmpKZXREU2w=';
+    const $ = (s,c=document)=>c.querySelector(s);
+    function normalizeGender(g){ if(!g) return "other"; g=(""+g).toLowerCase(); if(["male","m"].includes(g)) return "male"; if(["female","f"].includes(g)) return "female"; return "other"; }
+
+    let isSidebarCollapsed = false;
+
+    function toggleSidebar() {
+        const sidebar = document.getElementById('sidebar');
+        const mainContent = document.getElementById('main-content');
+        isSidebarCollapsed = !isSidebarCollapsed;
+        
+        sidebar.classList.toggle('expanded', !isSidebarCollapsed);
+        sidebar.classList.toggle('collapsed', isSidebarCollapsed);
+        mainContent.classList.toggle('sidebar-expanded', !isSidebarCollapsed);
+        mainContent.classList.toggle('sidebar-collapsed', isSidebarCollapsed);
+        
+        localStorage.setItem('sidebarCollapsed', isSidebarCollapsed);
+    }
+
+    async function loadAvatars(){
+        try {
+            const r = await fetch(`${API_BASE_URL}/presenters`, { headers: { 'authorization': API_AUTH_TOKEN }});
+            if(!r.ok) throw new Error(`API Error: ${r.status}`);
+            const j = await r.json();
+            state.all = (j.presenters||[]).map(x=>({
+            id: x.presenter_id, name: x.name, gender: normalizeGender(x.gender),
+            streamable: !!x.is_streamable, preview: x.preview_url,
+            talking_preview: x.talking_preview_url, thumb: x.thumbnail_url, image: x.image_url
+            }));
+        } catch (err) {
+            console.error("API Fetch Error, falling back to local file:", err);
+            try {
+                const r = await fetch(AVATAR_JSON_URL, {cache:'no-store'});
+                if(!r.ok) throw new Error('Local fallback failed.');
+                const j = await r.json();
+                state.all = (j.avatars||[]).map(x=>({
+                id:x.id, name:x.name, gender:normalizeGender(x.gender),
+                streamable:!!x.streamable, preview:x.preview||x.talking_preview,
+                talking_preview:x.talking_preview||null, thumb:x.thumb||x.image||null, image:x.image||null
+                }));
+            } catch (localErr) { console.error("Local Fallback Error:", localErr); state.all = []; }
+        }
+        applyFilters();
+    }
+
+    function applyFilters(){
+      const q = $('#q').value?.trim().toLowerCase() ?? '';
+      const gender = $('#gender').value;
+      const stream = $('#stream').value;
+      state.filtered = state.all.filter(a=>{
+        const okQ = !q || (a.name||'').toLowerCase().includes(q) || (a.id||'').toLowerCase().includes(q);
+        const okG = !gender || a.gender===gender;
+        const okS = !stream || String(!!a.streamable)===stream;
+        return okQ && okG && okS;
+      });
+      renderGrid();
+    }
+
+    function renderGrid(){
+      const grid = $('#grid');
+      grid.innerHTML = '';
+      if (state.filtered.length === 0) {
+        grid.innerHTML = `<p class="col-span-full text-center text-slate-400">No avatars found.</p>`;
+        return;
+      }
+      const tpl = $('#card-tpl');
+      state.filtered.forEach(a=>{
+        const node = tpl.content.cloneNode(true);
+        const q = s=>node.querySelector(s);
+        q('.name').textContent = a.name || 'Unnamed';
+        const img = q('.thumb'), vid = q('.preview');
+        const src = a.talking_preview || a.preview || a.thumb || a.image;
+        
+        const mediaEl = /\.(mp4|webm|mov)(\?|$)/i.test(src) ? vid : img;
+        mediaEl.src = src;
+        mediaEl.style.display = 'block';
+
+        q('.previewBtn').addEventListener('click', ()=>openPreviewModal(a));
+        const createAgentLink = q('.selectBtn');
+        const createAgentUrl = new URL('create-agent.html', window.location.href);
+        createAgentUrl.searchParams.set('avatar', JSON.stringify(a));
+        createAgentLink.href = createAgentUrl.toString();
+        grid.appendChild(node);
+      });
+    }
+
+    function openPreviewModal(a){
+      const previewUrl = new URL('preview.html', window.location.href);
+      previewUrl.searchParams.set('avatar', JSON.stringify(a));
+      window.open(previewUrl.toString(), '_blank');
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        lucide.createIcons();
+        document.getElementById('sidebar-toggle').addEventListener('click', toggleSidebar);
+
+        const savedCollapsed = localStorage.getItem('sidebarCollapsed');
+        if (savedCollapsed === 'true') {
+            isSidebarCollapsed = false;
+            toggleSidebar();
+        }
+        
+        loadAvatars();
+    });
+  </script>
+</body>
+</html>

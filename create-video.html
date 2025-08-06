@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Generate Video</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="min-h-screen flex items-center justify-center p-4">
+    <div class="modal-solid w-full max-w-3xl text-slate-200 p-6">
+      <div class="px-5 py-4 flex items-center justify-between border-b border-white/10">
+        <div class="flex items-center gap-3">
+          <a href="index.html" class="text-slate-400 hover:text-slate-200 mr-3">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+            </svg>
+          </a>
+          <img id="wzAvatarImg" class="h-12 w-12 rounded-lg object-cover bg-black/50 border border-white/10" alt="avatar"/>
+          <div>
+            <div class="text-lg font-bold">Generate Video — <span id="wzAvatarName" class="text-white">—</span></div>
+            <div class="text-xs text-slate-300">Customize voice, prompt, knowledge, stream settings.</div>
+          </div>
+        </div>
+        <button type="button" value="cancel" class="px-3 py-2 text-sm rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-100" onclick="window.location.href='index.html'">Close</button>
+      </div>
+
+      <div class="px-5 py-4 space-y-6">
+        <div class="flex items-center gap-2 text-xs">
+          <span id="step1i" class="px-2 py-1 rounded bg-emerald-700/40 border border-emerald-400/30">1. Voice</span>
+          <span id="step2i" class="px-2 py-1 rounded bg-slate-800 border border-white/10">2. Prompt</span>
+          <span id="step3i" class="px-2 py-1 rounded bg-slate-800 border border-white/10">3. Knowledge</span>
+          <span id="step4i" class="px-2 py-1 rounded bg-slate-800 border border-white/10">4. Review</span>
+        </div>
+
+        <!-- STEP 1: Voice + Streamable -->
+        <section id="step1">
+          <div class="grid gap-3 md:grid-cols-2">
+            <div class="space-y-2">
+              <label class="text-sm">Voice</label>
+              <div class="flex gap-2">
+                <select id="wzVoice" class="ring-focus w-full px-3 py-2 rounded-lg bg-slate-900/60 border border-slate-700/60 text-slate-100" aria-label="Select Voice"></select>
+                <button type="button" id="wzVoicePreview" class="px-3 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-100 disabled:opacity-40 disabled:pointer-events-none">Preview</button>
+              </div>
+              <audio id="wzAudio" class="hidden"></audio>
+              <p class="text-xs text-slate-300">Pick a voice for speech synthesis. Click Preview to hear sample (if available).</p>
+            </div>
+            <div class="space-y-2">
+              <label class="text-sm">Speech Rate</label>
+              <input id="wzRate" type="range" min="0.7" max="1.3" step="0.05" value="1" class="w-full" aria-label="Speech Rate">
+              <div class="text-xs text-slate-300"><span id="wzRateVal">1.00</span>x</div>
+              <label class="mt-3 inline-flex items-center gap-2 text-sm">
+                <input id="wzStreamable" type="checkbox" class="accent-emerald-500" aria-label="Make agent streamable">
+                <span>Make agent streamable</span>
+              </label>
+            </div>
+          </div>
+        </section>
+
+        <!-- STEP 2: System Prompt -->
+        <section id="step2" class="hidden">
+          <div class="space-y-2">
+            <label class="text-sm">System Prompt</label>
+            <textarea id="wzPrompt" rows="7" class="ring-focus w-full px-3 py-2 rounded-lg bg-slate-900/60 border border-slate-700/60 text-slate-100" placeholder="Describe persona, tone, guardrails…" aria-label="System Prompt"></textarea>
+            <div class="flex gap-2 text-xs">
+              <button type="button" id="wzPromptDefault" class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-slate-100">Insert Template</button>
+              <button type="button" id="wzPromptSave" class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-slate-100">Save default</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- STEP 3: Knowledge Base -->
+        <section id="step3" class="hidden">
+          <div class="space-y-3">
+            <div class="space-y-2">
+              <label class="text-sm">Reference URLs (one per line)</label>
+              <textarea id="wzUrls" rows="4" class="ring-focus w-full px-3 py-2 rounded-lg bg-slate-900/60 border border-slate-700/60 text-slate-100" aria-label="Reference URLs"></textarea>
+            </div>
+            <div class="space-y-2">
+              <label class="text-sm">Upload Knowledge ZIP (optional)</label>
+              <input id="wzZip" type="file" accept=".zip" class="block w-full text-sm file:mr-3 file:px-3 file:py-2 file:rounded-lg file:border-0 file:bg-emerald-600 file:text-white file:cursor-pointer" aria-label="Upload Knowledge ZIP">
+            </div>
+          </div>
+        </section>
+
+        <!-- STEP 4: Review & Generate -->
+        <section id="step4" class="hidden">
+          <div class="rounded-xl p-3 text-sm border border-white/10 bg-black/30">
+            <pre id="wzPreview" class="whitespace-pre-wrap text-slate-100"></pre>
+          </div>
+          <div class="flex flex-wrap gap-2 pt-2">
+            <button type="button" id="btnGenVideo" class="px-3 py-2 rounded-lg bg-sky-600 hover:bg-sky-500 text-slate-100">Generate Video</button>
+            <button type="button" id="btnCurl" class="px-3 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-100">Copy cURL</button>
+          </div>
+          <div id="genStatus" class="text-xs text-slate-300 pt-2"></div>
+          <div id="genResult" class="pt-3 space-y-2"></div>
+        </section>
+
+        <div class="flex items-center justify-between pt-2">
+          <button type="button" id="prevStep" class="px-3 py-2 text-sm rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-100">Back</button>
+          <button type="button" id="nextStep" class="px-3 py-2 text-sm rounded-lg bg-emerald-600 hover:bg-emerald-500 text-slate-100">Next</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module">
+    /* ---------- Firebase ---------- */
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js";
+    import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-database.js";
+    import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-auth.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyA_Lpw7jX9I084OND8dA-4RNaqfCcu68vU",
+      authDomain: "aiteken11.firebaseapp.com",
+      databaseURL: "https://aiteken11-default-rtdb.firebaseio.com",
+      projectId: "aiteken11",
+      storageBucket: "aiteken11.appspot.com",
+      messagingSenderId: "624322865830",
+      appId: "1:624322865830:web:96991767b5b38558846267",
+      measurementId: "G-LRBSV200FM"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getDatabase(app);
+    const auth = getAuth(app);
+    signInAnonymously(auth).catch(()=>{});
+    const state = { selected:null, voices:[], step:1, kb_id:null, job_id:null, user:null };
+    onAuthStateChanged(auth, (u)=> state.user = u || null);
+
+    const VOICES_JSON_URL = 'voices.json';
+    const $ = (s,c=document)=>c.querySelector(s);
+    function toast(m){ const el=document.createElement('div'); el.textContent=m; el.className="fixed bottom-4 right-4 px-3 py-2 rounded-lg bg-black/70 border border-white/10 text-xs"; document.body.appendChild(el); setTimeout(()=>el.remove(),1400); }
+
+    function mapVoices(raw) {
+      return (raw || []).map(v => {
+        let preview = v.previewUrl;
+        if (!preview && Array.isArray(v.languages)) {
+          const withPrev = v.languages.find(l => l.previewUrl);
+          if (withPrev) preview = withPrev.previewUrl;
+        }
+        return { id: v.id, name: v.name || v.id, previewUrl: preview || null, provider: v.provider || null };
+      });
+    }
+
+    async function loadVoices(){
+      const sel = document.getElementById('wzVoice');
+      sel.innerHTML = `<option>Loading…</option>`;
+      try {
+        const rLocal = await fetch(VOICES_JSON_URL, { cache:'no-store' });
+        if (rLocal.ok) {
+          const local = await rLocal.json();
+          const arr = Array.isArray(local) ? local : (local.voices || []);
+          state.voices = mapVoices(arr);
+        } else { throw new Error('voices.json missing'); }
+      } catch {
+        try {
+          const rApi = await fetch('/api/voices', { cache:'no-store' });
+          if (!rApi.ok) throw new Error('api voices failed');
+          const j = await rApi.json();
+          state.voices = mapVoices(j.voices || j || []);
+        } catch {
+          state.voices = mapVoices([
+            { id:'voice_en_m_1', name:'English Male 1' },
+            { id:'voice_en_f_1', name:'English Female 1' }
+          ]);
+        }
+      }
+      sel.innerHTML = state.voices.map(v => `<option value="${v.id}">${v.name}</option>`).join('');
+      const saved = localStorage.getItem('_voice');
+      if (saved && state.voices.some(v=>v.id===saved)) sel.value = saved;
+      document.getElementById('wzVoicePreview').disabled = !getSelectedVoice()?.previewUrl;
+    }
+
+    function getSelectedVoice(){
+      const id = document.getElementById('wzVoice').value;
+      return state.voices.find(v => v.id === id) || null;
+    }
+
+    document.addEventListener('change', e=>{
+      if(e.target && e.target.id==='wzVoice'){
+        localStorage.setItem('_voice', e.target.value);
+        const v = getSelectedVoice();
+        document.getElementById('wzVoicePreview').disabled = !v || !v.previewUrl;
+      }
+    });
+
+    document.addEventListener('click', e=>{
+      if(e.target && e.target.id==='wzVoicePreview'){
+        const v = getSelectedVoice();
+        if (!v || !v.previewUrl) return;
+        const audio = document.getElementById('wzAudio');
+        audio.src = v.previewUrl;
+        audio.classList.remove('hidden');
+        audio.play().catch(()=>{});
+      }
+    });
+
+    function setStep(n){
+      state.step=n;
+      ['step1','step2','step3','step4'].forEach((id,i)=>{
+        const show=(i+1)===n;
+        $('#'+id).classList.toggle('hidden',!show);
+        $('#step'+(i+1)+'i').className='px-2 py-1 rounded '+(show?'bg-emerald-700/40 border border-emerald-400/30':'bg-slate-800 border border-white/10');
+      });
+      $('#prevStep').disabled=(n===1);
+      $('#nextStep').textContent=(n===4?'Done':'Next');
+      if(n===4) refreshPreview();
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const avatarData = urlParams.get('avatar');
+      if (avatarData) {
+        try {
+          state.selected = JSON.parse(avatarData);
+          $('#wzAvatarName').textContent = state.selected.name || state.selected.id;
+          $('#wzStreamable').checked = !!state.selected.streamable;
+          const pic = state.selected.thumb || state.selected.image || state.selected.talking_preview || state.selected.preview || '';
+          $('#wzAvatarImg').src = pic || '';
+        } catch (e) {
+          console.error('Error parsing avatar data:', e);
+          alert('Error loading avatar data.');
+        }
+      } else {
+        alert('No avatar data provided. Please select an avatar from the main page.');
+        // Optionally redirect back to index.html
+        // window.location.href = 'index.html';
+      }
+      setStep(1);
+      loadVoices();
+      $('#wzPrompt').value = localStorage.getItem('_prompt') || '';
+      $('#wzUrls').value = localStorage.getItem('_urls') || '';
+    });
+
+    $('#prevStep').addEventListener('click',()=>setStep(Math.max(1,state.step-1)));
+    $('#nextStep').addEventListener('click',()=>{ if(state.step<4) setStep(state.step+1); });
+
+    $('#wzRate').addEventListener('input',e=>$('#wzRateVal').textContent=Number(e.target.value).toFixed(2));
+    $('#wzPromptDefault').addEventListener('click',()=>{
+      $('#wzPrompt').value=`You are a helpful, humanlike on-screen presenter for Bots Are Here.
+- Speak clearly and naturally.
+- Keep responses concise, friendly, and factual.
+- Avoid sensitive or harmful content.
+- Style: conversational, confident, energetic.`;
+    });
+    $('#wzPromptSave').addEventListener('click',()=>{ localStorage.setItem('_prompt',$('#wzPrompt').value.trim()); toast('Prompt saved'); });
+
+    async function uploadKBIfNeeded(){
+      const file=$('#wzZip').files[0];
+      const urls=$('#wzUrls').value.trim().split('\n').map(s=>s.trim()).filter(Boolean);
+      localStorage.setItem('_urls',urls.join('\n'));
+      if(!file && urls.length===0){ state.kb_id=null; return null; }
+      const fd=new FormData(); if(file) fd.append('zip',file); fd.append('urls',JSON.stringify(urls));
+      const r=await fetch('/api/knowledge/upload',{method:'POST',body:fd});
+      if(!r.ok) throw new Error('KB upload failed');
+      const j=await r.json(); state.kb_id=j.kb_id||j.id||null; return state.kb_id;
+    }
+
+    function payloadBase(){
+      return {
+        avatar_id: state.selected?.id,
+        voice_id: $('#wzVoice').value,
+        speech_rate: Number($('#wzRate').value),
+        system_prompt: $('#wzPrompt').value.trim(),
+        kb_id: state.kb_id || null,
+        streamable: $('#wzStreamable').checked === true
+      };
+    }
+    function refreshPreview(){ $('#wzPreview').textContent=JSON.stringify(payloadBase(),null,2); }
+
+    async function generateVideo(){
+      $('#genStatus').textContent='Preparing…';
+      try{
+        await uploadKBIfNeeded();
+        const body=payloadBase();
+        const r=await fetch('/api/video/generate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+        if(!r.ok) throw new Error('Generate failed');
+        const j=await r.json(); state.job_id=j.job_id; $('#genStatus').textContent='Job started. Polling…'; pollJob(state.job_id);
+      }catch(e){ $('#genStatus').textContent='Error: '+(e.message||e); }
+    }
+
+    async function pollJob(job_id){
+      let tries=0; $('#genResult').innerHTML='';
+      const tick=async ()=>{
+        tries++;
+        const r=await fetch(`/api/jobs/${encodeURIComponent(job_id)}`,{cache:'no-store'});
+        if(!r.ok){ $('#genStatus').textContent='Status check failed'; return; }
+        const j=await r.json(); $('#genStatus').textContent=j.status||'processing';
+        if(j.status==='completed' && j.video_url){
+          $('#genResult').innerHTML=`<video src="${j.video_url}" controls class="w-full rounded-lg"></video><div class="text-xs text-slate-300">Job: ${job_id}</div>`;
+          return;
+        }
+        if(j.status==='failed'){ $('#genStatus').textContent='Failed.'; return; }
+        setTimeout(tick,1200);
+      };
+      tick();
+    }
+
+    document.getElementById('btnGenVideo').addEventListener('click', generateVideo);
+    document.getElementById('btnCurl').addEventListener('click', ()=> navigator.clipboard.writeText(
+      `curl -sS -X POST '/api/video/generate' -H 'Content-Type: application/json' -d '${JSON.stringify(payloadBase()).replace(/'/g,"'\\''")}'`
+    ).then(()=>toast('cURL copied')));
+  </script>
+</body>
+</html>

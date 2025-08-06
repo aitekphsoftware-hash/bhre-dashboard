@@ -1,0 +1,437 @@
+{
+  "provider": "d-id",
+  "brand": "Bots Are Here",
+  "count": 43,
+  "avatars": [
+    {
+      "id": "v2_public_Adam@Vi4KIk7aOG",
+      "name": "Adam",
+      "gender": "male",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Adam/Vi4KIk7aOG/U0l_MMbW0f/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Adam/Vi4KIk7aOG/U0l_MMbW0f/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Adam/Vi4KIk7aOG/U0l_MMbW0f/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Adam/Vi4KIk7aOG/U0l_MMbW0f/image.png"
+    },
+    {
+      "id": "v2_public_Adam@36wCtvjdAi",
+      "name": "Adam",
+      "gender": "male",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Adam/36wCtvjdAi/C6evUUgPyQ/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Adam/36wCtvjdAi/C6evUUgPyQ/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Adam/36wCtvjdAi/C6evUUgPyQ/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Adam/36wCtvjdAi/C6evUUgPyQ/image.png"
+    },
+    {
+      "id": "v2_public_Adam_GreenShirt_Outdoor@lCt14o5o4r",
+      "name": "Adam",
+      "gender": "male",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Adam_GreenShirt_Outdoor/lCt14o5o4r/edTFEy9IG_/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Adam_GreenShirt_Outdoor/lCt14o5o4r/edTFEy9IG_/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Adam_GreenShirt_Outdoor/lCt14o5o4r/edTFEy9IG_/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Adam_GreenShirt_Outdoor/lCt14o5o4r/edTFEy9IG_/image.png"
+    },
+    {
+      "id": "v2_public_Adam_BlackShirt_GreenScreen@rjgeBz7P0u",
+      "name": "Adam",
+      "gender": "male",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_GreenScreen/rjgeBz7P0u/5nyih6jPGY/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_GreenScreen/rjgeBz7P0u/5nyih6jPGY/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_GreenScreen/rjgeBz7P0u/5nyih6jPGY/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_GreenScreen/rjgeBz7P0u/5nyih6jPGY/image.png"
+    },
+    {
+      "id": "v2_public_Adam_WhiteBlueShirt_LivingRoom@kwLwo22I6I",
+      "name": "Adam",
+      "gender": "male",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Adam_WhiteBlueShirt_LivingRoom/kwLwo22I6I/dhWu6PCOn5/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Adam_WhiteBlueShirt_LivingRoom/kwLwo22I6I/dhWu6PCOn5/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Adam_WhiteBlueShirt_LivingRoom/kwLwo22I6I/dhWu6PCOn5/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Adam_WhiteBlueShirt_LivingRoom/kwLwo22I6I/dhWu6PCOn5/image.png"
+    },
+    {
+      "id": "v2_public_Adam_BlackShirt_Library@6uEefixtDc",
+      "name": "Adam",
+      "gender": "male",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_Library/6uEefixtDc/t6GYdxT4rx/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_Library/6uEefixtDc/t6GYdxT4rx/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_Library/6uEefixtDc/t6GYdxT4rx/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Adam_BlackShirt_Library/6uEefixtDc/t6GYdxT4rx/image.png"
+    },
+    {
+      "id": "alex-Wzfu0JN6HJ",
+      "name": "alex",
+      "gender": "male",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/alex/Wzfu0JN6HJ/KwxpJTxq1b/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/alex/Wzfu0JN6HJ/KwxpJTxq1b/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/alex/Wzfu0JN6HJ/KwxpJTxq1b/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/alex/Wzfu0JN6HJ/KwxpJTxq1b/image.png"
+    },
+    {
+      "id": "alex-tv2VbI8lXI",
+      "name": "alex",
+      "gender": "male",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/alex/tv2VbI8lXI/MeDU8rVHxW/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/alex/tv2VbI8lXI/MeDU8rVHxW/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/alex/tv2VbI8lXI/MeDU8rVHxW/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/alex/tv2VbI8lXI/MeDU8rVHxW/image.png"
+    },
+    {
+      "id": "alex-qcVo4GUPOY",
+      "name": "alex",
+      "gender": "male",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/alex/qcVo4GUPOY/Zn2tuAWme0/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/alex/qcVo4GUPOY/Zn2tuAWme0/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/alex/qcVo4GUPOY/Zn2tuAWme0/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/alex/qcVo4GUPOY/Zn2tuAWme0/image.png"
+    },
+    {
+      "id": "v2_public_Alyssa_NoHands_BlackShirt_Home@Mvn6Nalx90",
+      "name": "Alyssa",
+      "gender": "female",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_BlackShirt_Home/Mvn6Nalx90/y0J6MTfOaZ/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_BlackShirt_Home/Mvn6Nalx90/y0J6MTfOaZ/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_BlackShirt_Home/Mvn6Nalx90/y0J6MTfOaZ/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_BlackShirt_Home/Mvn6Nalx90/y0J6MTfOaZ/image.png"
+    },
+    {
+      "id": "v2_public_Alyssa_NoHands_RedSuite_Lobby@qtzjxMSwEa",
+      "name": "Alyssa",
+      "gender": "female",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_RedSuite_Lobby/qtzjxMSwEa/ypTds_0CK3/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_RedSuite_Lobby/qtzjxMSwEa/ypTds_0CK3/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_RedSuite_Lobby/qtzjxMSwEa/ypTds_0CK3/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Alyssa_NoHands_RedSuite_Lobby/qtzjxMSwEa/ypTds_0CK3/image.png"
+    },
+    {
+      "id": "alyssa-z1fn0H3BfK",
+      "name": "alyssa",
+      "gender": "female",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/alyssa/z1fn0H3BfK/bSMgcAjT2R/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/alyssa/z1fn0H3BfK/bSMgcAjT2R/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/alyssa/z1fn0H3BfK/bSMgcAjT2R/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/alyssa/z1fn0H3BfK/bSMgcAjT2R/image.png"
+    },
+    {
+      "id": "alyssa-Kpjhh2J_rm",
+      "name": "alyssa",
+      "gender": "female",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/alyssa/Kpjhh2J_rm/Oa9TBDfWdE/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/alyssa/Kpjhh2J_rm/Oa9TBDfWdE/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/alyssa/Kpjhh2J_rm/Oa9TBDfWdE/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/alyssa/Kpjhh2J_rm/Oa9TBDfWdE/image.png"
+    },
+    {
+      "id": "alyssa-fIa7P15FTv",
+      "name": "alyssa",
+      "gender": "female",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/alyssa/fIa7P15FTv/PWEobsgYC8/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/alyssa/fIa7P15FTv/PWEobsgYC8/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/alyssa/fIa7P15FTv/PWEobsgYC8/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/alyssa/fIa7P15FTv/PWEobsgYC8/image.png"
+    },
+    {
+      "id": "v2_public_Amber_RedSweater_HomeOffice@atjDiWT4JK",
+      "name": "Amber",
+      "gender": "female",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Amber_RedSweater_HomeOffice/atjDiWT4JK/i2eRgX7DP_/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Amber_RedSweater_HomeOffice/atjDiWT4JK/i2eRgX7DP_/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Amber_RedSweater_HomeOffice/atjDiWT4JK/i2eRgX7DP_/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Amber_RedSweater_HomeOffice/atjDiWT4JK/i2eRgX7DP_/image.png"
+    },
+    {
+      "id": "v2_public_Amber_WhiteBlueShirt_Outdoor@k_pw06LqHE",
+      "name": "Amber",
+      "gender": "female",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/v2/Amber_WhiteBlueShirt_Outdoor/k_pw06LqHE/7Px1lG7DoI/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Amber_WhiteBlueShirt_Outdoor/k_pw06LqHE/7Px1lG7DoI/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Amber_WhiteBlueShirt_Outdoor/k_pw06LqHE/7Px1lG7DoI/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Amber_WhiteBlueShirt_Outdoor/k_pw06LqHE/7Px1lG7DoI/image.png"
+    },
+    {
+      "id": "v2_public_Amber_BlackJacket_HomeOffice@9WuHtiUDnL",
+      "name": "Amber",
+      "gender": "female",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Amber_BlackJacket_HomeOffice/9WuHtiUDnL/Sc6QllBjEE/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Amber_BlackJacket_HomeOffice/9WuHtiUDnL/Sc6QllBjEE/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Amber_BlackJacket_HomeOffice/9WuHtiUDnL/Sc6QllBjEE/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Amber_BlackJacket_HomeOffice/9WuHtiUDnL/Sc6QllBjEE/image.png"
+    },
+    {
+      "id": "anita-6_uTzyZtNR",
+      "name": "anita",
+      "gender": "female",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/anita/6_uTzyZtNR/vxfRIwlzuf/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/anita/6_uTzyZtNR/vxfRIwlzuf/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/anita/6_uTzyZtNR/vxfRIwlzuf/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/anita/6_uTzyZtNR/vxfRIwlzuf/image.png"
+    },
+    {
+      "id": "anita-H_MdjUsV3A",
+      "name": "anita",
+      "gender": "female",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/anita/H_MdjUsV3A/7PLEdMIW1s/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/anita/H_MdjUsV3A/7PLEdMIW1s/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/anita/H_MdjUsV3A/7PLEdMIW1s/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/anita/H_MdjUsV3A/7PLEdMIW1s/image.png"
+    },
+    {
+      "id": "anita-UcOoVxD59H",
+      "name": "anita",
+      "gender": "female",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/anita/UcOoVxD59H/fET_ZHqVWj/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/anita/UcOoVxD59H/fET_ZHqVWj/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/anita/UcOoVxD59H/fET_ZHqVWj/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/anita/UcOoVxD59H/fET_ZHqVWj/image.png"
+    },
+    {
+      "id": "v2_public_Arran_NoHands_GreyTshirt_Home@HI4xB5ma4y",
+      "name": "Arran",
+      "gender": "male",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Arran_NoHands_GreyTshirt_Home/HI4xB5ma4y/FFidybvDLa/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Arran_NoHands_GreyTshirt_Home/HI4xB5ma4y/FFidybvDLa/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Arran_NoHands_GreyTshirt_Home/HI4xB5ma4y/FFidybvDLa/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Arran_NoHands_GreyTshirt_Home/HI4xB5ma4y/FFidybvDLa/image.png"
+    },
+    {
+      "id": "arran-esvIrjCjq5",
+      "name": "arran",
+      "gender": "male",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/arran/esvIrjCjq5/JgPcOxkQeq/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/arran/esvIrjCjq5/JgPcOxkQeq/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/arran/esvIrjCjq5/JgPcOxkQeq/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/arran/esvIrjCjq5/JgPcOxkQeq/image.png"
+    },
+    {
+      "id": "arran-HSSXpUVGi8",
+      "name": "arran",
+      "gender": "male",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/arran/HSSXpUVGi8/I9beehJGKL/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/arran/HSSXpUVGi8/I9beehJGKL/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/arran/HSSXpUVGi8/I9beehJGKL/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/arran/HSSXpUVGi8/I9beehJGKL/image.png"
+    },
+    {
+      "id": "arran-E2OXQyzs_r",
+      "name": "arran",
+      "gender": "male",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/arran/E2OXQyzs_r/PaHFW_LIWB/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/arran/E2OXQyzs_r/PaHFW_LIWB/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/arran/E2OXQyzs_r/PaHFW_LIWB/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/arran/E2OXQyzs_r/PaHFW_LIWB/image.png"
+    },
+    {
+      "id": "darren-i8c1QVeEdf",
+      "name": "darren",
+      "gender": "male",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/darren/i8c1QVeEdf/MEqSdRBvfD/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/darren/i8c1QVeEdf/MEqSdRBvfD/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/darren/i8c1QVeEdf/MEqSdRBvfD/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/darren/i8c1QVeEdf/MEqSdRBvfD/image.png"
+    },
+    {
+      "id": "darren-WbmWyG0cSZ",
+      "name": "darren",
+      "gender": "male",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/darren/WbmWyG0cSZ/GYfz0eIF5y/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/darren/WbmWyG0cSZ/GYfz0eIF5y/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/darren/WbmWyG0cSZ/GYfz0eIF5y/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/darren/WbmWyG0cSZ/GYfz0eIF5y/image.png"
+    },
+    {
+      "id": "darren-RYscOXmp8t",
+      "name": "darren",
+      "gender": "male",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/darren/RYscOXmp8t/CtDjn3POSq/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/darren/RYscOXmp8t/CtDjn3POSq/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/darren/RYscOXmp8t/CtDjn3POSq/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/darren/RYscOXmp8t/CtDjn3POSq/image.png"
+    },
+    {
+      "id": "diana-Ir0x9WlpT4",
+      "name": "diana",
+      "gender": "female",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/diana/Ir0x9WlpT4/uJX_BBmeQ4/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/diana/Ir0x9WlpT4/uJX_BBmeQ4/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/diana/Ir0x9WlpT4/uJX_BBmeQ4/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/diana/Ir0x9WlpT4/uJX_BBmeQ4/image.png"
+    },
+    {
+      "id": "diana-tfTP6K9S9u",
+      "name": "diana",
+      "gender": "female",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/diana/tfTP6K9S9u/6aL7yccFTg/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/diana/tfTP6K9S9u/6aL7yccFTg/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/diana/tfTP6K9S9u/6aL7yccFTg/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/diana/tfTP6K9S9u/6aL7yccFTg/image.png"
+    },
+    {
+      "id": "v2_public_Dylan_NoHands_GreySuite_Lobby@_R6SxR9pgn",
+      "name": "Dylan",
+      "gender": "male",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreySuite_Lobby/_R6SxR9pgn/pbQ2A_h5wy/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreySuite_Lobby/_R6SxR9pgn/pbQ2A_h5wy/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreySuite_Lobby/_R6SxR9pgn/pbQ2A_h5wy/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreySuite_Lobby/_R6SxR9pgn/pbQ2A_h5wy/image.png"
+    },
+    {
+      "id": "v2_public_Dylan_NoHands_GreyTshirt_Outdoor@IklZc5mZIC",
+      "name": "Dylan",
+      "gender": "male",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyTshirt_Outdoor/IklZc5mZIC/G_K5a7FZNk/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyTshirt_Outdoor/IklZc5mZIC/G_K5a7FZNk/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyTshirt_Outdoor/IklZc5mZIC/G_K5a7FZNk/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyTshirt_Outdoor/IklZc5mZIC/G_K5a7FZNk/image.png"
+    },
+    {
+      "id": "v2_public_Dylan_NoHands_GreyShirt_Home@n3_canoTl3",
+      "name": "Dylan",
+      "gender": "male",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyShirt_Home/n3_canoTl3/ihTKL1EUBT/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyShirt_Home/n3_canoTl3/ihTKL1EUBT/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyShirt_Home/n3_canoTl3/ihTKL1EUBT/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Dylan_NoHands_GreyShirt_Home/n3_canoTl3/ihTKL1EUBT/image.png"
+    },
+    {
+      "id": "dylan-O22mVF9zIM",
+      "name": "dylan",
+      "gender": "male",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/dylan/O22mVF9zIM/T_23LQNrEm/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/dylan/O22mVF9zIM/T_23LQNrEm/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/dylan/O22mVF9zIM/T_23LQNrEm/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/dylan/O22mVF9zIM/T_23LQNrEm/image.png"
+    },
+    {
+      "id": "dylan-dR5EU1bI9z",
+      "name": "dylan",
+      "gender": "male",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/dylan/dR5EU1bI9z/fsiednoqqb/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/dylan/dR5EU1bI9z/fsiednoqqb/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/dylan/dR5EU1bI9z/fsiednoqqb/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/dylan/dR5EU1bI9z/fsiednoqqb/image.png"
+    },
+    {
+      "id": "dylan-E_sy058oXA",
+      "name": "dylan",
+      "gender": "male",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/dylan/E_sy058oXA/_047h5XX_T/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/dylan/E_sy058oXA/_047h5XX_T/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/dylan/E_sy058oXA/_047h5XX_T/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/dylan/E_sy058oXA/_047h5XX_T/image.png"
+    },
+    {
+      "id": "ella-gnVGWQ_kNS",
+      "name": "ella",
+      "gender": "female",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/ella/gnVGWQ_kNS/ypXXYSLJAP/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/ella/gnVGWQ_kNS/ypXXYSLJAP/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/ella/gnVGWQ_kNS/ypXXYSLJAP/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/ella/gnVGWQ_kNS/ypXXYSLJAP/image.png"
+    },
+    {
+      "id": "ella-3SmL1gFLot",
+      "name": "ella",
+      "gender": "female",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/ella/3SmL1gFLot/w_9MyZlClt/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/ella/3SmL1gFLot/w_9MyZlClt/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/ella/3SmL1gFLot/w_9MyZlClt/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/ella/3SmL1gFLot/w_9MyZlClt/image.png"
+    },
+    {
+      "id": "ella-QjarP4rpU6",
+      "name": "ella",
+      "gender": "female",
+      "streamable": false,
+      "preview": "https://clips-presenters.d-id.com/ella/QjarP4rpU6/oCLn1GwOpo/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/ella/QjarP4rpU6/oCLn1GwOpo/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/ella/QjarP4rpU6/oCLn1GwOpo/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/ella/QjarP4rpU6/oCLn1GwOpo/image.png"
+    },
+    {
+      "id": "v2_public_Fiona_NoHands_PinkTShirt_Outdoor@vZ3ie4xJCB",
+      "name": "Fiona",
+      "gender": "female",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_PinkTShirt_Outdoor/vZ3ie4xJCB/_AW6hUp8TH/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_PinkTShirt_Outdoor/vZ3ie4xJCB/_AW6hUp8TH/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_PinkTShirt_Outdoor/vZ3ie4xJCB/_AW6hUp8TH/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_PinkTShirt_Outdoor/vZ3ie4xJCB/_AW6hUp8TH/image.png"
+    },
+    {
+      "id": "v2_public_Fiona_NoHands_BlackJacket_ClassRoom@1BOeggEufb",
+      "name": "Fiona",
+      "gender": "female",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlackJacket_ClassRoom/1BOeggEufb/dbRUIwY6KY/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlackJacket_ClassRoom/1BOeggEufb/dbRUIwY6KY/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlackJacket_ClassRoom/1BOeggEufb/dbRUIwY6KY/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlackJacket_ClassRoom/1BOeggEufb/dbRUIwY6KY/image.png"
+    },
+    {
+      "id": "v2_public_Fiona_NoHands_BlueShirt_Lab@5HRTMswT4U",
+      "name": "Fiona",
+      "gender": "female",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlueShirt_Lab/5HRTMswT4U/qKIgVJmbyL/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlueShirt_Lab/5HRTMswT4U/qKIgVJmbyL/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlueShirt_Lab/5HRTMswT4U/qKIgVJmbyL/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Fiona_NoHands_BlueShirt_Lab/5HRTMswT4U/qKIgVJmbyL/image.png"
+    },
+    {
+      "id": "v2_public_Frank_NoHands_GreyJacket_CoffeeShop@HT3CCjVvV3",
+      "name": "Frank",
+      "gender": "male",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Frank_NoHands_GreyJacket_CoffeeShop/HT3CCjVvV3/lqbOUGqSDE/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Frank_NoHands_GreyJacket_CoffeeShop/HT3CCjVvV3/lqbOUGqSDE/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Frank_NoHands_GreyJacket_CoffeeShop/HT3CCjVvV3/lqbOUGqSDE/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Frank_NoHands_GreyJacket_CoffeeShop/HT3CCjVvV3/lqbOUGqSDE/image.png"
+    },
+    {
+      "id": "v2_public_Joseph_NoHands_OrangeShirt_Lab@hfdqirrsX9",
+      "name": "Joseph",
+      "gender": "male",
+      "streamable": true,
+      "preview": "https://clips-presenters.d-id.com/v2/Joseph_NoHands_OrangeShirt_Lab/hfdqirrsX9/35RzcD3TlF/preview.mp4",
+      "talking_preview": "https://clips-presenters.d-id.com/v2/Joseph_NoHands_OrangeShirt_Lab/hfdqirrsX9/35RzcD3TlF/talkingPreview.mp4",
+      "thumb": "https://clips-presenters.d-id.com/v2/Joseph_NoHands_OrangeShirt_Lab/hfdqirrsX9/35RzcD3TlF/thumbnail.png",
+      "image": "https://clips-presenters.d-id.com/v2/Joseph_NoHands_OrangeShirt_Lab/hfdqirrsX9/35RzcD3TlF/image.png"
+    }
+  ]
+}

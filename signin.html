@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Bots Are Here</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+        import { getAuth, signInWithEmailAndPassword, signInAnonymously, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js';
+        
+        const firebaseConfig = {
+            apiKey: "AIzaSyA_Lpw7jX9I084OND8dA-4RNaqfCcu68vU",
+            authDomain: "aiteken11.firebaseapp.com",
+            projectId: "aiteken11",
+            storageBucket: "aiteken11.appspot.com",
+            appId: "1:624322865830:web:96991767b5b38558846267"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        
+        window.firebaseAuth = {
+            auth,
+            signInWithEmailAndPassword,
+            signInAnonymously,
+            onAuthStateChanged
+        };
+    </script>
+    <style>
+        :root {
+            --brand: hsl(240, 10%, 3.9%);
+            --brand-foreground: hsl(0, 0%, 98%);
+            --background: hsl(240, 10%, 3.9%);
+            --foreground: hsl(0, 0%, 98%);
+        }
+
+        body {
+            background: var(--background);
+            color: var(--foreground);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .auth-container {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid rgba(100, 116, 139, 0.4);
+            border-radius: 1rem;
+            padding: 2rem;
+            max-width: 400px;
+            width: 90%;
+            backdrop-filter: blur(10px);
+        }
+
+        .btn {
+            padding: 0.75rem 1rem;
+            border-radius: 0.375rem;
+            border: none;
+            cursor: pointer;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+
+        .btn-primary {
+            background: rgb(59, 130, 246);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: rgb(37, 99, 235);
+        }
+
+        .btn-outline {
+            background: rgba(51, 65, 85, 0.6);
+            color: white;
+            border: 1px solid rgb(100, 116, 139);
+        }
+
+        .btn-outline:hover {
+            background: rgb(71, 85, 105);
+        }
+
+        .btn-ghost {
+            background: transparent;
+            color: rgb(148, 163, 184);
+            border: none;
+            text-decoration: underline;
+        }
+
+        .btn-ghost:hover {
+            color: white;
+        }
+
+        .input {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid rgb(100, 116, 139);
+            border-radius: 0.375rem;
+            background: rgba(30, 41, 59, 0.6);
+            color: white;
+            margin-bottom: 1rem;
+            box-sizing: border-box;
+        }
+
+        .input:focus {
+            outline: none;
+            border-color: rgb(59, 130, 246);
+        }
+
+        .text-center { text-align: center; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-6 { margin-bottom: 1.5rem; }
+        .text-slate-400 { color: rgb(148, 163, 184); }
+        .text-white { color: white; }
+        .hidden { display: none !important; }
+    </style>
+</head>
+<body>
+    <div class="auth-container">
+        <div class="text-center mb-6">
+            <h1 class="text-2xl font-bold text-white mb-2">Welcome Back</h1>
+            <p class="text-slate-400">Sign in to your Bots Are Here account</p>
+        </div>
+
+        <form id="signin-form">
+            <div class="mb-4">
+                <label class="block text-slate-400 mb-2">Email</label>
+                <input id="email" type="email" class="input" placeholder="Enter your email" required>
+            </div>
+            
+            <div class="mb-6">
+                <label class="block text-slate-400 mb-2">Password</label>
+                <input id="password" type="password" class="input" placeholder="Enter your password" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Sign In</button>
+        </form>
+
+        <div class="text-center mb-4">
+            <span class="text-slate-400">or</span>
+        </div>
+
+        <button id="guest-login" class="btn btn-outline">Continue as Guest</button>
+
+        <div class="text-center mt-6">
+            <p class="text-slate-400 mb-2">
+                Don't have an account? 
+                <a href="signup.html" class="btn-ghost">Sign up</a>
+            </p>
+            <a href="reset.html" class="btn-ghost">Forgot your password?</a>
+        </div>
+
+        <div class="text-center mt-6">
+            <a href="index.html" class="btn-ghost">← Back to Home</a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
+
+            const signinForm = document.getElementById('signin-form');
+            const guestLogin = document.getElementById('guest-login');
+
+            signinForm.addEventListener('submit', handleSignIn);
+            guestLogin.addEventListener('click', handleGuestLogin);
+
+            // Check if user is already authenticated
+            if (window.firebaseAuth) {
+                window.firebaseAuth.onAuthStateChanged(window.firebaseAuth.auth, (user) => {
+                    if (user) {
+                        // User is signed in, redirect to main app
+                        window.location.href = 'index.html';
+                    }
+                });
+            }
+        });
+
+        function handleSignIn(e) {
+            e.preventDefault();
+            
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            if (!email || !password) {
+                showToast('Please enter email and password', 'error');
+                return;
+            }
+
+            if (window.firebaseAuth) {
+                window.firebaseAuth.signInWithEmailAndPassword(window.firebaseAuth.auth, email, password)
+                    .then(() => {
+                        showToast('Signed in successfully!', 'success');
+                        setTimeout(() => {
+                            window.location.href = 'index.html';
+                        }, 1000);
+                    })
+                    .catch((error) => {
+                        showToast(error.message, 'error');
+                    });
+            }
+        }
+
+        function handleGuestLogin() {
+            if (window.firebaseAuth) {
+                window.firebaseAuth.signInAnonymously(window.firebaseAuth.auth)
+                    .then(() => {
+                        showToast('Signed in as guest!', 'success');
+                        setTimeout(() => {
+                            window.location.href = 'index.html';
+                        }, 1000);
+                    })
+                    .catch((error) => {
+                        showToast(error.message, 'error');
+                    });
+            }
+        }
+
+        function showToast(message, type = 'info') {
+            const toast = document.createElement('div');
+            toast.className = `fixed top-4 right-4 px-4 py-2 rounded-lg text-white z-50 ${
+                type === 'success' ? 'bg-green-600' : 
+                type === 'error' ? 'bg-red-600' : 'bg-blue-600'
+            }`;
+            toast.textContent = message;
+            
+            document.body.appendChild(toast);
+            
+            setTimeout(() => {
+                toast.remove();
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
